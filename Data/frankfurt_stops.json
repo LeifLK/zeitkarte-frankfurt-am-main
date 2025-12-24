@@ -1,0 +1,4928 @@
+[
+  {
+    "Id": "3000001",
+    "Name": "Frankfurt (Main) Hauptwache",
+    "Longitude": 8.67928623518683,
+    "Latitude": 50.1139601925328
+  },
+  {
+    "Id": "3000002",
+    "Name": "Frankfurt (Main) Römer/Paulskirche",
+    "Longitude": 8.68200458959544,
+    "Latitude": 50.1109289337859
+  },
+  {
+    "Id": "3000003",
+    "Name": "Frankfurt (Main) Dom/Römer",
+    "Longitude": 8.68408811025014,
+    "Latitude": 50.1108536970268
+  },
+  {
+    "Id": "3000004",
+    "Name": "Frankfurt (Main) Willy-Brandt-Platz",
+    "Longitude": 8.67389531398782,
+    "Latitude": 50.1089915523587
+  },
+  {
+    "Id": "3000007",
+    "Name": "Frankfurt (Main) Weser-/Münchener Straße",
+    "Longitude": 8.67028165916392,
+    "Latitude": 50.1079654624972
+  },
+  {
+    "Id": "3000008",
+    "Name": "Frankfurt (Main) Hauptbahnhof/Münchener Straße",
+    "Longitude": 8.66622090605807,
+    "Latitude": 50.106928987605
+  },
+  {
+    "Id": "3000009",
+    "Name": "Frankfurt (Main) Platz der Republik",
+    "Longitude": 8.66138278796028,
+    "Latitude": 50.1091176304488
+  },
+  {
+    "Id": "3000010",
+    "Name": "Frankfurt (Main) Hauptbahnhof",
+    "Longitude": 8.6637590384402,
+    "Latitude": 50.1071556459599
+  },
+  {
+    "Id": "3000011",
+    "Name": "Frankfurt (Main) Taunusanlage",
+    "Longitude": 8.66876189337365,
+    "Latitude": 50.1134811900971
+  },
+  {
+    "Id": "3000013",
+    "Name": "Frankfurt (Main) Roßmarkt",
+    "Longitude": 8.67602438497061,
+    "Latitude": 50.1125216982644
+  },
+  {
+    "Id": "3000015",
+    "Name": "Frankfurt (Main) Heilbronner Straße",
+    "Longitude": 8.65402667764872,
+    "Latitude": 50.1017419102543
+  },
+  {
+    "Id": "3000016",
+    "Name": "Frankfurt (Main) Gutleut-/Heilbronner Straße",
+    "Longitude": 8.65425054361373,
+    "Latitude": 50.0997647057358
+  },
+  {
+    "Id": "3000017",
+    "Name": "Frankfurt (Main) Hafenstraße",
+    "Longitude": 8.6572734780181,
+    "Latitude": 50.1031360304488
+  },
+  {
+    "Id": "3000018",
+    "Name": "Frankfurt (Main) Güterplatz",
+    "Longitude": 8.65573245749132,
+    "Latitude": 50.1075277422293
+  },
+  {
+    "Id": "3000019",
+    "Name": "Frankfurt (Main) Speyerer Straße",
+    "Longitude": 8.65085404841669,
+    "Latitude": 50.1055623047115
+  },
+  {
+    "Id": "3000025",
+    "Name": "Frankfurt (Main) Baseler Platz",
+    "Longitude": 8.66478391596595,
+    "Latitude": 50.1045154527998
+  },
+  {
+    "Id": "3000028",
+    "Name": "Frankfurt (Main) Wasserweg",
+    "Longitude": 8.69478929709956,
+    "Latitude": 50.1054251473455
+  },
+  {
+    "Id": "3000029",
+    "Name": "Frankfurt (Main) Heister-/Siemensstraße",
+    "Longitude": 8.6953988945289,
+    "Latitude": 50.104078198883
+  },
+  {
+    "Id": "3000101",
+    "Name": "Frankfurt (Main) Galluswarte",
+    "Longitude": 8.64437820703805,
+    "Latitude": 50.1041851490825
+  },
+  {
+    "Id": "3000102",
+    "Name": "Frankfurt (Main) Schwalbacher Straße",
+    "Longitude": 8.63627112494149,
+    "Latitude": 50.1023080742748
+  },
+  {
+    "Id": "3000103",
+    "Name": "Frankfurt (Main) Kriegkstraße",
+    "Longitude": 8.63988478348877,
+    "Latitude": 50.1013124029395
+  },
+  {
+    "Id": "3000104",
+    "Name": "Frankfurt (Main) Galluspark",
+    "Longitude": 8.63727875513591,
+    "Latitude": 50.1002883987795
+  },
+  {
+    "Id": "3000105",
+    "Name": "Frankfurt (Main) Ordnungsamt",
+    "Longitude": 8.6336558512254,
+    "Latitude": 50.0988296017329
+  },
+  {
+    "Id": "3000106",
+    "Name": "Frankfurt (Main) Rebstöcker Straße",
+    "Longitude": 8.62871493585014,
+    "Latitude": 50.1015739631389
+  },
+  {
+    "Id": "3000107",
+    "Name": "Frankfurt (Main) Wickerer Straße",
+    "Longitude": 8.62261157709433,
+    "Latitude": 50.1009699478414
+  },
+  {
+    "Id": "3000108",
+    "Name": "Frankfurt (Main) Mönchhofstraße",
+    "Longitude": 8.61756973942215,
+    "Latitude": 50.100476990889
+  },
+  {
+    "Id": "3000109",
+    "Name": "Frankfurt (Main) Waldschulstraße",
+    "Longitude": 8.60444708108153,
+    "Latitude": 50.100262281394
+  },
+  {
+    "Id": "3000110",
+    "Name": "Frankfurt (Main) Griesheim Bahnhof",
+    "Longitude": 8.60642732190442,
+    "Latitude": 50.0939757669359
+  },
+  {
+    "Id": "3000111",
+    "Name": "Frankfurt (Main) Linnegraben",
+    "Longitude": 8.5966064571054,
+    "Latitude": 50.1002083768529
+  },
+  {
+    "Id": "3000112",
+    "Name": "Frankfurt (Main) Jägerallee",
+    "Longitude": 8.59054087126035,
+    "Latitude": 50.1001602065307
+  },
+  {
+    "Id": "3000114",
+    "Name": "Frankfurt (Main) Birminghamstraße",
+    "Longitude": 8.57996089459298,
+    "Latitude": 50.1000954998867
+  },
+  {
+    "Id": "3000115",
+    "Name": "Frankfurt (Main) Luthmerstraße",
+    "Longitude": 8.5728689894685,
+    "Latitude": 50.0991526511732
+  },
+  {
+    "Id": "3000116",
+    "Name": "Frankfurt (Main) Nied Kirche",
+    "Longitude": 8.5671743899189,
+    "Latitude": 50.098277510978
+  },
+  {
+    "Id": "3000117",
+    "Name": "Frankfurt (Main) Johanna-Kirchner-AHZ",
+    "Longitude": 8.64706860317412,
+    "Latitude": 50.0975674776715
+  },
+  {
+    "Id": "3000118",
+    "Name": "Frankfurt (Main) Bingelsweg",
+    "Longitude": 8.60315426663446,
+    "Latitude": 50.1011029677074
+  },
+  {
+    "Id": "3000119",
+    "Name": "Frankfurt (Main) Halmstraße",
+    "Longitude": 8.64210469992197,
+    "Latitude": 50.0960059732616
+  },
+  {
+    "Id": "3000120",
+    "Name": "Frankfurt (Main) Erntestraße",
+    "Longitude": 8.63845557417979,
+    "Latitude": 50.0943404664374
+  },
+  {
+    "Id": "3000121",
+    "Name": "Frankfurt (Main) Briefzentrum",
+    "Longitude": 8.6349738492607,
+    "Latitude": 50.0927472924043
+  },
+  {
+    "Id": "3000123",
+    "Name": "Frankfurt (Main) Alte Falterstraße",
+    "Longitude": 8.60710710672969,
+    "Latitude": 50.0911640892524
+  },
+  {
+    "Id": "3000124",
+    "Name": "Frankfurt (Main) Jungmannstraße",
+    "Longitude": 8.60548738399281,
+    "Latitude": 50.0910057696584
+  },
+  {
+    "Id": "3000125",
+    "Name": "Frankfurt (Main) Staustufe Griesheim",
+    "Longitude": 8.60063583908438,
+    "Latitude": 50.0913038709381
+  },
+  {
+    "Id": "3000126",
+    "Name": "Frankfurt (Main) Chemisches Werk",
+    "Longitude": 8.59407589278619,
+    "Latitude": 50.0903551506727
+  },
+  {
+    "Id": "3000127",
+    "Name": "Frankfurt (Main) Fritz-Klatte-Straße",
+    "Longitude": 8.57800259117616,
+    "Latitude": 50.0923027750219
+  },
+  {
+    "Id": "3000128",
+    "Name": "Frankfurt (Main) Dürkheimer Straße",
+    "Longitude": 8.57103532518217,
+    "Latitude": 50.0963229344996
+  },
+  {
+    "Id": "3000129",
+    "Name": "Frankfurt (Main) Leonardo-da-Vinci-Allee",
+    "Longitude": 8.62788209576181,
+    "Latitude": 50.1134744757936
+  },
+  {
+    "Id": "3000130",
+    "Name": "Frankfurt (Main) Messeparkhaus",
+    "Longitude": 8.62143889734296,
+    "Latitude": 50.1078976725563
+  },
+  {
+    "Id": "3000131",
+    "Name": "Frankfurt (Main) Römerhof",
+    "Longitude": 8.61846304940297,
+    "Latitude": 50.1076811712504
+  },
+  {
+    "Id": "3000132",
+    "Name": "Frankfurt (Main) Schmidtstraße",
+    "Longitude": 8.61811681019597,
+    "Latitude": 50.1037512661503
+  },
+  {
+    "Id": "3000133",
+    "Name": "Frankfurt (Main) Zum Rebstockbad",
+    "Longitude": 8.61903753128025,
+    "Latitude": 50.1128075312983
+  },
+  {
+    "Id": "3000136",
+    "Name": "Frankfurt (Main) Neufeld",
+    "Longitude": 8.5986127070915,
+    "Latitude": 50.1110306755534
+  },
+  {
+    "Id": "3000137",
+    "Name": "Frankfurt (Main) Neumarkt",
+    "Longitude": 8.58451071036912,
+    "Latitude": 50.1073400688322
+  },
+  {
+    "Id": "3000138",
+    "Name": "Frankfurt (Main) Heusingerstraße",
+    "Longitude": 8.5803831652665,
+    "Latitude": 50.1061654964071
+  },
+  {
+    "Id": "3000139",
+    "Name": "Frankfurt (Main) Nidda-Kampfbahn",
+    "Longitude": 8.57502950101541,
+    "Latitude": 50.1045637568737
+  },
+  {
+    "Id": "3000140",
+    "Name": "Frankfurt (Main) Nied Bahnhof",
+    "Longitude": 8.57228404593505,
+    "Latitude": 50.1020633693105
+  },
+  {
+    "Id": "3000141",
+    "Name": "Frankfurt (Main) Nied Brücke",
+    "Longitude": 8.56430530875673,
+    "Latitude": 50.1002536602499
+  },
+  {
+    "Id": "3000142",
+    "Name": "Frankfurt (Main) Auf dem Schafberg",
+    "Longitude": 8.61209761287413,
+    "Latitude": 50.0909560846205
+  },
+  {
+    "Id": "3000143",
+    "Name": "Frankfurt (Main) Erzbergerstraße",
+    "Longitude": 8.61409881373068,
+    "Latitude": 50.0940823902243
+  },
+  {
+    "Id": "3000144",
+    "Name": "Frankfurt (Main) Heinrich-Hardt-Straße",
+    "Longitude": 8.60257774280124,
+    "Latitude": 50.1032137254937
+  },
+  {
+    "Id": "3000145",
+    "Name": "Frankfurt (Main) Lindenhag",
+    "Longitude": 8.60091546142807,
+    "Latitude": 50.1064535391993
+  },
+  {
+    "Id": "3000146",
+    "Name": "Frankfurt (Main) Platanenstraße",
+    "Longitude": 8.60632692837341,
+    "Latitude": 50.0977064161338
+  },
+  {
+    "Id": "3000147",
+    "Name": "Frankfurt (Main) Griesheim Bf/Eichenstraße",
+    "Longitude": 8.60719963489222,
+    "Latitude": 50.0952370253571
+  },
+  {
+    "Id": "3000149",
+    "Name": "Frankfurt (Main) Schöffenstraße",
+    "Longitude": 8.61462472569387,
+    "Latitude": 50.0912341969431
+  },
+  {
+    "Id": "3000150",
+    "Name": "Frankfurt (Main) Elektronstraße",
+    "Longitude": 8.59874742906327,
+    "Latitude": 50.0965567185947
+  },
+  {
+    "Id": "3000151",
+    "Name": "Frankfurt (Main) Am Mühlgewann",
+    "Longitude": 8.61072450429895,
+    "Latitude": 50.0965884377912
+  },
+  {
+    "Id": "3000152",
+    "Name": "Frankfurt (Main) Friedrich-Ebert-Siedlung",
+    "Longitude": 8.62449108651007,
+    "Latitude": 50.0947547241253
+  },
+  {
+    "Id": "3000153",
+    "Name": "Frankfurt (Main) Kleyerstraße",
+    "Longitude": 8.62993734209573,
+    "Latitude": 50.0971096673726
+  },
+  {
+    "Id": "3000154",
+    "Name": "Frankfurt (Main) Haus Gallus",
+    "Longitude": 8.64347856687762,
+    "Latitude": 50.1048656590039
+  },
+  {
+    "Id": "3000155",
+    "Name": "Frankfurt (Main) Hellerhofschule",
+    "Longitude": 8.6396678743181,
+    "Latitude": 50.1060136668637
+  },
+  {
+    "Id": "3000156",
+    "Name": "Frankfurt (Main) Paul-Hindemith-Schule",
+    "Longitude": 8.63493080132841,
+    "Latitude": 50.1057921180729
+  },
+  {
+    "Id": "3000157",
+    "Name": "Frankfurt (Main) Schneidhainer Straße",
+    "Longitude": 8.62963665382486,
+    "Latitude": 50.1053078842531
+  },
+  {
+    "Id": "3000158",
+    "Name": "Frankfurt (Main) Eppenhainer Straße",
+    "Longitude": 8.6260054292548,
+    "Latitude": 50.104900690612
+  },
+  {
+    "Id": "3000159",
+    "Name": "Frankfurt (Main) Schloßborner Straße",
+    "Longitude": 8.62240186973403,
+    "Latitude": 50.1045384247318
+  },
+  {
+    "Id": "3000201",
+    "Name": "Frankfurt (Main) Alte Oper",
+    "Longitude": 8.67091559030239,
+    "Latitude": 50.1154292057818
+  },
+  {
+    "Id": "3000204",
+    "Name": "Frankfurt (Main) Palmengartenstraße",
+    "Longitude": 8.65728164423525,
+    "Latitude": 50.1196512390624
+  },
+  {
+    "Id": "3000206",
+    "Name": "Frankfurt (Main) Westend",
+    "Longitude": 8.66295518760754,
+    "Latitude": 50.1181394651341
+  },
+  {
+    "Id": "3000208",
+    "Name": "Frankfurt (Main) Kettenhofweg",
+    "Longitude": 8.65824241424633,
+    "Latitude": 50.1162827061202
+  },
+  {
+    "Id": "3000210",
+    "Name": "Frankfurt (Main) Festhalle/Messe",
+    "Longitude": 8.65427057530527,
+    "Latitude": 50.1125399964877
+  },
+  {
+    "Id": "3000211",
+    "Name": "Frankfurt (Main) Senckenbergmuseum",
+    "Longitude": 8.6527142137125,
+    "Latitude": 50.1170394995461
+  },
+  {
+    "Id": "3000214",
+    "Name": "Frankfurt (Main) Mitscherlichplatz",
+    "Longitude": 8.66491713998321,
+    "Latitude": 50.1235213235659
+  },
+  {
+    "Id": "3000215",
+    "Name": "Frankfurt (Main) Botanischer Garten",
+    "Longitude": 8.65438234920952,
+    "Latitude": 50.1261696083231
+  },
+  {
+    "Id": "3000216",
+    "Name": "Frankfurt (Main) Bettinaplatz",
+    "Longitude": 8.6568045859673,
+    "Latitude": 50.1140039283539
+  },
+  {
+    "Id": "3000401",
+    "Name": "Frankfurt (Main) Eschenheimer Tor",
+    "Longitude": 8.67913684459381,
+    "Latitude": 50.1174929652642
+  },
+  {
+    "Id": "3000402",
+    "Name": "Frankfurt (Main) Grüneburgweg",
+    "Longitude": 8.67558538385477,
+    "Latitude": 50.1216456194473
+  },
+  {
+    "Id": "3000403",
+    "Name": "Frankfurt (Main) Holzhausenstraße",
+    "Longitude": 8.67383109894649,
+    "Latitude": 50.1267112323764
+  },
+  {
+    "Id": "3000404",
+    "Name": "Frankfurt (Main) Miquel-/Adickesallee",
+    "Longitude": 8.67207858743224,
+    "Latitude": 50.1314621603081
+  },
+  {
+    "Id": "3000407",
+    "Name": "Frankfurt (Main) Bremer Platz",
+    "Longitude": 8.66991815218042,
+    "Latitude": 50.1242728222999
+  },
+  {
+    "Id": "3000408",
+    "Name": "Frankfurt (Main) Lessing-Gymnasium",
+    "Longitude": 8.67304597022175,
+    "Latitude": 50.1249469344975
+  },
+  {
+    "Id": "3000410",
+    "Name": "Frankfurt (Main) Grüneburgpark",
+    "Longitude": 8.66156105155208,
+    "Latitude": 50.1314680036781
+  },
+  {
+    "Id": "3000411",
+    "Name": "Frankfurt (Main) Miquel-/Hansaallee",
+    "Longitude": 8.66846976640694,
+    "Latitude": 50.1315238556943
+  },
+  {
+    "Id": "3000412",
+    "Name": "Frankfurt (Main) Bornwiesenweg",
+    "Longitude": 8.68043733412613,
+    "Latitude": 50.1216770271652
+  },
+  {
+    "Id": "3000413",
+    "Name": "Frankfurt (Main) Adlerflychtplatz",
+    "Longitude": 8.6814277884466,
+    "Latitude": 50.1241430799763
+  },
+  {
+    "Id": "3000414",
+    "Name": "Frankfurt (Main) Hynspergstraße",
+    "Longitude": 8.68187890950343,
+    "Latitude": 50.1278213368517
+  },
+  {
+    "Id": "3000415",
+    "Name": "Frankfurt (Main) Bertramstraße",
+    "Longitude": 8.67716481832306,
+    "Latitude": 50.1321596436732
+  },
+  {
+    "Id": "3000416",
+    "Name": "Frankfurt (Main) Musterschule",
+    "Longitude": 8.68647784133968,
+    "Latitude": 50.1217114407477
+  },
+  {
+    "Id": "3000417",
+    "Name": "Frankfurt (Main) Scheffeleck",
+    "Longitude": 8.68738601302712,
+    "Latitude": 50.1196730900519
+  },
+  {
+    "Id": "3000419",
+    "Name": "Frankfurt (Main) Glauburgstraße",
+    "Longitude": 8.68573316691844,
+    "Latitude": 50.1265372109651
+  },
+  {
+    "Id": "3000420",
+    "Name": "Frankfurt (Main) Deutsche Nationalbibliothek",
+    "Longitude": 8.68393893667794,
+    "Latitude": 50.1314320486359
+  },
+  {
+    "Id": "3000421",
+    "Name": "Frankfurt (Main) Richard-Wagner-Straße",
+    "Longitude": 8.68820920257306,
+    "Latitude": 50.1307333377715
+  },
+  {
+    "Id": "3000422",
+    "Name": "Frankfurt (Main) Alte Gasse",
+    "Longitude": 8.68722810383008,
+    "Latitude": 50.1181533074447
+  },
+  {
+    "Id": "3000502",
+    "Name": "Frankfurt (Main) Höhenstraße",
+    "Longitude": 8.70148755617725,
+    "Latitude": 50.1230365234982
+  },
+  {
+    "Id": "3000504",
+    "Name": "Frankfurt (Main) Hessendenkmal",
+    "Longitude": 8.69008385338426,
+    "Latitude": 50.1197971806195
+  },
+  {
+    "Id": "3000505",
+    "Name": "Frankfurt (Main) Friedberger Platz",
+    "Longitude": 8.69171118878458,
+    "Latitude": 50.1233256935669
+  },
+  {
+    "Id": "3000506",
+    "Name": "Frankfurt (Main) Rohrbachstr./Friedberger Ldstr.",
+    "Longitude": 8.69206646576578,
+    "Latitude": 50.1268058708001
+  },
+  {
+    "Id": "3000507",
+    "Name": "Frankfurt (Main) Nibelungenplatz",
+    "Longitude": 8.6931431399444,
+    "Latitude": 50.1290203215378
+  },
+  {
+    "Id": "3000508",
+    "Name": "Frankfurt (Main) Rothschildallee",
+    "Longitude": 8.69513557541496,
+    "Latitude": 50.1279916773832
+  },
+  {
+    "Id": "3000509",
+    "Name": "Frankfurt (Main) Günthersburgallee",
+    "Longitude": 8.69684812254314,
+    "Latitude": 50.1269802506811
+  },
+  {
+    "Id": "3000510",
+    "Name": "Frankfurt (Main) Konstablerwache",
+    "Longitude": 8.68641239690596,
+    "Latitude": 50.1145909572447
+  },
+  {
+    "Id": "3000511",
+    "Name": "Frankfurt (Main) Zoo",
+    "Longitude": 8.69864009009925,
+    "Latitude": 50.1155133075296
+  },
+  {
+    "Id": "3000512",
+    "Name": "Frankfurt (Main) Merianplatz",
+    "Longitude": 8.69525597123521,
+    "Latitude": 50.1200266078371
+  },
+  {
+    "Id": "3000514",
+    "Name": "Frankfurt (Main) Friedberger Anlage",
+    "Longitude": 8.69539498436433,
+    "Latitude": 50.1157386054514
+  },
+  {
+    "Id": "3000515",
+    "Name": "Frankfurt (Main) Münzenberger Straße",
+    "Longitude": 8.695203496788,
+    "Latitude": 50.1327207355258
+  },
+  {
+    "Id": "3000516",
+    "Name": "Frankfurt (Main) Waldschmidtstraße",
+    "Longitude": 8.70165710890182,
+    "Latitude": 50.1182451386989
+  },
+  {
+    "Id": "3000517",
+    "Name": "Frankfurt (Main) Habsburger-/Wittelsbacherallee",
+    "Longitude": 8.70533634064165,
+    "Latitude": 50.1202143947655
+  },
+  {
+    "Id": "3000518",
+    "Name": "Frankfurt (Main) Zobelstraße",
+    "Longitude": 8.70110293181987,
+    "Latitude": 50.1129214657225
+  },
+  {
+    "Id": "3000520",
+    "Name": "Frankfurt (Main) Habsburgerallee",
+    "Longitude": 8.70842938772991,
+    "Latitude": 50.1174351978282
+  },
+  {
+    "Id": "3000522",
+    "Name": "Frankfurt (Main) Börneplatz",
+    "Longitude": 8.68799148841775,
+    "Latitude": 50.112554405732
+  },
+  {
+    "Id": "3000523",
+    "Name": "Frankfurt (Main) Allerheiligentor",
+    "Longitude": 8.6936627313401,
+    "Latitude": 50.1133156695241
+  },
+  {
+    "Id": "3000524",
+    "Name": "Frankfurt (Main) Hospital Zum Heiligen Geist",
+    "Longitude": 8.69271518618395,
+    "Latitude": 50.1106340629925
+  },
+  {
+    "Id": "3000525",
+    "Name": "Frankfurt (Main) Ostendstraße",
+    "Longitude": 8.69700928058798,
+    "Latitude": 50.1124973248633
+  },
+  {
+    "Id": "3000526",
+    "Name": "Frankfurt (Main) Ostbahnhof",
+    "Longitude": 8.70775891466154,
+    "Latitude": 50.1127226048873
+  },
+  {
+    "Id": "3000527",
+    "Name": "Frankfurt (Main) Schöne Aussicht",
+    "Longitude": 8.68799412271811,
+    "Latitude": 50.1099921780894
+  },
+  {
+    "Id": "3000528",
+    "Name": "Frankfurt (Main) Ostbahnhof/Danziger Platz",
+    "Longitude": 8.70762735614926,
+    "Latitude": 50.1136662550196
+  },
+  {
+    "Id": "3000529",
+    "Name": "Frankfurt (Main) Ostbahnhof/Sonnemannstraße",
+    "Longitude": 8.70498294390498,
+    "Latitude": 50.1117176777501
+  },
+  {
+    "Id": "3000902",
+    "Name": "Frankfurt (Main) Frankensteiner Platz",
+    "Longitude": 8.69245932125143,
+    "Latitude": 50.1069203929163
+  },
+  {
+    "Id": "3000903",
+    "Name": "Frankfurt (Main) Mühlberg",
+    "Longitude": 8.69970377088454,
+    "Latitude": 50.1018957537151
+  },
+  {
+    "Id": "3000904",
+    "Name": "Frankfurt (Main) Lettigkautweg",
+    "Longitude": 8.70342029941615,
+    "Latitude": 50.0998644855751
+  },
+  {
+    "Id": "3000905",
+    "Name": "Frankfurt (Main) Elisabethenstraße",
+    "Longitude": 8.68811866592307,
+    "Latitude": 50.1058749535123
+  },
+  {
+    "Id": "3000906",
+    "Name": "Frankfurt (Main) Lokalbahnhof/Textorstraße",
+    "Longitude": 8.69058440975645,
+    "Latitude": 50.1028428130619
+  },
+  {
+    "Id": "3000907",
+    "Name": "Frankfurt (Main) Lokalbahnhof",
+    "Longitude": 8.69212762236088,
+    "Latitude": 50.1019568661286
+  },
+  {
+    "Id": "3000908",
+    "Name": "Frankfurt (Main) Wendelsplatz",
+    "Longitude": 8.69147922246758,
+    "Latitude": 50.1006245823608
+  },
+  {
+    "Id": "3000909",
+    "Name": "Frankfurt (Main) Brauerei",
+    "Longitude": 8.69089119561918,
+    "Latitude": 50.0942488859556
+  },
+  {
+    "Id": "3000910",
+    "Name": "Frankfurt (Main) Südfriedhof West",
+    "Longitude": 8.69122893550412,
+    "Latitude": 50.0917055208162
+  },
+  {
+    "Id": "3000911",
+    "Name": "Frankfurt (Main) Brücken-/Textorstraße",
+    "Longitude": 8.6870131402459,
+    "Latitude": 50.1017634136014
+  },
+  {
+    "Id": "3000912",
+    "Name": "Frankfurt (Main) Südbahnhof",
+    "Longitude": 8.68644197186271,
+    "Latitude": 50.0993255005292
+  },
+  {
+    "Id": "3000914",
+    "Name": "Frankfurt (Main) Schweizer-/Gartenstraße",
+    "Longitude": 8.67955273877596,
+    "Latitude": 50.1033343892136
+  },
+  {
+    "Id": "3000915",
+    "Name": "Frankfurt (Main) Schwanthalerstraße",
+    "Longitude": 8.68137138071497,
+    "Latitude": 50.10099291276
+  },
+  {
+    "Id": "3000916",
+    "Name": "Frankfurt (Main) Südbahnhof/Mörfelder Landstraße",
+    "Longitude": 8.68713195853226,
+    "Latitude": 50.0985362102518
+  },
+  {
+    "Id": "3000917",
+    "Name": "Frankfurt (Main) Oppenheimer Landstraße",
+    "Longitude": 8.68101857380207,
+    "Latitude": 50.0951752097531
+  },
+  {
+    "Id": "3000918",
+    "Name": "Frankfurt (Main) Breslauer Straße",
+    "Longitude": 8.67752452797496,
+    "Latitude": 50.0931157825303
+  },
+  {
+    "Id": "3000919",
+    "Name": "Frankfurt (Main) Beuthener Straße",
+    "Longitude": 8.67448937096404,
+    "Latitude": 50.0914351280407
+  },
+  {
+    "Id": "3000920",
+    "Name": "Frankfurt (Main) Stresemannallee/Mörfelder Landstr",
+    "Longitude": 8.67149849399145,
+    "Latitude": 50.0894398569292
+  },
+  {
+    "Id": "3000921",
+    "Name": "Frankfurt (Main) Schweizer Platz",
+    "Longitude": 8.68087640741243,
+    "Latitude": 50.1018636164864
+  },
+  {
+    "Id": "3000922",
+    "Name": "Frankfurt (Main) Otto-Hahn-Platz",
+    "Longitude": 8.67567684817235,
+    "Latitude": 50.1018582277355
+  },
+  {
+    "Id": "3000923",
+    "Name": "Frankfurt (Main) Stresemannallee/Gartenstraße",
+    "Longitude": 8.66884753659281,
+    "Latitude": 50.0990070380691
+  },
+  {
+    "Id": "3000924",
+    "Name": "Frankfurt (Main) Vogelweidstraße",
+    "Longitude": 8.66523717894254,
+    "Latitude": 50.0976301755537
+  },
+  {
+    "Id": "3000925",
+    "Name": "Frankfurt (Main) Universitätsklinikum",
+    "Longitude": 8.66003401303809,
+    "Latitude": 50.096221584971
+  },
+  {
+    "Id": "3000926",
+    "Name": "Frankfurt (Main) Affentorplatz",
+    "Longitude": 8.68984582217614,
+    "Latitude": 50.1046658791434
+  },
+  {
+    "Id": "3000927",
+    "Name": "Frankfurt (Main) Südbahnhof/Schweizer Straße",
+    "Longitude": 8.68378127557471,
+    "Latitude": 50.0979787417567
+  },
+  {
+    "Id": "3000928",
+    "Name": "Frankfurt (Main) Schweizer Str./Mörfelder Landstr.",
+    "Longitude": 8.68408379896546,
+    "Latitude": 50.0966040447719
+  },
+  {
+    "Id": "3000930",
+    "Name": "Frankfurt (Main) Heister-/Seehofstraße",
+    "Longitude": 8.69689678558865,
+    "Latitude": 50.1037224983029
+  },
+  {
+    "Id": "3000933",
+    "Name": "Frankfurt (Main) Stresemannallee Bahnhof",
+    "Longitude": 8.67251079749213,
+    "Latitude": 50.0946930636423
+  },
+  {
+    "Id": "3001001",
+    "Name": "Frankfurt (Main) Tillystraße",
+    "Longitude": 8.56024144281262,
+    "Latitude": 50.101407105127
+  },
+  {
+    "Id": "3001002",
+    "Name": "Frankfurt (Main) Zuckschwerdtstraße",
+    "Longitude": 8.55250968266265,
+    "Latitude": 50.1031576920322
+  },
+  {
+    "Id": "3001003",
+    "Name": "Frankfurt (Main) Emmerich-Josef-Straße",
+    "Longitude": 8.54844248570564,
+    "Latitude": 50.10163159108
+  },
+  {
+    "Id": "3001004",
+    "Name": "Frankfurt (Main) Bolongaropalast",
+    "Longitude": 8.55382308268022,
+    "Latitude": 50.1017063050649
+  },
+  {
+    "Id": "3001005",
+    "Name": "Frankfurt (Main) Mainberg",
+    "Longitude": 8.5495199662174,
+    "Latitude": 50.1000085193682
+  },
+  {
+    "Id": "3001006",
+    "Name": "Frankfurt (Main) Hostatostraße",
+    "Longitude": 8.54646979822702,
+    "Latitude": 50.1018306907629
+  },
+  {
+    "Id": "3001007",
+    "Name": "Frankfurt (Main) Ludwigshafener Straße",
+    "Longitude": 8.54169396105662,
+    "Latitude": 50.0998970209511
+  },
+  {
+    "Id": "3001008",
+    "Name": "Frankfurt (Main) Höchst Bahnhof",
+    "Longitude": 8.54237079859728,
+    "Latitude": 50.1022102043735
+  },
+  {
+    "Id": "3001010",
+    "Name": "Frankfurt (Main) Industriepark Höchst Tor Ost",
+    "Longitude": 8.53794530337114,
+    "Latitude": 50.0972839740426
+  },
+  {
+    "Id": "3001012",
+    "Name": "Frankfurt (Main) Industriepark Höchst Tor Nord",
+    "Longitude": 8.52832323761239,
+    "Latitude": 50.097946582204
+  },
+  {
+    "Id": "3001013",
+    "Name": "Frankfurt (Main) Industriepark Höchst Tor West",
+    "Longitude": 8.51424280579481,
+    "Latitude": 50.0861112306696
+  },
+  {
+    "Id": "3001014",
+    "Name": "Frankfurt (Main) Pfingstbornstraße",
+    "Longitude": 8.51535364819094,
+    "Latitude": 50.0840301011876
+  },
+  {
+    "Id": "3001015",
+    "Name": "Frankfurt (Main) Westenbergerstraße",
+    "Longitude": 8.51715178015595,
+    "Latitude": 50.0802796072787
+  },
+  {
+    "Id": "3001016",
+    "Name": "Frankfurt (Main) Allesinastraße",
+    "Longitude": 8.51219893158138,
+    "Latitude": 50.0782181121774
+  },
+  {
+    "Id": "3001017",
+    "Name": "Frankfurt (Main) Höchster Markt",
+    "Longitude": 8.54546426430642,
+    "Latitude": 50.1002624450829
+  },
+  {
+    "Id": "3001018",
+    "Name": "Frankfurt (Main) Höchst Bahnhof Nordseite",
+    "Longitude": 8.5420393375995,
+    "Latitude": 50.1047261934602
+  },
+  {
+    "Id": "3001020",
+    "Name": "Frankfurt (Main) Zuckschwerdt-/Bauhofstraße",
+    "Longitude": 8.55183558838656,
+    "Latitude": 50.1034967284418
+  },
+  {
+    "Id": "3001021",
+    "Name": "Frankfurt (Main) Farbenstraße/Friedhof",
+    "Longitude": 8.51076149434533,
+    "Latitude": 50.0766926962314
+  },
+  {
+    "Id": "3001022",
+    "Name": "Frankfurt (Main) Ludwig-Scriba-Straße",
+    "Longitude": 8.55670735439886,
+    "Latitude": 50.1026882934178
+  },
+  {
+    "Id": "3001024",
+    "Name": "Frankfurt (Main) Leverkuser Straße",
+    "Longitude": 8.54533015125903,
+    "Latitude": 50.0981851516557
+  },
+  {
+    "Id": "3001101",
+    "Name": "Frankfurt (Main) Wilhelm-Fay-Straße",
+    "Longitude": 8.58834166083037,
+    "Latitude": 50.1235901897577
+  },
+  {
+    "Id": "3001102",
+    "Name": "Frankfurt (Main) Westerbachsiedlung",
+    "Longitude": 8.58067730945671,
+    "Latitude": 50.1237336241033
+  },
+  {
+    "Id": "3001103",
+    "Name": "Frankfurt (Main) Carl-Sonnenschein-Straße",
+    "Longitude": 8.57213076158187,
+    "Latitude": 50.1240081647139
+  },
+  {
+    "Id": "3001104",
+    "Name": "Frankfurt (Main) Westerwaldstraße",
+    "Longitude": 8.56921757206082,
+    "Latitude": 50.1229545353616
+  },
+  {
+    "Id": "3001105",
+    "Name": "Frankfurt (Main) Sossenheim Volkshaus",
+    "Longitude": 8.56644085221817,
+    "Latitude": 50.1222879244581
+  },
+  {
+    "Id": "3001106",
+    "Name": "Frankfurt (Main) Sossenheimer Kirchberg",
+    "Longitude": 8.56653476190277,
+    "Latitude": 50.1196271445199
+  },
+  {
+    "Id": "3001107",
+    "Name": "Frankfurt (Main) Dunantring",
+    "Longitude": 8.55614891006804,
+    "Latitude": 50.1177629344739
+  },
+  {
+    "Id": "3001108",
+    "Name": "Frankfurt (Main) Am Kapellenberg",
+    "Longitude": 8.56198586616946,
+    "Latitude": 50.1170568518797
+  },
+  {
+    "Id": "3001109",
+    "Name": "Frankfurt (Main) Eltviller Straße",
+    "Longitude": 8.55296169257059,
+    "Latitude": 50.1116732712925
+  },
+  {
+    "Id": "3001110",
+    "Name": "Frankfurt (Main) Friedhof Kurmainzer Straße",
+    "Longitude": 8.5514140702388,
+    "Latitude": 50.1097254012906
+  },
+  {
+    "Id": "3001111",
+    "Name": "Frankfurt (Main) Auerstraße",
+    "Longitude": 8.55289020567293,
+    "Latitude": 50.1058292846331
+  },
+  {
+    "Id": "3001112",
+    "Name": "Frankfurt (Main) Konrad-Glatt-Straße",
+    "Longitude": 8.54896824639325,
+    "Latitude": 50.1066772090487
+  },
+  {
+    "Id": "3001113",
+    "Name": "Frankfurt (Main) Windthorststraße",
+    "Longitude": 8.54908508905639,
+    "Latitude": 50.1106154253832
+  },
+  {
+    "Id": "3001114",
+    "Name": "Frankfurt (Main) Friedhof Höchst",
+    "Longitude": 8.54834718804058,
+    "Latitude": 50.1147570993699
+  },
+  {
+    "Id": "3001115",
+    "Name": "Frankfurt (Main) Walter-Kolb-Schule",
+    "Longitude": 8.542822806551,
+    "Latitude": 50.1134768653877
+  },
+  {
+    "Id": "3001116",
+    "Name": "Frankfurt (Main) Cheruskerweg",
+    "Longitude": 8.54110407593267,
+    "Latitude": 50.1163110357352
+  },
+  {
+    "Id": "3001117",
+    "Name": "Frankfurt (Main) Alemannenweg",
+    "Longitude": 8.54029030918554,
+    "Latitude": 50.1136826481822
+  },
+  {
+    "Id": "3001118",
+    "Name": "Frankfurt (Main) Engelsruhe",
+    "Longitude": 8.5367147505803,
+    "Latitude": 50.1147652759058
+  },
+  {
+    "Id": "3001119",
+    "Name": "Frankfurt (Main) Alleehaus",
+    "Longitude": 8.53827308568737,
+    "Latitude": 50.112640768276
+  },
+  {
+    "Id": "3001120",
+    "Name": "Frankfurt (Main) Königsteiner Straße",
+    "Longitude": 8.53775437549715,
+    "Latitude": 50.1113351103061
+  },
+  {
+    "Id": "3001121",
+    "Name": "Frankfurt (Main) Euckenstraße",
+    "Longitude": 8.53924896994516,
+    "Latitude": 50.1100104742407
+  },
+  {
+    "Id": "3001122",
+    "Name": "Frankfurt (Main) Klinikum Höchst",
+    "Longitude": 8.54356911327857,
+    "Latitude": 50.1070247435683
+  },
+  {
+    "Id": "3001123",
+    "Name": "Frankfurt (Main) Gerlachstraße",
+    "Longitude": 8.54442331820759,
+    "Latitude": 50.10539185329
+  },
+  {
+    "Id": "3001124",
+    "Name": "Frankfurt (Main) Peter-Bied-Straße",
+    "Longitude": 8.53781926672844,
+    "Latitude": 50.1045836301497
+  },
+  {
+    "Id": "3001125",
+    "Name": "Frankfurt (Main) Wasgaustraße",
+    "Longitude": 8.53497428332729,
+    "Latitude": 50.1082403421513
+  },
+  {
+    "Id": "3001126",
+    "Name": "Frankfurt (Main) Unterliederbach Markt",
+    "Longitude": 8.53198663764497,
+    "Latitude": 50.1107096854113
+  },
+  {
+    "Id": "3001127",
+    "Name": "Frankfurt (Main) Unterliederbach West",
+    "Longitude": 8.52745145806573,
+    "Latitude": 50.1112847034543
+  },
+  {
+    "Id": "3001128",
+    "Name": "Frankfurt (Main) Silobad/Ballsporthalle",
+    "Longitude": 8.52950606782099,
+    "Latitude": 50.1013317447788
+  },
+  {
+    "Id": "3001129",
+    "Name": "Frankfurt (Main) Jahrhunderthalle",
+    "Longitude": 8.52008319956763,
+    "Latitude": 50.097346467137
+  },
+  {
+    "Id": "3001130",
+    "Name": "Frankfurt (Main) Rabenkopfweg",
+    "Longitude": 8.51028917680334,
+    "Latitude": 50.0970269225514
+  },
+  {
+    "Id": "3001131",
+    "Name": "Frankfurt (Main) Stadthalle Zeilsheim",
+    "Longitude": 8.50151176377539,
+    "Latitude": 50.0970705295357
+  },
+  {
+    "Id": "3001132",
+    "Name": "Frankfurt (Main) Pfaffenwiese/Kolberger Weg",
+    "Longitude": 8.49769740750377,
+    "Latitude": 50.0969642071493
+  },
+  {
+    "Id": "3001133",
+    "Name": "Frankfurt (Main) Burgunderweg",
+    "Longitude": 8.53748337105706,
+    "Latitude": 50.1133478651143
+  },
+  {
+    "Id": "3001134",
+    "Name": "Frankfurt (Main) Hofheimer Straße",
+    "Longitude": 8.48974426428375,
+    "Latitude": 50.0970374542168
+  },
+  {
+    "Id": "3001135",
+    "Name": "Frankfurt (Main) Kirche Zeilsheim",
+    "Longitude": 8.49286841586241,
+    "Latitude": 50.0950013234555
+  },
+  {
+    "Id": "3001136",
+    "Name": "Frankfurt (Main) Kolberger Weg",
+    "Longitude": 8.49539569122715,
+    "Latitude": 50.0952190996181
+  },
+  {
+    "Id": "3001137",
+    "Name": "Frankfurt (Main) Zeilsheim Kolonie",
+    "Longitude": 8.49605162683455,
+    "Latitude": 50.0939722849014
+  },
+  {
+    "Id": "3001138",
+    "Name": "Frankfurt (Main) Annabergstraße",
+    "Longitude": 8.50252748070504,
+    "Latitude": 50.0921032119224
+  },
+  {
+    "Id": "3001139",
+    "Name": "Frankfurt (Main) Lenzenbergstraße",
+    "Longitude": 8.50563332134041,
+    "Latitude": 50.0972050044376
+  },
+  {
+    "Id": "3001142",
+    "Name": "Frankfurt (Main) Ludwig-Erhard-Schule",
+    "Longitude": 8.53502314105544,
+    "Latitude": 50.1104161971411
+  },
+  {
+    "Id": "3001143",
+    "Name": "Frankfurt (Main) Haigerer Straße",
+    "Longitude": 8.57810547604604,
+    "Latitude": 50.1235984585803
+  },
+  {
+    "Id": "3001201",
+    "Name": "Frankfurt (Main) Bockenheimer Warte",
+    "Longitude": 8.65392369415885,
+    "Latitude": 50.1199469680635
+  },
+  {
+    "Id": "3001202",
+    "Name": "Frankfurt (Main) Adalbert-/Schloßstraße",
+    "Longitude": 8.64356922379224,
+    "Latitude": 50.1190436451824
+  },
+  {
+    "Id": "3001203",
+    "Name": "Frankfurt (Main) Leipziger Straße",
+    "Longitude": 8.64569643766405,
+    "Latitude": 50.1225833272228
+  },
+  {
+    "Id": "3001204",
+    "Name": "Frankfurt (Main) Westbahnhof",
+    "Longitude": 8.63945538730144,
+    "Latitude": 50.1194445208479
+  },
+  {
+    "Id": "3001205",
+    "Name": "Frankfurt (Main) Kurfürstenplatz",
+    "Longitude": 8.64022641915978,
+    "Latitude": 50.1210471798752
+  },
+  {
+    "Id": "3001206",
+    "Name": "Frankfurt (Main) Schönhof",
+    "Longitude": 8.6352807884952,
+    "Latitude": 50.124160399132
+  },
+  {
+    "Id": "3001207",
+    "Name": "Frankfurt (Main) Varrentrappstraße",
+    "Longitude": 8.64744171859334,
+    "Latitude": 50.1153154835185
+  },
+  {
+    "Id": "3001208",
+    "Name": "Frankfurt (Main) Emser Straße",
+    "Longitude": 8.64192785192754,
+    "Latitude": 50.1141388928075
+  },
+  {
+    "Id": "3001209",
+    "Name": "Frankfurt (Main) Philipp-Reis-Straße",
+    "Longitude": 8.63577200357433,
+    "Latitude": 50.1146951595534
+  },
+  {
+    "Id": "3001210",
+    "Name": "Frankfurt (Main) Katharinenkreisel",
+    "Longitude": 8.62993225021853,
+    "Latitude": 50.1159443592353
+  },
+  {
+    "Id": "3001211",
+    "Name": "Frankfurt (Main) Postsiedlung",
+    "Longitude": 8.62370231194932,
+    "Latitude": 50.1187742959476
+  },
+  {
+    "Id": "3001213",
+    "Name": "Frankfurt (Main) Sternbrücke",
+    "Longitude": 8.62057830667907,
+    "Latitude": 50.1212994105201
+  },
+  {
+    "Id": "3001214",
+    "Name": "Frankfurt (Main) Parkweg",
+    "Longitude": 8.61509233268455,
+    "Latitude": 50.1218747451485
+  },
+  {
+    "Id": "3001215",
+    "Name": "Frankfurt (Main) Alt-Rödelheim",
+    "Longitude": 8.61170009654881,
+    "Latitude": 50.1246324797679
+  },
+  {
+    "Id": "3001216",
+    "Name": "Frankfurt (Main) Lorscher Straße",
+    "Longitude": 8.60944229768525,
+    "Latitude": 50.1254160659069
+  },
+  {
+    "Id": "3001217",
+    "Name": "Frankfurt (Main) Rödelheim Bahnhof",
+    "Longitude": 8.60694123792723,
+    "Latitude": 50.1251559128221
+  },
+  {
+    "Id": "3001218",
+    "Name": "Frankfurt (Main) In der Au",
+    "Longitude": 8.59920233364546,
+    "Latitude": 50.122477366082
+  },
+  {
+    "Id": "3001219",
+    "Name": "Frankfurt (Main) Wolf-Heidenheim-Straße",
+    "Longitude": 8.60141022087972,
+    "Latitude": 50.1277173027445
+  },
+  {
+    "Id": "3001220",
+    "Name": "Frankfurt (Main) Guerickestraße",
+    "Longitude": 8.59915226574581,
+    "Latitude": 50.1351894570145
+  },
+  {
+    "Id": "3001221",
+    "Name": "Frankfurt (Main) Theodor-Fischer-Weg",
+    "Longitude": 8.60355956331671,
+    "Latitude": 50.1435025793609
+  },
+  {
+    "Id": "3001222",
+    "Name": "Frankfurt (Main) Industriehof",
+    "Longitude": 8.62938424920706,
+    "Latitude": 50.1289965148763
+  },
+  {
+    "Id": "3001223",
+    "Name": "Frankfurt (Main) Fischstein",
+    "Longitude": 8.6249482072356,
+    "Latitude": 50.1293419081631
+  },
+  {
+    "Id": "3001224",
+    "Name": "Frankfurt (Main) Hausen",
+    "Longitude": 8.62461263110021,
+    "Latitude": 50.1382861472143
+  },
+  {
+    "Id": "3001225",
+    "Name": "Frankfurt (Main) Hausener Weg",
+    "Longitude": 8.6196581250126,
+    "Latitude": 50.1315633109396
+  },
+  {
+    "Id": "3001226",
+    "Name": "Frankfurt (Main) Stephan-Heise-Straße",
+    "Longitude": 8.61572376753029,
+    "Latitude": 50.1355960038464
+  },
+  {
+    "Id": "3001227",
+    "Name": "Frankfurt (Main) Friedhof Westhausen",
+    "Longitude": 8.61221027539129,
+    "Latitude": 50.139396218179
+  },
+  {
+    "Id": "3001229",
+    "Name": "Frankfurt (Main) Heerstraße",
+    "Longitude": 8.60748368905621,
+    "Latitude": 50.1443519809334
+  },
+  {
+    "Id": "3001230",
+    "Name": "Frankfurt (Main) Falkstraße",
+    "Longitude": 8.65080968467305,
+    "Latitude": 50.1213041864984
+  },
+  {
+    "Id": "3001231",
+    "Name": "Frankfurt (Main) Juliusstraße",
+    "Longitude": 8.64700312248429,
+    "Latitude": 50.1255451030005
+  },
+  {
+    "Id": "3001232",
+    "Name": "Frankfurt (Main) Frauenfriedenskirche",
+    "Longitude": 8.64649094404458,
+    "Latitude": 50.1286362038647
+  },
+  {
+    "Id": "3001233",
+    "Name": "Frankfurt (Main) Markus-Krankenhaus",
+    "Longitude": 8.64581705583271,
+    "Latitude": 50.13658155372
+  },
+  {
+    "Id": "3001234",
+    "Name": "Frankfurt (Main) Kirchplatz",
+    "Longitude": 8.63766513819756,
+    "Latitude": 50.1250758690854
+  },
+  {
+    "Id": "3001235",
+    "Name": "Frankfurt (Main) Sophienstraße",
+    "Longitude": 8.6410993527068,
+    "Latitude": 50.1277386480546
+  },
+  {
+    "Id": "3001236",
+    "Name": "Frankfurt (Main) Große Nelkenstraße",
+    "Longitude": 8.62840283094278,
+    "Latitude": 50.1329311250846
+  },
+  {
+    "Id": "3001237",
+    "Name": "Frankfurt (Main) Ellerfeld",
+    "Longitude": 8.62515296609363,
+    "Latitude": 50.1353660524246
+  },
+  {
+    "Id": "3001238",
+    "Name": "Frankfurt (Main) Radilostraße",
+    "Longitude": 8.61071759931949,
+    "Latitude": 50.125078710137
+  },
+  {
+    "Id": "3001239",
+    "Name": "Frankfurt (Main) Geiselwiesen",
+    "Longitude": 8.62438264760138,
+    "Latitude": 50.1408656106207
+  },
+  {
+    "Id": "3001240",
+    "Name": "Frankfurt (Main) Universitätssportanlagen",
+    "Longitude": 8.64514645262217,
+    "Latitude": 50.1307897767359
+  },
+  {
+    "Id": "3001242",
+    "Name": "Frankfurt (Main) Reifenberger Straße/Sozialzentrum",
+    "Longitude": 8.61541780530861,
+    "Latitude": 50.128384790249
+  },
+  {
+    "Id": "3001243",
+    "Name": "Frankfurt (Main) Nauheimer Straße",
+    "Longitude": 8.64425778780219,
+    "Latitude": 50.116690295881
+  },
+  {
+    "Id": "3001245",
+    "Name": "Frankfurt (Main) An der Dammheide",
+    "Longitude": 8.63108261952776,
+    "Latitude": 50.1172605970335
+  },
+  {
+    "Id": "3001246",
+    "Name": "Frankfurt (Main) Ben-Gurion-Ring Süd",
+    "Longitude": 8.66014774928821,
+    "Latitude": 50.1849647363802
+  },
+  {
+    "Id": "3001247",
+    "Name": "Frankfurt (Main) Schwalbenweg",
+    "Longitude": 8.63189306784114,
+    "Latitude": 50.1885288132088
+  },
+  {
+    "Id": "3001248",
+    "Name": "Frankfurt (Main) Genfer Straße",
+    "Longitude": 8.65760950922683,
+    "Latitude": 50.1914032581538
+  },
+  {
+    "Id": "3001249",
+    "Name": "Frankfurt (Main) Gewerbegebiet Nieder-Eschbach",
+    "Longitude": 8.65583530395014,
+    "Latitude": 50.1947154002015
+  },
+  {
+    "Id": "3001251",
+    "Name": "Frankfurt (Main) Gaugrafenstraße",
+    "Longitude": 8.59657302307937,
+    "Latitude": 50.1241944121078
+  },
+  {
+    "Id": "3001252",
+    "Name": "Frankfurt (Main) Stadtbahnzentralwerkstatt",
+    "Longitude": 8.59687844706633,
+    "Latitude": 50.1411331583846
+  },
+  {
+    "Id": "3001253",
+    "Name": "Frankfurt (Main) Fallerslebenstraße",
+    "Longitude": 8.66440595699821,
+    "Latitude": 50.1386594652344
+  },
+  {
+    "Id": "3001254",
+    "Name": "Frankfurt (Main) Franz-Werfel-Straße",
+    "Longitude": 8.65918511334379,
+    "Latitude": 50.1391207735288
+  },
+  {
+    "Id": "3001255",
+    "Name": "Frankfurt (Main) Stefan-Zweig-Straße",
+    "Longitude": 8.65517920026815,
+    "Latitude": 50.139855161912
+  },
+  {
+    "Id": "3001256",
+    "Name": "Frankfurt (Main) Am Neuenberg",
+    "Longitude": 8.68809129852855,
+    "Latitude": 50.1683032262708
+  },
+  {
+    "Id": "3001258",
+    "Name": "Frankfurt (Main) Plieningerstraße",
+    "Longitude": 8.66827244312562,
+    "Latitude": 50.1337708600777
+  },
+  {
+    "Id": "3001259",
+    "Name": "Frankfurt (Main) Paquetstraße",
+    "Longitude": 8.66096390522901,
+    "Latitude": 50.1407801775904
+  },
+  {
+    "Id": "3001260",
+    "Name": "Frankfurt (Main) Pfeiferstraße",
+    "Longitude": 8.65512425618643,
+    "Latitude": 50.1436129257694
+  },
+  {
+    "Id": "3001301",
+    "Name": "Frankfurt (Main) Dornbusch",
+    "Longitude": 8.67039300518191,
+    "Latitude": 50.1386406178603
+  },
+  {
+    "Id": "3001302",
+    "Name": "Frankfurt (Main) Platenstraße",
+    "Longitude": 8.66470145561254,
+    "Latitude": 50.1364037618322
+  },
+  {
+    "Id": "3001303",
+    "Name": "Frankfurt (Main) Fritz-Tarnow-Straße",
+    "Longitude": 8.66869895369848,
+    "Latitude": 50.1429151679732
+  },
+  {
+    "Id": "3001304",
+    "Name": "Frankfurt (Main) Hügelstraße",
+    "Longitude": 8.66620102866717,
+    "Latitude": 50.1480684312161
+  },
+  {
+    "Id": "3001305",
+    "Name": "Frankfurt (Main) Reinhardstraße",
+    "Longitude": 8.67307553535774,
+    "Latitude": 50.1493915329308
+  },
+  {
+    "Id": "3001306",
+    "Name": "Frankfurt (Main) Theodor-Storm-Straße",
+    "Longitude": 8.65776544410038,
+    "Latitude": 50.1459761698785
+  },
+  {
+    "Id": "3001307",
+    "Name": "Frankfurt (Main) Kurhessenstraße",
+    "Longitude": 8.65454209966481,
+    "Latitude": 50.1448069022234
+  },
+  {
+    "Id": "3001308",
+    "Name": "Frankfurt (Main) Schönbornstraße",
+    "Longitude": 8.6522707672719,
+    "Latitude": 50.1416265768583
+  },
+  {
+    "Id": "3001309",
+    "Name": "Frankfurt (Main) Ginnheim Mitte",
+    "Longitude": 8.64622226964767,
+    "Latitude": 50.1404396089181
+  },
+  {
+    "Id": "3001310",
+    "Name": "Frankfurt (Main) Bonameser Hainstraße",
+    "Longitude": 8.66462518079601,
+    "Latitude": 50.1834044413568
+  },
+  {
+    "Id": "3001311",
+    "Name": "Frankfurt (Main) Lindenbaum",
+    "Longitude": 8.66149624831493,
+    "Latitude": 50.1525859212542
+  },
+  {
+    "Id": "3001312",
+    "Name": "Frankfurt (Main) Weißer Stein",
+    "Longitude": 8.65652702355233,
+    "Latitude": 50.1567787893767
+  },
+  {
+    "Id": "3001313",
+    "Name": "Frankfurt (Main) Im Wörth",
+    "Longitude": 8.65965116350436,
+    "Latitude": 50.1582443862279
+  },
+  {
+    "Id": "3001314",
+    "Name": "Frankfurt (Main) Zehnmorgenstraße",
+    "Longitude": 8.65653874472937,
+    "Latitude": 50.1590533521627
+  },
+  {
+    "Id": "3001315",
+    "Name": "Frankfurt (Main) Anne-Frank-Siedlung",
+    "Longitude": 8.65981677829491,
+    "Latitude": 50.1605463686524
+  },
+  {
+    "Id": "3001316",
+    "Name": "Frankfurt (Main) Am Gabelacker",
+    "Longitude": 8.66364013127358,
+    "Latitude": 50.1641355909746
+  },
+  {
+    "Id": "3001317",
+    "Name": "Frankfurt (Main) Heddernheim",
+    "Longitude": 8.64910069383044,
+    "Latitude": 50.1619529838726
+  },
+  {
+    "Id": "3001318",
+    "Name": "Frankfurt (Main) Zeilweg",
+    "Longitude": 8.64248975256898,
+    "Latitude": 50.1645490152666
+  },
+  {
+    "Id": "3001319",
+    "Name": "Frankfurt (Main) Wiesenau",
+    "Longitude": 8.62960901849086,
+    "Latitude": 50.1669720469261
+  },
+  {
+    "Id": "3001320",
+    "Name": "Frankfurt (Main) Heddernheimer Landstraße",
+    "Longitude": 8.63478446388069,
+    "Latitude": 50.1637159655799
+  },
+  {
+    "Id": "3001322",
+    "Name": "Frankfurt (Main) Nordwestzentrum",
+    "Longitude": 8.63427638512243,
+    "Latitude": 50.158760753706
+  },
+  {
+    "Id": "3001323",
+    "Name": "Frankfurt (Main) Antoninusstraße",
+    "Longitude": 8.64069470318217,
+    "Latitude": 50.1575490889606
+  },
+  {
+    "Id": "3001324",
+    "Name": "Frankfurt (Main) Cohausenstraße",
+    "Longitude": 8.64403710931532,
+    "Latitude": 50.1597170177287
+  },
+  {
+    "Id": "3001325",
+    "Name": "Frankfurt (Main) Heddernheim Kirche",
+    "Longitude": 8.64686474953773,
+    "Latitude": 50.1596087606508
+  },
+  {
+    "Id": "3001326",
+    "Name": "Frankfurt (Main) Habelstraße",
+    "Longitude": 8.64410327606863,
+    "Latitude": 50.1564537659654
+  },
+  {
+    "Id": "3001327",
+    "Name": "Frankfurt (Main) Heidenfeld",
+    "Longitude": 8.64120099200888,
+    "Latitude": 50.1553390535037
+  },
+  {
+    "Id": "3001328",
+    "Name": "Frankfurt (Main) Bernadottestraße",
+    "Longitude": 8.63154211154787,
+    "Latitude": 50.1576463282284
+  },
+  {
+    "Id": "3001329",
+    "Name": "Frankfurt (Main) Ernst-Kahn-Straße",
+    "Longitude": 8.63405477910912,
+    "Latitude": 50.1547863727743
+  },
+  {
+    "Id": "3001330",
+    "Name": "Frankfurt (Main) Hadrianstraße",
+    "Longitude": 8.63336791845833,
+    "Latitude": 50.153112025732
+  },
+  {
+    "Id": "3001331",
+    "Name": "Frankfurt (Main) Mithrasstraße",
+    "Longitude": 8.63046172982508,
+    "Latitude": 50.1525634168648
+  },
+  {
+    "Id": "3001332",
+    "Name": "Frankfurt (Main) Am Alten Schloß",
+    "Longitude": 8.62616042790355,
+    "Latitude": 50.1514978167047
+  },
+  {
+    "Id": "3001333",
+    "Name": "Frankfurt (Main) Graebestraße/Pflegeheim",
+    "Longitude": 8.62272070061169,
+    "Latitude": 50.1512080153159
+  },
+  {
+    "Id": "3001334",
+    "Name": "Frankfurt (Main) Krankenhaus Nordwest",
+    "Longitude": 8.62038704306779,
+    "Latitude": 50.1508318239065
+  },
+  {
+    "Id": "3001335",
+    "Name": "Frankfurt (Main) Schönberger Weg",
+    "Longitude": 8.61517704845776,
+    "Latitude": 50.1479737876295
+  },
+  {
+    "Id": "3001336",
+    "Name": "Frankfurt (Main) Hofgut",
+    "Longitude": 8.61146721438723,
+    "Latitude": 50.1465230157837
+  },
+  {
+    "Id": "3001337",
+    "Name": "Frankfurt (Main) Praunheimer Brücke",
+    "Longitude": 8.62296876829629,
+    "Latitude": 50.1481251642279
+  },
+  {
+    "Id": "3001338",
+    "Name": "Frankfurt (Main) Pflanzländer",
+    "Longitude": 8.62435875101978,
+    "Latitude": 50.1439222217363
+  },
+  {
+    "Id": "3001339",
+    "Name": "Frankfurt (Main) Oberfeldstraße",
+    "Longitude": 8.62268297951069,
+    "Latitude": 50.1542286149589
+  },
+  {
+    "Id": "3001340",
+    "Name": "Frankfurt (Main) Praunheimer Weg/Schulzentrum",
+    "Longitude": 8.62206919630431,
+    "Latitude": 50.1575440209951
+  },
+  {
+    "Id": "3001341",
+    "Name": "Frankfurt (Main) G.-Hauptmann-Ring/Praunheimer Weg",
+    "Longitude": 8.61959629878464,
+    "Latitude": 50.1605746610919
+  },
+  {
+    "Id": "3001342",
+    "Name": "Frankfurt (Main) Thomas-Mann-Straße",
+    "Longitude": 8.6153620161326,
+    "Latitude": 50.1633117501608
+  },
+  {
+    "Id": "3001343",
+    "Name": "Frankfurt (Main) Weißkirchener Weg",
+    "Longitude": 8.6178944027275,
+    "Latitude": 50.1669251751428
+  },
+  {
+    "Id": "3001344",
+    "Name": "Frankfurt (Main) Heinrich-Kromer-Schule",
+    "Longitude": 8.62589902923715,
+    "Latitude": 50.165296986579
+  },
+  {
+    "Id": "3001345",
+    "Name": "Frankfurt (Main) Praunheimer Weg Mitte",
+    "Longitude": 8.62049732229212,
+    "Latitude": 50.1616654215907
+  },
+  {
+    "Id": "3001346",
+    "Name": "Frankfurt (Main) Eduard-Bernstein-Weg",
+    "Longitude": 8.62176788949718,
+    "Latitude": 50.1638182236608
+  },
+  {
+    "Id": "3001347",
+    "Name": "Frankfurt (Main) Roßkopfstraße",
+    "Longitude": 8.62899806161908,
+    "Latitude": 50.1627177244915
+  },
+  {
+    "Id": "3001348",
+    "Name": "Frankfurt (Main) Sandelmühle",
+    "Longitude": 8.645123382595,
+    "Latitude": 50.1661123851828
+  },
+  {
+    "Id": "3001349",
+    "Name": "Frankfurt (Main) Riedwiese/Mertonviertel",
+    "Longitude": 8.6429848320293,
+    "Latitude": 50.1713741098312
+  },
+  {
+    "Id": "3001351",
+    "Name": "Frankfurt (Main) Kalbach",
+    "Longitude": 8.65807506414129,
+    "Latitude": 50.1830617356647
+  },
+  {
+    "Id": "3001352",
+    "Name": "Frankfurt (Main) Bonames Mitte",
+    "Longitude": 8.66443002952709,
+    "Latitude": 50.1852828281128
+  },
+  {
+    "Id": "3001353",
+    "Name": "Frankfurt (Main) Alt-Praunheim/Krankenh. Nordwest",
+    "Longitude": 8.61947486842048,
+    "Latitude": 50.1494083846141
+  },
+  {
+    "Id": "3001354",
+    "Name": "Frankfurt (Main) Hopfenbrunnen",
+    "Longitude": 8.63067527794472,
+    "Latitude": 50.1884710136317
+  },
+  {
+    "Id": "3001355",
+    "Name": "Frankfurt (Main) Am Weißkirchener Berg",
+    "Longitude": 8.63444499182577,
+    "Latitude": 50.1880783578099
+  },
+  {
+    "Id": "3001356",
+    "Name": "Frankfurt (Main) Rathaus Kalbach",
+    "Longitude": 8.63894491628747,
+    "Latitude": 50.1892611299568
+  },
+  {
+    "Id": "3001357",
+    "Name": "Frankfurt (Main) Schule Kalbach",
+    "Longitude": 8.64249319926601,
+    "Latitude": 50.1885169086334
+  },
+  {
+    "Id": "3001358",
+    "Name": "Frankfurt (Main) Alte Riedbergstraße",
+    "Longitude": 8.64661860975653,
+    "Latitude": 50.1854458742681
+  },
+  {
+    "Id": "3001359",
+    "Name": "Frankfurt (Main) Bonifatiusstraße",
+    "Longitude": 8.6517526807646,
+    "Latitude": 50.1841487826316
+  },
+  {
+    "Id": "3001360",
+    "Name": "Frankfurt (Main) Haus Nidda",
+    "Longitude": 8.66752405518862,
+    "Latitude": 50.1833138662174
+  },
+  {
+    "Id": "3001361",
+    "Name": "Frankfurt (Main) Berner Straße",
+    "Longitude": 8.65962377702036,
+    "Latitude": 50.1936926708197
+  },
+  {
+    "Id": "3001362",
+    "Name": "Frankfurt (Main) Glogauer Straße",
+    "Longitude": 8.66516536500755,
+    "Latitude": 50.1922703163523
+  },
+  {
+    "Id": "3001363",
+    "Name": "Frankfurt (Main) Glockengasse",
+    "Longitude": 8.67442205680454,
+    "Latitude": 50.2004956089199
+  },
+  {
+    "Id": "3001365",
+    "Name": "Frankfurt (Main) Niedwiesenstraße",
+    "Longitude": 8.65283234224886,
+    "Latitude": 50.1587726464171
+  },
+  {
+    "Id": "3001366",
+    "Name": "Frankfurt (Main) Römerstadt",
+    "Longitude": 8.63838868581868,
+    "Latitude": 50.1534423970299
+  },
+  {
+    "Id": "3001368",
+    "Name": "Frankfurt (Main) Im Geeren",
+    "Longitude": 8.66132826479919,
+    "Latitude": 50.1625196363544
+  },
+  {
+    "Id": "3001369",
+    "Name": "Frankfurt (Main) Otto-Hahn-Schule",
+    "Longitude": 8.66770531225912,
+    "Latitude": 50.2016183795038
+  },
+  {
+    "Id": "3001370",
+    "Name": "Frankfurt (Main) Eschersheim Bahnhof",
+    "Longitude": 8.65513189270791,
+    "Latitude": 50.158141178062
+  },
+  {
+    "Id": "3001371",
+    "Name": "Frankfurt (Main) Ben-Gurion-Ring Nord",
+    "Longitude": 8.66164066809946,
+    "Latitude": 50.1916667717958
+  },
+  {
+    "Id": "3001372",
+    "Name": "Frankfurt (Main) Europaturm",
+    "Longitude": 8.65352693221831,
+    "Latitude": 50.1362002073316
+  },
+  {
+    "Id": "3001373",
+    "Name": "Frankfurt (Main) Deutsche Bundesbank",
+    "Longitude": 8.65970879452416,
+    "Latitude": 50.1362813839009
+  },
+  {
+    "Id": "3001374",
+    "Name": "Frankfurt (Main) Harheimer Weg",
+    "Longitude": 8.67344759617429,
+    "Latitude": 50.1831598224939
+  },
+  {
+    "Id": "3001375",
+    "Name": "Frankfurt (Main) Seniorenwohnanlage Bügel",
+    "Longitude": 8.65842888136771,
+    "Latitude": 50.1884299160116
+  },
+  {
+    "Id": "3001378",
+    "Name": "Frankfurt (Main) Ginnheim/Niddapark",
+    "Longitude": 8.64219683804675,
+    "Latitude": 50.1437536938223
+  },
+  {
+    "Id": "3001379",
+    "Name": "Frankfurt (Main) Berner Straße/Ben-Gurion-Ring",
+    "Longitude": 8.66224750980311,
+    "Latitude": 50.192990090163
+  },
+  {
+    "Id": "3001380",
+    "Name": "Frankfurt (Main) Dreihäusergasse",
+    "Longitude": 8.65569867430493,
+    "Latitude": 50.1610646803997
+  },
+  {
+    "Id": "3001381",
+    "Name": "Frankfurt (Main) Am Grünen Graben",
+    "Longitude": 8.65655833081333,
+    "Latitude": 50.164141876922
+  },
+  {
+    "Id": "3001382",
+    "Name": "Frankfurt (Main) Im Uhrig",
+    "Longitude": 8.65570475528373,
+    "Latitude": 50.1660722517051
+  },
+  {
+    "Id": "3001383",
+    "Name": "Frankfurt (Main) Sportzentrum Kalbach",
+    "Longitude": 8.65012308335075,
+    "Latitude": 50.1868139809266
+  },
+  {
+    "Id": "3001384",
+    "Name": "Frankfurt (Main) Homburger Hohl",
+    "Longitude": 8.66171874829742,
+    "Latitude": 50.1865515858405
+  },
+  {
+    "Id": "3001385",
+    "Name": "Frankfurt (Main) Ärztehaus Am Bügel",
+    "Longitude": 8.66457240573106,
+    "Latitude": 50.1889512333746
+  },
+  {
+    "Id": "3001386",
+    "Name": "Frankfurt (Main) Alt-Niederursel",
+    "Longitude": 8.6225254636442,
+    "Latitude": 50.1653670027569
+  },
+  {
+    "Id": "3001387",
+    "Name": "Frankfurt (Main) Wilhelm-Flögel-Ring",
+    "Longitude": 8.66499959426057,
+    "Latitude": 50.1999654244363
+  },
+  {
+    "Id": "3001390",
+    "Name": "Frankfurt (Main) Alt-Bonames",
+    "Longitude": 8.66402852667111,
+    "Latitude": 50.1806337415973
+  },
+  {
+    "Id": "3001392",
+    "Name": "Frankfurt (Main) Siedlung Frankfurter Berg",
+    "Longitude": 8.67832534088519,
+    "Latitude": 50.1677372326592
+  },
+  {
+    "Id": "3001393",
+    "Name": "Frankfurt (Main) Geozentrum",
+    "Longitude": 8.63456711871901,
+    "Latitude": 50.1738832185518
+  },
+  {
+    "Id": "3001394",
+    "Name": "Frankfurt (Main) Emil-von-Behring-Straße",
+    "Longitude": 8.63750635453475,
+    "Latitude": 50.1702333958429
+  },
+  {
+    "Id": "3001395",
+    "Name": "Frankfurt (Main) Sebastian-Kneipp-Straße",
+    "Longitude": 8.64109248356098,
+    "Latitude": 50.1698579328548
+  },
+  {
+    "Id": "3001398",
+    "Name": "Frankfurt (Main) Oberschelder Weg",
+    "Longitude": 8.64013048527816,
+    "Latitude": 50.1618806361448
+  },
+  {
+    "Id": "3001399",
+    "Name": "Frankfurt (Main) Nordpark/Alter Flugplatz",
+    "Longitude": 8.66738354206335,
+    "Latitude": 50.1773259958554
+  },
+  {
+    "Id": "3001401",
+    "Name": "Frankfurt (Main) Hauptfriedhof",
+    "Longitude": 8.68431264848082,
+    "Latitude": 50.1362878050009
+  },
+  {
+    "Id": "3001402",
+    "Name": "Frankfurt (Main) Neuer Jüdischer Friedhof",
+    "Longitude": 8.68469899507197,
+    "Latitude": 50.1392286663986
+  },
+  {
+    "Id": "3001403",
+    "Name": "Frankfurt (Main) Eckenheimer Landstraße/Marbachweg",
+    "Longitude": 8.68356195969589,
+    "Latitude": 50.1419586168196
+  },
+  {
+    "Id": "3001404",
+    "Name": "Frankfurt (Main) Kaiser-Sigmund-Straße",
+    "Longitude": 8.67784884407252,
+    "Latitude": 50.1407022862888
+  },
+  {
+    "Id": "3001405",
+    "Name": "Frankfurt (Main) Theobald-Ziegler-Straße",
+    "Longitude": 8.69012748252931,
+    "Latitude": 50.1477480215174
+  },
+  {
+    "Id": "3001406",
+    "Name": "Frankfurt (Main) Feuerwehrstraße",
+    "Longitude": 8.69097968967636,
+    "Latitude": 50.143587804726
+  },
+  {
+    "Id": "3001408",
+    "Name": "Frankfurt (Main) Engelthaler Straße",
+    "Longitude": 8.6811063089155,
+    "Latitude": 50.149422806982
+  },
+  {
+    "Id": "3001409",
+    "Name": "Frankfurt (Main) Karl-von-Drais-Straße",
+    "Longitude": 8.67883802306396,
+    "Latitude": 50.1496772861501
+  },
+  {
+    "Id": "3001410",
+    "Name": "Frankfurt (Main) Niederbornstraße",
+    "Longitude": 8.67925122148597,
+    "Latitude": 50.1527530866922
+  },
+  {
+    "Id": "3001411",
+    "Name": "Frankfurt (Main) Friedhof Eckenheim",
+    "Longitude": 8.68620751088965,
+    "Latitude": 50.1502817557602
+  },
+  {
+    "Id": "3001412",
+    "Name": "Frankfurt (Main) Büdinger Straße",
+    "Longitude": 8.68411530622653,
+    "Latitude": 50.1514178557593
+  },
+  {
+    "Id": "3001413",
+    "Name": "Frankfurt (Main) Marbachweg/Sozialzentrum",
+    "Longitude": 8.68462292867165,
+    "Latitude": 50.1422941362252
+  },
+  {
+    "Id": "3001414",
+    "Name": "Frankfurt (Main) Urseler Weg",
+    "Longitude": 8.66990286944683,
+    "Latitude": 50.2018314056494
+  },
+  {
+    "Id": "3001415",
+    "Name": "Frankfurt (Main) Kreuzstraße",
+    "Longitude": 8.69104832047195,
+    "Latitude": 50.152497314591
+  },
+  {
+    "Id": "3001416",
+    "Name": "Frankfurt (Main) Weilbrunnstraße",
+    "Longitude": 8.69135794929964,
+    "Latitude": 50.1543950749343
+  },
+  {
+    "Id": "3001417",
+    "Name": "Frankfurt (Main) Michael-Grzimek-Schule",
+    "Longitude": 8.67141010649904,
+    "Latitude": 50.2005860376695
+  },
+  {
+    "Id": "3001418",
+    "Name": "Frankfurt (Main) August-Schanz-Straße",
+    "Longitude": 8.68409708501808,
+    "Latitude": 50.1627005410602
+  },
+  {
+    "Id": "3001419",
+    "Name": "Frankfurt (Main) Kaiserkronenweg",
+    "Longitude": 8.68078898627027,
+    "Latitude": 50.1655953548733
+  },
+  {
+    "Id": "3001420",
+    "Name": "Frankfurt (Main) Hagebuttenweg",
+    "Longitude": 8.67722367809476,
+    "Latitude": 50.1671318384108
+  },
+  {
+    "Id": "3001421",
+    "Name": "Frankfurt (Main) Fliederweg",
+    "Longitude": 8.67323837927193,
+    "Latitude": 50.1665902948554
+  },
+  {
+    "Id": "3001422",
+    "Name": "Frankfurt (Main) Rotdornweg",
+    "Longitude": 8.66982737177958,
+    "Latitude": 50.1659963038504
+  },
+  {
+    "Id": "3001423",
+    "Name": "Frankfurt (Main) Julius-Brecht-Straße",
+    "Longitude": 8.68129215057906,
+    "Latitude": 50.1678083260503
+  },
+  {
+    "Id": "3001424",
+    "Name": "Frankfurt (Main) An der Bornhohl",
+    "Longitude": 8.66673141063019,
+    "Latitude": 50.1966440342906
+  },
+  {
+    "Id": "3001425",
+    "Name": "Frankfurt (Main) Dachsberg",
+    "Longitude": 8.69305167062768,
+    "Latitude": 50.165250751182
+  },
+  {
+    "Id": "3001426",
+    "Name": "Frankfurt (Main) Im Steinbügel",
+    "Longitude": 8.69449269202541,
+    "Latitude": 50.1675380559309
+  },
+  {
+    "Id": "3001427",
+    "Name": "Frankfurt (Main) Berkersheim Mitte",
+    "Longitude": 8.69669851753558,
+    "Latitude": 50.1706454457263
+  },
+  {
+    "Id": "3001428",
+    "Name": "Frankfurt (Main) Frischezentrum",
+    "Longitude": 8.64786520019355,
+    "Latitude": 50.1949253041507
+  },
+  {
+    "Id": "3001429",
+    "Name": "Frankfurt (Main) Heinrich-Lanz-Allee",
+    "Longitude": 8.65260852596543,
+    "Latitude": 50.1897072752249
+  },
+  {
+    "Id": "3001430",
+    "Name": "Frankfurt (Main) Friedberger Warte",
+    "Longitude": 8.6984059926111,
+    "Latitude": 50.139471772036
+  },
+  {
+    "Id": "3001431",
+    "Name": "Frankfurt (Main) Friedhof Bornheim",
+    "Longitude": 8.70181086103478,
+    "Latitude": 50.136297995743
+  },
+  {
+    "Id": "3001432",
+    "Name": "Frankfurt (Main) Unfallklinik/B3",
+    "Longitude": 8.70617263454521,
+    "Latitude": 50.1458297625113
+  },
+  {
+    "Id": "3001433",
+    "Name": "Frankfurt (Main) Heiligenstock/Lohrberg",
+    "Longitude": 8.71768792831267,
+    "Latitude": 50.1551271909306
+  },
+  {
+    "Id": "3001434",
+    "Name": "Frankfurt (Main) Parkfriedhof Heiligenstock",
+    "Longitude": 8.72369324015685,
+    "Latitude": 50.1620191169598
+  },
+  {
+    "Id": "3001435",
+    "Name": "Frankfurt (Main) Spitzenstraße",
+    "Longitude": 8.68882295125212,
+    "Latitude": 50.184990988111
+  },
+  {
+    "Id": "3001436",
+    "Name": "Frankfurt (Main) Rathaus Harheim",
+    "Longitude": 8.69256063002597,
+    "Latitude": 50.1829241869393
+  },
+  {
+    "Id": "3001437",
+    "Name": "Frankfurt (Main) Am Eschbachtal",
+    "Longitude": 8.69613533307633,
+    "Latitude": 50.1844349335435
+  },
+  {
+    "Id": "3001438",
+    "Name": "Frankfurt (Main) Am Römerbrunnen",
+    "Longitude": 8.69822037217704,
+    "Latitude": 50.1868497256459
+  },
+  {
+    "Id": "3001439",
+    "Name": "Frankfurt (Main) Erlenhof",
+    "Longitude": 8.70505806831948,
+    "Latitude": 50.195210128222
+  },
+  {
+    "Id": "3001440",
+    "Name": "Frankfurt (Main) Hohe Brück",
+    "Longitude": 8.70785712740133,
+    "Latitude": 50.2001168226749
+  },
+  {
+    "Id": "3001441",
+    "Name": "Frankfurt (Main) Konrad-Duden-Weg",
+    "Longitude": 8.66660777994512,
+    "Latitude": 50.1902516670066
+  },
+  {
+    "Id": "3001443",
+    "Name": "Frankfurt (Main) Taunusblick",
+    "Longitude": 8.69562899869785,
+    "Latitude": 50.2002473207414
+  },
+  {
+    "Id": "3001444",
+    "Name": "Frankfurt (Main) Ronneburgstraße",
+    "Longitude": 8.68861092153642,
+    "Latitude": 50.1507646937134
+  },
+  {
+    "Id": "3001445",
+    "Name": "Frankfurt (Main) Sigmund-Freud-Straße",
+    "Longitude": 8.68620519744139,
+    "Latitude": 50.1549207099983
+  },
+  {
+    "Id": "3001446",
+    "Name": "Frankfurt (Main) Preungesheim",
+    "Longitude": 8.68766503600601,
+    "Latitude": 50.1585207276356
+  },
+  {
+    "Id": "3001447",
+    "Name": "Frankfurt (Main) August-Schanz-Straße/Dachsberg",
+    "Longitude": 8.68961433349192,
+    "Latitude": 50.1600452900322
+  },
+  {
+    "Id": "3001448",
+    "Name": "Frankfurt (Main) Wetzlarer Straße",
+    "Longitude": 8.69666605129212,
+    "Latitude": 50.1425419155021
+  },
+  {
+    "Id": "3001450",
+    "Name": "Frankfurt (Main) Frankfurter Berg Bahnhof",
+    "Longitude": 8.67650291303431,
+    "Latitude": 50.1702404499358
+  },
+  {
+    "Id": "3001451",
+    "Name": "Frankfurt (Main) Lindenhof",
+    "Longitude": 8.70052023823678,
+    "Latitude": 50.1907753811069
+  },
+  {
+    "Id": "3001452",
+    "Name": "Frankfurt (Main) Homburger Landstraße/Marbachweg",
+    "Longitude": 8.69332656899276,
+    "Latitude": 50.1441154469872
+  },
+  {
+    "Id": "3001453",
+    "Name": "Frankfurt (Main) Friedhof Zeilsheim",
+    "Longitude": 8.48681681407176,
+    "Latitude": 50.0963323098183
+  },
+  {
+    "Id": "3001456",
+    "Name": "Frankfurt (Main) Rudererdorf",
+    "Longitude": 8.71819190831376,
+    "Latitude": 50.104962740063
+  },
+  {
+    "Id": "3001457",
+    "Name": "Frankfurt (Main) Gerbermühle",
+    "Longitude": 8.72389275896504,
+    "Latitude": 50.1053629883002
+  },
+  {
+    "Id": "3001458",
+    "Name": "Frankfurt (Main) Tempelhof",
+    "Longitude": 8.69942457908761,
+    "Latitude": 50.1890824048324
+  },
+  {
+    "Id": "3001459",
+    "Name": "Frankfurt (Main) Astrid-Lindgren-Schule",
+    "Longitude": 8.66325063472043,
+    "Latitude": 50.1378470039412
+  },
+  {
+    "Id": "3001460",
+    "Name": "Frankfurt (Main) Max-Planck-Institut/FIZ",
+    "Longitude": 8.63266795129373,
+    "Latitude": 50.1751088973563
+  },
+  {
+    "Id": "3001461",
+    "Name": "Frankfurt (Main) Bergen Ost",
+    "Longitude": 8.76782819098226,
+    "Latitude": 50.1572697555837
+  },
+  {
+    "Id": "3001462",
+    "Name": "Frankfurt (Main) Karl-Wessendorft-Straße",
+    "Longitude": 8.76114256397981,
+    "Latitude": 50.1566089401758
+  },
+  {
+    "Id": "3001463",
+    "Name": "Frankfurt (Main) Main-Neckar-Brücke",
+    "Longitude": 8.65466175421936,
+    "Latitude": 50.0969969079781
+  },
+  {
+    "Id": "3001465",
+    "Name": "Frankfurt (Main) Fuldaer Straße",
+    "Longitude": 8.76099325099493,
+    "Latitude": 50.1331620999281
+  },
+  {
+    "Id": "3001466",
+    "Name": "Frankfurt (Main) Steinauer Straße",
+    "Longitude": 8.75770709025721,
+    "Latitude": 50.1330294446863
+  },
+  {
+    "Id": "3001467",
+    "Name": "Frankfurt (Main) Pfortenstraße",
+    "Longitude": 8.7693260201589,
+    "Latitude": 50.1221568446936
+  },
+  {
+    "Id": "3001468",
+    "Name": "Frankfurt (Main) Starkenburger Straße",
+    "Longitude": 8.76860355896273,
+    "Latitude": 50.1153677536012
+  },
+  {
+    "Id": "3001469",
+    "Name": "Frankfurt (Main) Carl-Benz-Straße Nord",
+    "Longitude": 8.74976649372749,
+    "Latitude": 50.1215590532375
+  },
+  {
+    "Id": "3001470",
+    "Name": "Frankfurt (Main) Mühlheimer Straße",
+    "Longitude": 8.77362140063974,
+    "Latitude": 50.1186500780386
+  },
+  {
+    "Id": "3001471",
+    "Name": "Frankfurt (Main) Rotfeder-Ring",
+    "Longitude": 8.65579792516549,
+    "Latitude": 50.0983757950949
+  },
+  {
+    "Id": "3001472",
+    "Name": "Frankfurt (Main) Rottweiler Platz",
+    "Longitude": 8.65995702758232,
+    "Latitude": 50.1011840171831
+  },
+  {
+    "Id": "3001474",
+    "Name": "Frankfurt (Main) Lufthansa Aviation Center",
+    "Longitude": 8.55660905817921,
+    "Latitude": 50.0481253233057
+  },
+  {
+    "Id": "3001476",
+    "Name": "Frankfurt (Main) Ostbahnhof/Honsellstraße",
+    "Longitude": 8.70857788702828,
+    "Latitude": 50.1113851050572
+  },
+  {
+    "Id": "3001477",
+    "Name": "Frankfurt (Main) Friedhof Fechenheim",
+    "Longitude": 8.77253861603262,
+    "Latitude": 50.1199515577042
+  },
+  {
+    "Id": "3001478",
+    "Name": "Frankfurt (Main) Johann-Beyer-Weg",
+    "Longitude": 8.62538840847063,
+    "Latitude": 50.182304822664
+  },
+  {
+    "Id": "3001479",
+    "Name": "Frankfurt (Main) Sportanlage Rebstock",
+    "Longitude": 8.6049056190176,
+    "Latitude": 50.1091013262543
+  },
+  {
+    "Id": "3001480",
+    "Name": "Frankfurt (Main) Marktplatz Bergen",
+    "Longitude": 8.75885093795528,
+    "Latitude": 50.1587438887879
+  },
+  {
+    "Id": "3001481",
+    "Name": "Frankfurt (Main) Hinter den Ulmen",
+    "Longitude": 8.66322765271168,
+    "Latitude": 50.1550992206508
+  },
+  {
+    "Id": "3001482",
+    "Name": "Frankfurt (Main) Eleonore-Sterling-Straße",
+    "Longitude": 8.6658738733645,
+    "Latitude": 50.1568869146548
+  },
+  {
+    "Id": "3001483",
+    "Name": "Frankfurt (Main) Burgholzer Straße",
+    "Longitude": 8.66728141025471,
+    "Latitude": 50.1557042370527
+  },
+  {
+    "Id": "3001484",
+    "Name": "Frankfurt (Main) Rauschenberger Straße",
+    "Longitude": 8.66814813935956,
+    "Latitude": 50.1538007825335
+  },
+  {
+    "Id": "3001485",
+    "Name": "Frankfurt (Main) Ziegenhainer Straße",
+    "Longitude": 8.66922393226828,
+    "Latitude": 50.1520057982781
+  },
+  {
+    "Id": "3001486",
+    "Name": "Frankfurt (Main) Andreaskirche",
+    "Longitude": 8.66998745304324,
+    "Latitude": 50.150848225389
+  },
+  {
+    "Id": "3001488",
+    "Name": "Frankfurt (Main) Kronberger Straße",
+    "Longitude": 8.67058510946025,
+    "Latitude": 50.1208134538104
+  },
+  {
+    "Id": "3001489",
+    "Name": "Frankfurt (Main) Bergkirche",
+    "Longitude": 8.69671391782573,
+    "Latitude": 50.0883755463776
+  },
+  {
+    "Id": "3001490",
+    "Name": "Frankfurt (Main) Hasselhorstweg",
+    "Longitude": 8.70001003768808,
+    "Latitude": 50.0886358213908
+  },
+  {
+    "Id": "3001491",
+    "Name": "Frankfurt (Main) Anton-Burger-Weg",
+    "Longitude": 8.70674004036509,
+    "Latitude": 50.0894980703531
+  },
+  {
+    "Id": "3001492",
+    "Name": "Frankfurt (Main) Goetheturm",
+    "Longitude": 8.70970255032215,
+    "Latitude": 50.0894875188692
+  },
+  {
+    "Id": "3001493",
+    "Name": "Frankfurt (Main) Ben-Gurion-Ring West",
+    "Longitude": 8.65877925984109,
+    "Latitude": 50.1903548424699
+  },
+  {
+    "Id": "3001494",
+    "Name": "Frankfurt (Main) Am Klingelborn",
+    "Longitude": 8.7157110125547,
+    "Latitude": 50.1983472219471
+  },
+  {
+    "Id": "3001495",
+    "Name": "Frankfurt (Main) In der Schildwacht",
+    "Longitude": 8.59286451484364,
+    "Latitude": 50.0964463669751
+  },
+  {
+    "Id": "3001496",
+    "Name": "Frankfurt (Main) Lärchenstraße",
+    "Longitude": 8.58676829353154,
+    "Latitude": 50.0983937464351
+  },
+  {
+    "Id": "3001497",
+    "Name": "Frankfurt (Main) Ernst-Wiss-Straße",
+    "Longitude": 8.59071342617596,
+    "Latitude": 50.0979491920675
+  },
+  {
+    "Id": "3001498",
+    "Name": "Frankfurt (Main) Am Riedsteg",
+    "Longitude": 8.70188670606872,
+    "Latitude": 50.2097481201157
+  },
+  {
+    "Id": "3001499",
+    "Name": "Frankfurt (Main) Gymnasium Römerhof",
+    "Longitude": 8.60944124986899,
+    "Latitude": 50.1066083480934
+  },
+  {
+    "Id": "3001500",
+    "Name": "Frankfurt (Main) Max-Horkheimer-Straße",
+    "Longitude": 8.66985592934119,
+    "Latitude": 50.1292622489551
+  },
+  {
+    "Id": "3001501",
+    "Name": "Frankfurt (Main) Günthersburgpark",
+    "Longitude": 8.69992719583737,
+    "Latitude": 50.1288312363323
+  },
+  {
+    "Id": "3001502",
+    "Name": "Frankfurt (Main) Burgstraße",
+    "Longitude": 8.70461974730288,
+    "Latitude": 50.127611574571
+  },
+  {
+    "Id": "3001503",
+    "Name": "Frankfurt (Main) Prüfling",
+    "Longitude": 8.70702007446126,
+    "Latitude": 50.1284447468066
+  },
+  {
+    "Id": "3001504",
+    "Name": "Frankfurt (Main) Weidenbornstraße",
+    "Longitude": 8.7098129819133,
+    "Latitude": 50.1314455024985
+  },
+  {
+    "Id": "3001505",
+    "Name": "Frankfurt (Main) Einbiglerweg",
+    "Longitude": 8.77200702462314,
+    "Latitude": 50.1200044597378
+  },
+  {
+    "Id": "3001506",
+    "Name": "Frankfurt (Main) Hartmann-Ibach-Straße",
+    "Longitude": 8.7028439707679,
+    "Latitude": 50.127562102492
+  },
+  {
+    "Id": "3001507",
+    "Name": "Frankfurt (Main) Bornheim Mitte",
+    "Longitude": 8.70801179109627,
+    "Latitude": 50.1263435161451
+  },
+  {
+    "Id": "3001508",
+    "Name": "Frankfurt (Main) Eschweger Straße",
+    "Longitude": 8.71722121651469,
+    "Latitude": 50.139321220941
+  },
+  {
+    "Id": "3001509",
+    "Name": "Frankfurt (Main) Hufeland-Haus",
+    "Longitude": 8.72062017128555,
+    "Latitude": 50.1393563994751
+  },
+  {
+    "Id": "3001510",
+    "Name": "Frankfurt (Main) Atzelberg Ost",
+    "Longitude": 8.72264573865007,
+    "Latitude": 50.1422561028812
+  },
+  {
+    "Id": "3001511",
+    "Name": "Frankfurt (Main) Atzelberg Mitte",
+    "Longitude": 8.71912156899216,
+    "Latitude": 50.1420678475545
+  },
+  {
+    "Id": "3001512",
+    "Name": "Frankfurt (Main) Comeniusstraße",
+    "Longitude": 8.70599592723554,
+    "Latitude": 50.1335486340221
+  },
+  {
+    "Id": "3001516",
+    "Name": "Frankfurt (Main) Freiligrathstraße",
+    "Longitude": 8.71021825907671,
+    "Latitude": 50.1222135051161
+  },
+  {
+    "Id": "3001517",
+    "Name": "Frankfurt (Main) Saalburg-/Wittelsbacherallee",
+    "Longitude": 8.71330820611789,
+    "Latitude": 50.1246215613461
+  },
+  {
+    "Id": "3001518",
+    "Name": "Frankfurt (Main) Ernst-May-Platz",
+    "Longitude": 8.71620782480758,
+    "Latitude": 50.1261570140613
+  },
+  {
+    "Id": "3001519",
+    "Name": "Frankfurt (Main) Heinrich-Becker-Straße",
+    "Longitude": 8.6769202757743,
+    "Latitude": 50.2018151325373
+  },
+  {
+    "Id": "3001520",
+    "Name": "Frankfurt (Main) Parlamentsplatz",
+    "Longitude": 8.71245715791945,
+    "Latitude": 50.11961187757
+  },
+  {
+    "Id": "3001522",
+    "Name": "Frankfurt (Main) Eissporthalle/Festplatz",
+    "Longitude": 8.7174672630366,
+    "Latitude": 50.1236338118028
+  },
+  {
+    "Id": "3001524",
+    "Name": "Frankfurt (Main) Johanna-Tesch-Platz",
+    "Longitude": 8.72665825915436,
+    "Latitude": 50.1279081571107
+  },
+  {
+    "Id": "3001525",
+    "Name": "Frankfurt (Main) Schäfflestraße",
+    "Longitude": 8.73409431763742,
+    "Latitude": 50.1311528856813
+  },
+  {
+    "Id": "3001526",
+    "Name": "Frankfurt (Main) Lahmeyerstraße",
+    "Longitude": 8.74248225774597,
+    "Latitude": 50.1318280318646
+  },
+  {
+    "Id": "3001527",
+    "Name": "Frankfurt (Main) Gwinnerstraße",
+    "Longitude": 8.74118568204064,
+    "Latitude": 50.1336591689204
+  },
+  {
+    "Id": "3001528",
+    "Name": "Frankfurt (Main) Gwinnerstraße Mitte",
+    "Longitude": 8.73707386074683,
+    "Latitude": 50.1387294471441
+  },
+  {
+    "Id": "3001529",
+    "Name": "Frankfurt (Main) Gelastraße",
+    "Longitude": 8.73475131761032,
+    "Latitude": 50.1413583205807
+  },
+  {
+    "Id": "3001530",
+    "Name": "Frankfurt (Main) Leonhardsgasse",
+    "Longitude": 8.73216397132762,
+    "Latitude": 50.1437617816117
+  },
+  {
+    "Id": "3001531",
+    "Name": "Frankfurt (Main) Sportanlage Harheim",
+    "Longitude": 8.69656827255745,
+    "Latitude": 50.1823952909954
+  },
+  {
+    "Id": "3001533",
+    "Name": "Frankfurt (Main) Vilbeler Landstraße",
+    "Longitude": 8.74268413292828,
+    "Latitude": 50.1516070117639
+  },
+  {
+    "Id": "3001534",
+    "Name": "Frankfurt (Main) Am Hessen-Center",
+    "Longitude": 8.75386141032512,
+    "Latitude": 50.1411126020404
+  },
+  {
+    "Id": "3001535",
+    "Name": "Frankfurt (Main) Kruppstraße",
+    "Longitude": 8.74442203437507,
+    "Latitude": 50.1379007272111
+  },
+  {
+    "Id": "3001536",
+    "Name": "Frankfurt (Main) Hessen-Center",
+    "Longitude": 8.74896880184644,
+    "Latitude": 50.1404458686989
+  },
+  {
+    "Id": "3001537",
+    "Name": "Frankfurt (Main) Enkheim",
+    "Longitude": 8.75389596935156,
+    "Latitude": 50.142560103884
+  },
+  {
+    "Id": "3001538",
+    "Name": "Frankfurt (Main) Osthafenplatz",
+    "Longitude": 8.71395595220172,
+    "Latitude": 50.1121086819568
+  },
+  {
+    "Id": "3001539",
+    "Name": "Frankfurt (Main) Schwedlerstraße",
+    "Longitude": 8.71943936733397,
+    "Latitude": 50.1139740303271
+  },
+  {
+    "Id": "3001540",
+    "Name": "Frankfurt (Main) Riederhöfe",
+    "Longitude": 8.72795084478031,
+    "Latitude": 50.1169610312723
+  },
+  {
+    "Id": "3001541",
+    "Name": "Frankfurt (Main) Daimlerstraße",
+    "Longitude": 8.74009945987921,
+    "Latitude": 50.1224279092157
+  },
+  {
+    "Id": "3001542",
+    "Name": "Frankfurt (Main) Dieselstraße",
+    "Longitude": 8.74489910573908,
+    "Latitude": 50.1244343661469
+  },
+  {
+    "Id": "3001543",
+    "Name": "Frankfurt (Main) Hugo-Junkers-Straße",
+    "Longitude": 8.75338522786066,
+    "Latitude": 50.1275812642481
+  },
+  {
+    "Id": "3001544",
+    "Name": "Frankfurt (Main) Cassellastraße",
+    "Longitude": 8.75976556859044,
+    "Latitude": 50.1297342858128
+  },
+  {
+    "Id": "3001545",
+    "Name": "Frankfurt (Main) Seckbacher Landstraße",
+    "Longitude": 8.71187849976951,
+    "Latitude": 50.1345163128845
+  },
+  {
+    "Id": "3001546",
+    "Name": "Frankfurt (Main) Alt-Fechenheim",
+    "Longitude": 8.7674924424347,
+    "Latitude": 50.1283115295279
+  },
+  {
+    "Id": "3001547",
+    "Name": "Frankfurt (Main) Arthur-von-Weinberg-Steg",
+    "Longitude": 8.769857264066,
+    "Latitude": 50.1251067035577
+  },
+  {
+    "Id": "3001548",
+    "Name": "Frankfurt (Main) Schießhüttenstraße",
+    "Longitude": 8.77352439656317,
+    "Latitude": 50.1214368738952
+  },
+  {
+    "Id": "3001550",
+    "Name": "Frankfurt (Main) Schmickstraße",
+    "Longitude": 8.71466992317175,
+    "Latitude": 50.1072287040349
+  },
+  {
+    "Id": "3001551",
+    "Name": "Frankfurt (Main) Mühlenwerke",
+    "Longitude": 8.71982374315987,
+    "Latitude": 50.1079874210947
+  },
+  {
+    "Id": "3001552",
+    "Name": "Frankfurt (Main) Hafenmühlenweg",
+    "Longitude": 8.72424756318636,
+    "Latitude": 50.1093105704325
+  },
+  {
+    "Id": "3001553",
+    "Name": "Frankfurt (Main) Staustufe Ost",
+    "Longitude": 8.72698298280761,
+    "Latitude": 50.1101171556551
+  },
+  {
+    "Id": "3001554",
+    "Name": "Frankfurt (Main) Intzestraße",
+    "Longitude": 8.73178415624153,
+    "Latitude": 50.1115308045787
+  },
+  {
+    "Id": "3001555",
+    "Name": "Frankfurt (Main) Kaiserleibrücke",
+    "Longitude": 8.73392997460019,
+    "Latitude": 50.1128213410586
+  },
+  {
+    "Id": "3001557",
+    "Name": "Frankfurt (Main) Hugo-Junkers-Straße/Schleife",
+    "Longitude": 8.7541910837026,
+    "Latitude": 50.1258748181852
+  },
+  {
+    "Id": "3001558",
+    "Name": "Frankfurt (Main) Altebornstraße",
+    "Longitude": 8.72363240857604,
+    "Latitude": 50.1409638543053
+  },
+  {
+    "Id": "3001559",
+    "Name": "Frankfurt (Main) Robert-Bosch-Straße",
+    "Longitude": 8.75454298712391,
+    "Latitude": 50.1199419822674
+  },
+  {
+    "Id": "3001560",
+    "Name": "Frankfurt (Main) Baumertstraße",
+    "Longitude": 8.76830395549953,
+    "Latitude": 50.1253283798683
+  },
+  {
+    "Id": "3001561",
+    "Name": "Frankfurt (Main) Birsteiner Straße",
+    "Longitude": 8.76391759407849,
+    "Latitude": 50.1357752384793
+  },
+  {
+    "Id": "3001562",
+    "Name": "Frankfurt (Main) Schlitzer Straße",
+    "Longitude": 8.74469113225915,
+    "Latitude": 50.1320037118291
+  },
+  {
+    "Id": "3001563",
+    "Name": "Frankfurt (Main) Langenselbolder Straße",
+    "Longitude": 8.7533031522805,
+    "Latitude": 50.1326785673214
+  },
+  {
+    "Id": "3001565",
+    "Name": "Frankfurt (Main) Löwengasse",
+    "Longitude": 8.71767955176716,
+    "Latitude": 50.1279676373075
+  },
+  {
+    "Id": "3001566",
+    "Name": "Frankfurt (Main) Jakobsbrunnenstraße",
+    "Longitude": 8.76522311485486,
+    "Latitude": 50.1262122450793
+  },
+  {
+    "Id": "3001567",
+    "Name": "Frankfurt (Main) Max-Eyth-Straße",
+    "Longitude": 8.76184802552934,
+    "Latitude": 50.1243623864675
+  },
+  {
+    "Id": "3001568",
+    "Name": "Frankfurt (Main) Bodenseestraße",
+    "Longitude": 8.76569379002386,
+    "Latitude": 50.124325237427
+  },
+  {
+    "Id": "3001569",
+    "Name": "Frankfurt (Main) Mittelseestraße",
+    "Longitude": 8.76685069559671,
+    "Latitude": 50.1222148466024
+  },
+  {
+    "Id": "3001573",
+    "Name": "Frankfurt (Main) Trieb-/Barbarossastraße",
+    "Longitude": 8.75467899296429,
+    "Latitude": 50.1453757005922
+  },
+  {
+    "Id": "3001574",
+    "Name": "Frankfurt (Main) Florianweg",
+    "Longitude": 8.75373894477881,
+    "Latitude": 50.1486371708488
+  },
+  {
+    "Id": "3001575",
+    "Name": "Frankfurt (Main) Friedhof Enkheim",
+    "Longitude": 8.7502164012481,
+    "Latitude": 50.1507154009271
+  },
+  {
+    "Id": "3001576",
+    "Name": "Frankfurt (Main) Am Rebenborn",
+    "Longitude": 8.74852952422664,
+    "Latitude": 50.1522221281345
+  },
+  {
+    "Id": "3001577",
+    "Name": "Frankfurt (Main) Panoramabad",
+    "Longitude": 8.7169047410436,
+    "Latitude": 50.1313011434658
+  },
+  {
+    "Id": "3001578",
+    "Name": "Frankfurt (Main) Marktstraße/Landgraben",
+    "Longitude": 8.74966248754214,
+    "Latitude": 50.1549845679589
+  },
+  {
+    "Id": "3001579",
+    "Name": "Frankfurt (Main) Nordring/Landgraben",
+    "Longitude": 8.74841861168404,
+    "Latitude": 50.1573732854818
+  },
+  {
+    "Id": "3001580",
+    "Name": "Frankfurt (Main) Nordring/Haingasse",
+    "Longitude": 8.7549878187748,
+    "Latitude": 50.1588976490045
+  },
+  {
+    "Id": "3001581",
+    "Name": "Frankfurt (Main) Bürgeler Straße",
+    "Longitude": 8.77063444745752,
+    "Latitude": 50.1175474191952
+  },
+  {
+    "Id": "3001582",
+    "Name": "Frankfurt (Main) Budge-Stiftung (Lohrberg)",
+    "Longitude": 8.73766114708174,
+    "Latitude": 50.1490245966075
+  },
+  {
+    "Id": "3001583",
+    "Name": "Frankfurt (Main) Michlersbrunnen",
+    "Longitude": 8.75486521210853,
+    "Latitude": 50.1554990889437
+  },
+  {
+    "Id": "3001584",
+    "Name": "Frankfurt (Main) Heimatmuseum Bergen-Enkheim",
+    "Longitude": 8.7530478017592,
+    "Latitude": 50.1551716010239
+  },
+  {
+    "Id": "3001585",
+    "Name": "Frankfurt (Main) Heinrich-Bingemer-Weg",
+    "Longitude": 8.75940236845981,
+    "Latitude": 50.154816304443
+  },
+  {
+    "Id": "3001586",
+    "Name": "Frankfurt (Main) Draisbornstraße",
+    "Longitude": 8.72889267483951,
+    "Latitude": 50.1458399448415
+  },
+  {
+    "Id": "3001588",
+    "Name": "Frankfurt (Main) Zentgrafenschule",
+    "Longitude": 8.72635749331716,
+    "Latitude": 50.1439011116134
+  },
+  {
+    "Id": "3001589",
+    "Name": "Frankfurt (Main) Riedbad",
+    "Longitude": 8.76256603983018,
+    "Latitude": 50.1517211708872
+  },
+  {
+    "Id": "3001590",
+    "Name": "Frankfurt (Main) Riedschule",
+    "Longitude": 8.7632456106002,
+    "Latitude": 50.1472634013368
+  },
+  {
+    "Id": "3001591",
+    "Name": "Frankfurt (Main) Schule Am Hang",
+    "Longitude": 8.75383245929991,
+    "Latitude": 50.1522334596346
+  },
+  {
+    "Id": "3001592",
+    "Name": "Frankfurt (Main) Leuchte",
+    "Longitude": 8.75726620766903,
+    "Latitude": 50.1427919342718
+  },
+  {
+    "Id": "3001593",
+    "Name": "Frankfurt (Main) Leuchte/Rangenbergstraße",
+    "Longitude": 8.76224333029042,
+    "Latitude": 50.1434135389641
+  },
+  {
+    "Id": "3001594",
+    "Name": "Frankfurt (Main) Barbarossastraße/Riedschule",
+    "Longitude": 8.76129113915832,
+    "Latitude": 50.1464143295626
+  },
+  {
+    "Id": "3001595",
+    "Name": "Frankfurt (Main) Am Bächelchen",
+    "Longitude": 8.7562970885768,
+    "Latitude": 50.1545940820787
+  },
+  {
+    "Id": "3001596",
+    "Name": "Frankfurt (Main) Erlenseer Straße",
+    "Longitude": 8.75926081135491,
+    "Latitude": 50.1579356174676
+  },
+  {
+    "Id": "3001597",
+    "Name": "Frankfurt (Main) Haingasse",
+    "Longitude": 8.75819207920968,
+    "Latitude": 50.1561893012082
+  },
+  {
+    "Id": "3001598",
+    "Name": "Frankfurt (Main) Siemens-Werk",
+    "Longitude": 8.75825756288708,
+    "Latitude": 50.1181157381341
+  },
+  {
+    "Id": "3001599",
+    "Name": "Frankfurt (Main) Adam-Opel-Straße",
+    "Longitude": 8.75547415636781,
+    "Latitude": 50.1238097585825
+  },
+  {
+    "Id": "3001603",
+    "Name": "Frankfurt (Main) Balduinstraße",
+    "Longitude": 8.71493974221397,
+    "Latitude": 50.0994347702989
+  },
+  {
+    "Id": "3001605",
+    "Name": "Frankfurt (Main) Bleiweißstraße",
+    "Longitude": 8.71970227248782,
+    "Latitude": 50.100039699907
+  },
+  {
+    "Id": "3001606",
+    "Name": "Frankfurt (Main) Buchrainplatz",
+    "Longitude": 8.72436832066509,
+    "Latitude": 50.1004284381269
+  },
+  {
+    "Id": "3001607",
+    "Name": "Frankfurt (Main) Flaschenburgstraße",
+    "Longitude": 8.73090951144719,
+    "Latitude": 50.1004347562463
+  },
+  {
+    "Id": "3001608",
+    "Name": "Frankfurt (Main) Wiener Straße",
+    "Longitude": 8.73672425540482,
+    "Latitude": 50.1003761327005
+  },
+  {
+    "Id": "3001701",
+    "Name": "Frankfurt (Main) Sachsenhäuser Warte",
+    "Longitude": 8.69149834831773,
+    "Latitude": 50.0867345825763
+  },
+  {
+    "Id": "3001702",
+    "Name": "Frankfurt (Main) Hainer Weg",
+    "Longitude": 8.69859745357372,
+    "Latitude": 50.0843707521599
+  },
+  {
+    "Id": "3001703",
+    "Name": "Frankfurt (Main) Karlsbader Straße",
+    "Longitude": 8.67153025291064,
+    "Latitude": 50.0868327492923
+  },
+  {
+    "Id": "3001704",
+    "Name": "Frankfurt (Main) Gablonzer Straße",
+    "Longitude": 8.67231300945824,
+    "Latitude": 50.0847402080026
+  },
+  {
+    "Id": "3001705",
+    "Name": "Frankfurt (Main) Lerchesbergring",
+    "Longitude": 8.67895955780129,
+    "Latitude": 50.0832933162525
+  },
+  {
+    "Id": "3001706",
+    "Name": "Frankfurt (Main) Lerchesberg",
+    "Longitude": 8.68107060200002,
+    "Latitude": 50.0831013357782
+  },
+  {
+    "Id": "3001707",
+    "Name": "Frankfurt (Main) Oberschweinstiege",
+    "Longitude": 8.67845796630692,
+    "Latitude": 50.0705256311356
+  },
+  {
+    "Id": "3001801",
+    "Name": "Frankfurt (Main) H.-Hoffmann-Str./Blutspendedienst",
+    "Longitude": 8.65306152486874,
+    "Latitude": 50.092146358862
+  },
+  {
+    "Id": "3001802",
+    "Name": "Frankfurt (Main) Niederräder Landstraße",
+    "Longitude": 8.65148071153876,
+    "Latitude": 50.0885185276635
+  },
+  {
+    "Id": "3001803",
+    "Name": "Frankfurt (Main) Triftstraße",
+    "Longitude": 8.65052699983233,
+    "Latitude": 50.087077211638
+  },
+  {
+    "Id": "3001804",
+    "Name": "Frankfurt (Main) DFB-Campus",
+    "Longitude": 8.65128106275243,
+    "Latitude": 50.0832855500044
+  },
+  {
+    "Id": "3001805",
+    "Name": "Frankfurt (Main) Oberforsthaus",
+    "Longitude": 8.65415050657269,
+    "Latitude": 50.0786730783766
+  },
+  {
+    "Id": "3001806",
+    "Name": "Frankfurt (Main) Stadion Straßenbahn",
+    "Longitude": 8.65323798726229,
+    "Latitude": 50.0754068621218
+  },
+  {
+    "Id": "3001807",
+    "Name": "Frankfurt (Main) Stadionbad",
+    "Longitude": 8.65298927773132,
+    "Latitude": 50.0730866073973
+  },
+  {
+    "Id": "3001808",
+    "Name": "Frankfurt (Main) Stadion Osttribüne",
+    "Longitude": 8.65167850517644,
+    "Latitude": 50.0689021690432
+  },
+  {
+    "Id": "3001809",
+    "Name": "Frankfurt (Main) Trift-/Frauenhofstraße",
+    "Longitude": 8.6491495224151,
+    "Latitude": 50.0862729241279
+  },
+  {
+    "Id": "3001810",
+    "Name": "Frankfurt (Main) Frauenhofstraße",
+    "Longitude": 8.64901754346434,
+    "Latitude": 50.0871266083654
+  },
+  {
+    "Id": "3001811",
+    "Name": "Frankfurt (Main) Schwarzwaldstraße",
+    "Longitude": 8.64663023704765,
+    "Latitude": 50.0868406789919
+  },
+  {
+    "Id": "3001812",
+    "Name": "Frankfurt (Main) Odenwaldstraße",
+    "Longitude": 8.6419939651252,
+    "Latitude": 50.086466886331
+  },
+  {
+    "Id": "3001813",
+    "Name": "Frankfurt (Main) Haardtwaldplatz",
+    "Longitude": 8.6365740168246,
+    "Latitude": 50.08626127868
+  },
+  {
+    "Id": "3001814",
+    "Name": "Frankfurt (Main) Hahnstraße",
+    "Longitude": 8.63292520493031,
+    "Latitude": 50.084676508473
+  },
+  {
+    "Id": "3001815",
+    "Name": "Frankfurt (Main) Heizkraftwerk Niederrad",
+    "Longitude": 8.62810622685486,
+    "Latitude": 50.0844813908977
+  },
+  {
+    "Id": "3001816",
+    "Name": "Frankfurt (Main) Goldsteinstraße",
+    "Longitude": 8.62085708968526,
+    "Latitude": 50.0841613009451
+  },
+  {
+    "Id": "3001817",
+    "Name": "Frankfurt (Main) Humperdinckstraße",
+    "Longitude": 8.6618112307416,
+    "Latitude": 50.087937680367
+  },
+  {
+    "Id": "3001822",
+    "Name": "Frankfurt (Main) Gerauer Straße",
+    "Longitude": 8.64472535065753,
+    "Latitude": 50.0836702745044
+  },
+  {
+    "Id": "3001824",
+    "Name": "Frankfurt (Main) Melibocusstraße",
+    "Longitude": 8.64025336464901,
+    "Latitude": 50.081921390129
+  },
+  {
+    "Id": "3001827",
+    "Name": "Frankfurt (Main) Kiesschneise",
+    "Longitude": 8.61802574171304,
+    "Latitude": 50.0764832608509
+  },
+  {
+    "Id": "3001829",
+    "Name": "Frankfurt (Main) Jugenheimer Straße",
+    "Longitude": 8.63849406190748,
+    "Latitude": 50.0836330914339
+  },
+  {
+    "Id": "3001830",
+    "Name": "Frankfurt (Main) Niederrad Bahnhof",
+    "Longitude": 8.63709041871157,
+    "Latitude": 50.0807787786968
+  },
+  {
+    "Id": "3001831",
+    "Name": "Frankfurt (Main) Bürostadt Niederrad",
+    "Longitude": 8.62821181849395,
+    "Latitude": 50.0780446354096
+  },
+  {
+    "Id": "3001832",
+    "Name": "Frankfurt (Main) Rhonestraße",
+    "Longitude": 8.62498248024266,
+    "Latitude": 50.0819091093548
+  },
+  {
+    "Id": "3001833",
+    "Name": "Frankfurt (Main) Lyoner Straße",
+    "Longitude": 8.62955779550592,
+    "Latitude": 50.0828677608881
+  },
+  {
+    "Id": "3001901",
+    "Name": "Frankfurt (Main) Waldau",
+    "Longitude": 8.61032408921062,
+    "Latitude": 50.0769971279821
+  },
+  {
+    "Id": "3001902",
+    "Name": "Frankfurt (Main) Waldfriedhof Goldstein",
+    "Longitude": 8.60321456892839,
+    "Latitude": 50.076838229085
+  },
+  {
+    "Id": "3001903",
+    "Name": "Frankfurt (Main) Harthweg",
+    "Longitude": 8.59472738489652,
+    "Latitude": 50.0810254368331
+  },
+  {
+    "Id": "3001904",
+    "Name": "Frankfurt (Main) Ferdinand-Dirichs-Weg",
+    "Longitude": 8.58716773117741,
+    "Latitude": 50.0827879231526
+  },
+  {
+    "Id": "3001905",
+    "Name": "Frankfurt (Main) Rheinlandstraße",
+    "Longitude": 8.58110654664518,
+    "Latitude": 50.0824875429835
+  },
+  {
+    "Id": "3001906",
+    "Name": "Frankfurt (Main) Waldau/Goldsteinstraße",
+    "Longitude": 8.61055971598264,
+    "Latitude": 50.0824101135891
+  },
+  {
+    "Id": "3001907",
+    "Name": "Frankfurt (Main) Schwarzbachmühle",
+    "Longitude": 8.60414633479272,
+    "Latitude": 50.0824513899
+  },
+  {
+    "Id": "3001908",
+    "Name": "Frankfurt (Main) Ruhestein",
+    "Longitude": 8.59887118580627,
+    "Latitude": 50.0867396911206
+  },
+  {
+    "Id": "3001909",
+    "Name": "Frankfurt (Main) Tannenkopfweg",
+    "Longitude": 8.60470286889952,
+    "Latitude": 50.0861393279859
+  },
+  {
+    "Id": "3001910",
+    "Name": "Frankfurt (Main) Tränkweg",
+    "Longitude": 8.60920039846565,
+    "Latitude": 50.0863523177478
+  },
+  {
+    "Id": "3001911",
+    "Name": "Frankfurt (Main) Sonnenweg",
+    "Longitude": 8.61587410851458,
+    "Latitude": 50.0870218594037
+  },
+  {
+    "Id": "3001912",
+    "Name": "Frankfurt (Main) Henriette-Fürth-Straße",
+    "Longitude": 8.59205536684136,
+    "Latitude": 50.0863833355761
+  },
+  {
+    "Id": "3001914",
+    "Name": "Frankfurt (Main) Alt-Schwanheim",
+    "Longitude": 8.58249069117463,
+    "Latitude": 50.0872124587591
+  },
+  {
+    "Id": "3001915",
+    "Name": "Frankfurt (Main) Mauritiusstraße",
+    "Longitude": 8.58012624066554,
+    "Latitude": 50.0875545682463
+  },
+  {
+    "Id": "3001916",
+    "Name": "Frankfurt (Main) Geisenheimer Straße",
+    "Longitude": 8.57583645336125,
+    "Latitude": 50.0891392807513
+  },
+  {
+    "Id": "3001917",
+    "Name": "Frankfurt (Main) Kelsterbacher Weg",
+    "Longitude": 8.56994688437332,
+    "Latitude": 50.0867531827171
+  },
+  {
+    "Id": "3001918",
+    "Name": "Frankfurt (Main) Martinskirchstraße",
+    "Longitude": 8.58885213307122,
+    "Latitude": 50.0851493650072
+  },
+  {
+    "Id": "3001919",
+    "Name": "Frankfurt (Main) Eifelstraße",
+    "Longitude": 8.57966129222818,
+    "Latitude": 50.0863931326703
+  },
+  {
+    "Id": "3001920",
+    "Name": "Frankfurt (Main) Alter Friedhof Schwanheim",
+    "Longitude": 8.57350955920519,
+    "Latitude": 50.0899578811188
+  },
+  {
+    "Id": "3001921",
+    "Name": "Frankfurt (Main) Schwanheimer Wald",
+    "Longitude": 8.57738170488602,
+    "Latitude": 50.0738882619447
+  },
+  {
+    "Id": "3001922",
+    "Name": "Frankfurt (Main) An der Kreuzheck",
+    "Longitude": 8.57472298891597,
+    "Latitude": 50.082311532597
+  },
+  {
+    "Id": "3001923",
+    "Name": "Frankfurt (Main) Rauenthaler Weg",
+    "Longitude": 8.57087810533993,
+    "Latitude": 50.084176390662
+  },
+  {
+    "Id": "3001924",
+    "Name": "Frankfurt (Main) Morgenzeile",
+    "Longitude": 8.61754110471551,
+    "Latitude": 50.084734815075
+  },
+  {
+    "Id": "3001932",
+    "Name": "Frankfurt (Main) Unfallklinik",
+    "Longitude": 8.70616458024906,
+    "Latitude": 50.1448587960667
+  },
+  {
+    "Id": "3001934",
+    "Name": "Frankfurt (Main) Atzelberg West",
+    "Longitude": 8.71945218012123,
+    "Latitude": 50.1405492932534
+  },
+  {
+    "Id": "3001935",
+    "Name": "Frankfurt (Main) Lauterbacher Straße",
+    "Longitude": 8.74871741296663,
+    "Latitude": 50.1323361208987
+  },
+  {
+    "Id": "3001936",
+    "Name": "Frankfurt (Main) Darmstädter Landstraße Mitte",
+    "Longitude": 8.69101380935884,
+    "Latitude": 50.0969193370234
+  },
+  {
+    "Id": "3001937",
+    "Name": "Frankfurt (Main) Neu-Isenburg Stadtgrenze",
+    "Longitude": 8.69509165458228,
+    "Latitude": 50.059889865468
+  },
+  {
+    "Id": "3001938",
+    "Name": "Frankfurt (Main) Hohenstaufenstraße",
+    "Longitude": 8.65765209360738,
+    "Latitude": 50.1108238592477
+  },
+  {
+    "Id": "3001945",
+    "Name": "Frankfurt (Main) Holzhausen-Park",
+    "Longitude": 8.67690482383752,
+    "Latitude": 50.1271423511193
+  },
+  {
+    "Id": "3001946",
+    "Name": "Frankfurt (Main) Festhalle/Messe Schleife",
+    "Longitude": 8.6518763794353,
+    "Latitude": 50.1130273227962
+  },
+  {
+    "Id": "3001947",
+    "Name": "Frankfurt (Main) Usinger Straße",
+    "Longitude": 8.70553475822688,
+    "Latitude": 50.1312010097382
+  },
+  {
+    "Id": "3001948",
+    "Name": "Frankfurt (Main) Elly-Beinhorn-Straße",
+    "Longitude": 8.59158083787759,
+    "Latitude": 50.0335990709664
+  },
+  {
+    "Id": "3001949",
+    "Name": "Frankfurt (Main) Kirchgasse",
+    "Longitude": 8.74688371334515,
+    "Latitude": 50.1538817535922
+  },
+  {
+    "Id": "3001951",
+    "Name": "Frankfurt (Main) Uni Campus Westend",
+    "Longitude": 8.6682553990159,
+    "Latitude": 50.1240792972425
+  },
+  {
+    "Id": "3001952",
+    "Name": "Frankfurt (Main) Ludwig-Erhard-Anlage",
+    "Longitude": 8.64988266199065,
+    "Latitude": 50.1141900782267
+  },
+  {
+    "Id": "3001953",
+    "Name": "Frankfurt (Main) Meerholzer Straße",
+    "Longitude": 8.7638698532887,
+    "Latitude": 50.1341029550899
+  },
+  {
+    "Id": "3001954",
+    "Name": "Frankfurt (Main) Adolph-Prior-Straße",
+    "Longitude": 8.57987082292745,
+    "Latitude": 50.1280100933023
+  },
+  {
+    "Id": "3001955",
+    "Name": "Frankfurt (Main) Heinrich-Hopf-Straße",
+    "Longitude": 8.58705929768536,
+    "Latitude": 50.1263636444389
+  },
+  {
+    "Id": "3001956",
+    "Name": "Frankfurt (Main) Schubertstraße",
+    "Longitude": 8.6595258130562,
+    "Latitude": 50.1186688966977
+  },
+  {
+    "Id": "3001957",
+    "Name": "Frankfurt (Main) Niedenau",
+    "Longitude": 8.66727086995038,
+    "Latitude": 50.1168123345566
+  },
+  {
+    "Id": "3001958",
+    "Name": "Frankfurt (Main) Eppsteiner Straße",
+    "Longitude": 8.66769337150964,
+    "Latitude": 50.1204186480136
+  },
+  {
+    "Id": "3001959",
+    "Name": "Frankfurt (Main) Altkönigstraße",
+    "Longitude": 8.66548112972434,
+    "Latitude": 50.1208438419616
+  },
+  {
+    "Id": "3001961",
+    "Name": "Frankfurt (Main) Siesmayerstraße",
+    "Longitude": 8.65995207099628,
+    "Latitude": 50.121663909268
+  },
+  {
+    "Id": "3001962",
+    "Name": "Frankfurt (Main) Gundelandstraße",
+    "Longitude": 8.6945784958633,
+    "Latitude": 50.1562465675101
+  },
+  {
+    "Id": "3001963",
+    "Name": "Frankfurt (Main) Lurgiallee",
+    "Longitude": 8.63591916811741,
+    "Latitude": 50.1709566478994
+  },
+  {
+    "Id": "3001964",
+    "Name": "Frankfurt (Main) Am Bonifatiusbrunnen",
+    "Longitude": 8.64122539214818,
+    "Latitude": 50.1764211953311
+  },
+  {
+    "Id": "3001966",
+    "Name": "Frankfurt (Main) Wasserpark",
+    "Longitude": 8.696252303388,
+    "Latitude": 50.1349620527478
+  },
+  {
+    "Id": "3001967",
+    "Name": "Frankfurt (Main) Heinrich-Plett-Straße",
+    "Longitude": 8.68503940687301,
+    "Latitude": 50.1683939001452
+  },
+  {
+    "Id": "3001968",
+    "Name": "Frankfurt (Main) An den drei Hohen",
+    "Longitude": 8.69523692966405,
+    "Latitude": 50.1583340256169
+  },
+  {
+    "Id": "3001969",
+    "Name": "Frankfurt (Main) Gravensteiner-Platz",
+    "Longitude": 8.69844604375508,
+    "Latitude": 50.1553846000206
+  },
+  {
+    "Id": "3001970",
+    "Name": "Frankfurt (Main) Holbein-Schule",
+    "Longitude": 8.68006884622755,
+    "Latitude": 50.0992901684114
+  },
+  {
+    "Id": "3001971",
+    "Name": "Frankfurt (Main) Achenbachstraße",
+    "Longitude": 8.67664285164751,
+    "Latitude": 50.0974646517886
+  },
+  {
+    "Id": "3001972",
+    "Name": "Frankfurt (Main) Burnitzstraße",
+    "Longitude": 8.67330463382719,
+    "Latitude": 50.0971586443282
+  },
+  {
+    "Id": "3001974",
+    "Name": "Frankfurt (Main) Kuhwaldstraße",
+    "Longitude": 8.64057919849295,
+    "Latitude": 50.1168767744581
+  },
+  {
+    "Id": "3001975",
+    "Name": "Frankfurt (Main) Dornbusch/Am Grünhof",
+    "Longitude": 8.67124918563139,
+    "Latitude": 50.1361707186625
+  },
+  {
+    "Id": "3001976",
+    "Name": "Frankfurt (Main) Hohe Straße",
+    "Longitude": 8.76138279377156,
+    "Latitude": 50.1589558788477
+  },
+  {
+    "Id": "3001977",
+    "Name": "Frankfurt (Main) Camberger Straße",
+    "Longitude": 8.65125217580582,
+    "Latitude": 50.0988477321507
+  },
+  {
+    "Id": "3001978",
+    "Name": "Frankfurt (Main) Zanderstraße",
+    "Longitude": 8.65897364835888,
+    "Latitude": 50.0999135034755
+  },
+  {
+    "Id": "3001979",
+    "Name": "Frankfurt (Main) Rebstockbad",
+    "Longitude": 8.61940724364162,
+    "Latitude": 50.1137886849807
+  },
+  {
+    "Id": "3001980",
+    "Name": "Frankfurt (Main) Industriepark Höchst Tor Süd",
+    "Longitude": 8.5445828038841,
+    "Latitude": 50.0811634806554
+  },
+  {
+    "Id": "3001981",
+    "Name": "Frankfurt (Main) Industriepark Höchst Tor H831",
+    "Longitude": 8.55261526561791,
+    "Latitude": 50.0903019057355
+  },
+  {
+    "Id": "3001982",
+    "Name": "Frankfurt (Main) IP Höchst Tor K801",
+    "Longitude": 8.55113032843219,
+    "Latitude": 50.0847041788098
+  },
+  {
+    "Id": "3001985",
+    "Name": "Frankfurt (Main) Riedberg",
+    "Longitude": 8.63553681797141,
+    "Latitude": 50.1789117844019
+  },
+  {
+    "Id": "3001986",
+    "Name": "Frankfurt (Main) Sontraer Straße",
+    "Longitude": 8.74240269843315,
+    "Latitude": 50.1284025665879
+  },
+  {
+    "Id": "3001987",
+    "Name": "Frankfurt (Main) Geleitsstraße",
+    "Longitude": 8.69481117488606,
+    "Latitude": 50.0997702999673
+  },
+  {
+    "Id": "3001988",
+    "Name": "Frankfurt (Main) Henninger-Turm",
+    "Longitude": 8.69360648652012,
+    "Latitude": 50.0979960415732
+  },
+  {
+    "Id": "3001989",
+    "Name": "Frankfurt (Main) Dielmannstraße",
+    "Longitude": 8.69911670229181,
+    "Latitude": 50.0974260512293
+  },
+  {
+    "Id": "3001991",
+    "Name": "Frankfurt (Main) Schweinfurter Weg",
+    "Longitude": 8.69625103349861,
+    "Latitude": 50.0930852705545
+  },
+  {
+    "Id": "3001992",
+    "Name": "Frankfurt (Main) Wertheimer Straße",
+    "Longitude": 8.69604091679708,
+    "Latitude": 50.0953772540154
+  },
+  {
+    "Id": "3001994",
+    "Name": "Frankfurt (Main) Zum Apothekerhof",
+    "Longitude": 8.69794944469284,
+    "Latitude": 50.1052625781135
+  },
+  {
+    "Id": "3001995",
+    "Name": "Frankfurt (Main) Zum Brommenhof",
+    "Longitude": 8.70029508962135,
+    "Latitude": 50.1057001781917
+  },
+  {
+    "Id": "3001996",
+    "Name": "Frankfurt (Main) Waldspielpark Louisa",
+    "Longitude": 8.66702648504308,
+    "Latitude": 50.0874762387824
+  },
+  {
+    "Id": "3001997",
+    "Name": "Frankfurt (Main) Nied Bahnhof/Friedhof",
+    "Longitude": 8.57122438956701,
+    "Latitude": 50.1033360937434
+  },
+  {
+    "Id": "3001998",
+    "Name": "Frankfurt (Main) Nied Bahnhof/Lotzstraße",
+    "Longitude": 8.56845361316337,
+    "Latitude": 50.1021301294703
+  },
+  {
+    "Id": "3001999",
+    "Name": "Frankfurt (Main) Seehofpark",
+    "Longitude": 8.7024393782183,
+    "Latitude": 50.0957534067557
+  },
+  {
+    "Id": "3002000",
+    "Name": "Frankfurt (Main) Am Sandberg",
+    "Longitude": 8.70033871650885,
+    "Latitude": 50.0942016803064
+  },
+  {
+    "Id": "3002096",
+    "Name": "Frankfurt (Main) Friedhof Sindlingen",
+    "Longitude": 8.51019845381886,
+    "Latitude": 50.079854939713
+  },
+  {
+    "Id": "3002097",
+    "Name": "Frankfurt (Main) Farbwerke",
+    "Longitude": 8.52678634686403,
+    "Latitude": 50.0978953849857
+  },
+  {
+    "Id": "3002099",
+    "Name": "Frankfurt (Main) Sindlingen Bahnhof",
+    "Longitude": 8.51158233625223,
+    "Latitude": 50.0880420025367
+  },
+  {
+    "Id": "3002195",
+    "Name": "Frankfurt (Main) Hans-Böckler-Straße",
+    "Longitude": 8.53445458369493,
+    "Latitude": 50.1142707712064
+  },
+  {
+    "Id": "3002197",
+    "Name": "Frankfurt (Main) Neu-Zeilsheim",
+    "Longitude": 8.49311158191316,
+    "Latitude": 50.0971241087903
+  },
+  {
+    "Id": "3002198",
+    "Name": "Frankfurt (Main) Friedhof Sossenheim",
+    "Longitude": 8.5655309202163,
+    "Latitude": 50.1254940655173
+  },
+  {
+    "Id": "3002199",
+    "Name": "Frankfurt (Main) Sossenheim Bahnhof",
+    "Longitude": 8.55331392638922,
+    "Latitude": 50.1143897013156
+  },
+  {
+    "Id": "3002298",
+    "Name": "Frankfurt (Main) Unterliederbach Bahnhof",
+    "Longitude": 8.52784608991575,
+    "Latitude": 50.1081127201978
+  },
+  {
+    "Id": "3002398",
+    "Name": "Frankfurt (Main) Nieder-Eschbach",
+    "Longitude": 8.6704108221908,
+    "Latitude": 50.1992526685332
+  },
+  {
+    "Id": "3002399",
+    "Name": "Frankfurt (Main) Niederursel",
+    "Longitude": 8.62277535213349,
+    "Latitude": 50.1691886573118
+  },
+  {
+    "Id": "3002493",
+    "Name": "Frankfurt (Main) Rathaus Nieder-Erlenbach",
+    "Longitude": 8.70895910601629,
+    "Latitude": 50.2031672446577
+  },
+  {
+    "Id": "3002494",
+    "Name": "Frankfurt (Main) Kurmarkstraße",
+    "Longitude": 8.70323990443805,
+    "Latitude": 50.2038720206968
+  },
+  {
+    "Id": "3002495",
+    "Name": "Frankfurt (Main) Berger Warte",
+    "Longitude": 8.73991167276857,
+    "Latitude": 50.1597459919617
+  },
+  {
+    "Id": "3002496",
+    "Name": "Frankfurt (Main) Niedereschbacher Straße",
+    "Longitude": 8.70709473381002,
+    "Latitude": 50.2056977919648
+  },
+  {
+    "Id": "3002497",
+    "Name": "Frankfurt (Main) Schule Nieder-Erlenbach",
+    "Longitude": 8.71248159077302,
+    "Latitude": 50.2020432366691
+  },
+  {
+    "Id": "3002499",
+    "Name": "Frankfurt (Main) Berkersheim Bahnhof",
+    "Longitude": 8.69732215847091,
+    "Latitude": 50.1760771496179
+  },
+  {
+    "Id": "3002590",
+    "Name": "Frankfurt (Main) Roter Graben",
+    "Longitude": 8.77597807019983,
+    "Latitude": 50.1380376347835
+  },
+  {
+    "Id": "3002594",
+    "Name": "Frankfurt (Main) Dieburger Straße",
+    "Longitude": 8.76362820030659,
+    "Latitude": 50.1149621871062
+  },
+  {
+    "Id": "3002595",
+    "Name": "Frankfurt (Main) Carl-Benz-Straße Süd",
+    "Longitude": 8.7611603970128,
+    "Latitude": 50.1163955957707
+  },
+  {
+    "Id": "3002599",
+    "Name": "Frankfurt (Main) Mainkur Bahnhof",
+    "Longitude": 8.76809204286552,
+    "Latitude": 50.134480040478
+  },
+  {
+    "Id": "3002799",
+    "Name": "Frankfurt (Main) Louisa Bahnhof",
+    "Longitude": 8.67092162971055,
+    "Latitude": 50.0838821975399
+  },
+  {
+    "Id": "3002899",
+    "Name": "Frankfurt (Main) Stadion",
+    "Longitude": 8.6329678681741,
+    "Latitude": 50.0680804381504
+  },
+  {
+    "Id": "3002930",
+    "Name": "Frankfurt (Main) Flughafen Regionalbahnhof",
+    "Longitude": 8.57142312355289,
+    "Latitude": 50.0512016673847
+  },
+  {
+    "Id": "3002931",
+    "Name": "Frankfurt (Main) Flughafen Tor 3",
+    "Longitude": 8.57905709328901,
+    "Latitude": 50.0532164425281
+  },
+  {
+    "Id": "3002932",
+    "Name": "Frankfurt (Main) Flughafen Terminal 1",
+    "Longitude": 8.57152197839009,
+    "Latitude": 50.0510761660625
+  },
+  {
+    "Id": "3002933",
+    "Name": "Frankfurt (Main) Flughafen Terminal 2",
+    "Longitude": 8.58809844635022,
+    "Latitude": 50.0523857514429
+  },
+  {
+    "Id": "3002934",
+    "Name": "Frankfurt (Main) Hugo-Eckener-Ring",
+    "Longitude": 8.58440595570824,
+    "Latitude": 50.0531098225524
+  },
+  {
+    "Id": "3002935",
+    "Name": "Frankfurt (Main) Flughafen Lufthansabasis",
+    "Longitude": 8.56138740907413,
+    "Latitude": 50.0492852356741
+  },
+  {
+    "Id": "3002936",
+    "Name": "Frankfurt (Main) Flughafen Tor 23",
+    "Longitude": 8.55181714492637,
+    "Latitude": 50.046947180582
+  },
+  {
+    "Id": "3002937",
+    "Name": "Frankfurt (Main) Gateway Gardens Nord",
+    "Longitude": 8.59654099524229,
+    "Latitude": 50.0579983967005
+  },
+  {
+    "Id": "3002938",
+    "Name": "Frankfurt (Main) Kreisel Unterschweinstiege",
+    "Longitude": 8.58861689187758,
+    "Latitude": 50.0570805770935
+  },
+  {
+    "Id": "3002990",
+    "Name": "Frankfurt (Main) Unterschweinstiege",
+    "Longitude": 8.58539171402758,
+    "Latitude": 50.0586334486168
+  },
+  {
+    "Id": "3007010",
+    "Name": "Frankfurt (Main) Hauptbahnhof tief",
+    "Longitude": 8.66250089531968,
+    "Latitude": 50.1071609929403
+  },
+  {
+    "Id": "3007011",
+    "Name": "Frankfurt (Main) Hauptbahnhof Südseite",
+    "Longitude": 8.66404865476946,
+    "Latitude": 50.1057180333483
+  },
+  {
+    "Id": "3007050",
+    "Name": "Frankfurt (Main) Im Fuchsloch",
+    "Longitude": 8.70376263230214,
+    "Latitude": 50.2076851747959
+  },
+  {
+    "Id": "3007051",
+    "Name": "Frankfurt (Main) Mecklenburger Straße",
+    "Longitude": 8.70561462204431,
+    "Latitude": 50.207213394129
+  },
+  {
+    "Id": "3011073",
+    "Name": "Frankfurt (Main) Zeilsheim Bahnhof",
+    "Longitude": 8.50680614148816,
+    "Latitude": 50.0905031779691
+  },
+  {
+    "Id": "3011499",
+    "Name": "Frankfurt (Main) Ginnheim Bahnhof",
+    "Longitude": 8.6432359179266,
+    "Latitude": 50.1432354499554
+  },
+  {
+    "Id": "3011500",
+    "Name": "Frankfurt (Main) Gateway Gardens",
+    "Longitude": 8.59463923430883,
+    "Latitude": 50.0566432217445
+  },
+  {
+    "Id": "3011501",
+    "Name": "Frankfurt (Main) Messe",
+    "Longitude": 8.6434307958359,
+    "Latitude": 50.111311564362
+  },
+  {
+    "Id": "3011511",
+    "Name": "Frankfurt (Main) Flughafen Fernbahnhof",
+    "Longitude": 8.56978817305214,
+    "Latitude": 50.0529127961709
+  },
+  {
+    "Id": "3016009",
+    "Name": "Frankfurt (Main) Flughafen Tor 26",
+    "Longitude": 8.53248641865805,
+    "Latitude": 50.0405777303366
+  },
+  {
+    "Id": "3016011",
+    "Name": "Frankfurt (Main) Flughafen Parkhaus P53",
+    "Longitude": 8.54553464644875,
+    "Latitude": 50.0454483558082
+  },
+  {
+    "Id": "3017538",
+    "Name": "Frankfurt (Main) Flughafen Tor 31",
+    "Longitude": 8.55713078713678,
+    "Latitude": 50.023250770949
+  },
+  {
+    "Id": "3060683",
+    "Name": "Frankfurt (Main) Deutschherrnbrücke",
+    "Longitude": 8.70430956757866,
+    "Latitude": 50.1052699241336
+  },
+  {
+    "Id": "3060712",
+    "Name": "Frankfurt (Main) Annette-Kolb-Weg",
+    "Longitude": 8.62853955042682,
+    "Latitude": 50.1785660109455
+  },
+  {
+    "Id": "3060715",
+    "Name": "Frankfurt (Main) Silostraße Mitte",
+    "Longitude": 8.52492601273324,
+    "Latitude": 50.0994611087422
+  },
+  {
+    "Id": "3060716",
+    "Name": "Frankfurt (Main) Victor-Slotosch-Straße",
+    "Longitude": 8.74671241577781,
+    "Latitude": 50.1439022248095
+  },
+  {
+    "Id": "3060718",
+    "Name": "Frankfurt (Main) Niersteiner Straße",
+    "Longitude": 8.6835376874545,
+    "Latitude": 50.0925119631922
+  },
+  {
+    "Id": "3060719",
+    "Name": "Frankfurt (Main) Tucholskystraße",
+    "Longitude": 8.68587482050722,
+    "Latitude": 50.09199685838
+  },
+  {
+    "Id": "3060720",
+    "Name": "Frankfurt (Main) Großer Hasenpfad Mitte",
+    "Longitude": 8.686234667771,
+    "Latitude": 50.0946769463992
+  },
+  {
+    "Id": "3060721",
+    "Name": "Frankfurt (Main) Großer Hasenpfad Süd",
+    "Longitude": 8.6846644153666,
+    "Latitude": 50.091175463906
+  },
+  {
+    "Id": "3060722",
+    "Name": "Frankfurt (Main) Brigitte-Frauendorf-Straße",
+    "Longitude": 8.63249280060062,
+    "Latitude": 50.1230098579756
+  },
+  {
+    "Id": "3060723",
+    "Name": "Frankfurt (Main) Valentina-Archipowa-Straße",
+    "Longitude": 8.62749878308007,
+    "Latitude": 50.1214476428504
+  },
+  {
+    "Id": "3060724",
+    "Name": "Frankfurt (Main) Stresemann-/Kennedyallee",
+    "Longitude": 8.67199471777949,
+    "Latitude": 50.0986473514256
+  },
+  {
+    "Id": "3060754",
+    "Name": "Frankfurt (Main) Flughafen Geb. 681",
+    "Longitude": 8.59072244409634,
+    "Latitude": 50.0294874217821
+  },
+  {
+    "Id": "3060758",
+    "Name": "Frankfurt (Main) Wöhlerstraße",
+    "Longitude": 8.66578677134051,
+    "Latitude": 50.1171047602476
+  },
+  {
+    "Id": "3060759",
+    "Name": "Frankfurt (Main) Siedlung Taunusblick",
+    "Longitude": 8.497823253717,
+    "Latitude": 50.1009744485303
+  },
+  {
+    "Id": "3060760",
+    "Name": "Frankfurt (Main) Pferdskopfweg",
+    "Longitude": 8.50282993681138,
+    "Latitude": 50.1006992864894
+  },
+  {
+    "Id": "3060761",
+    "Name": "Frankfurt (Main) Bechtenwaldstraße",
+    "Longitude": 8.50387504767858,
+    "Latitude": 50.0996518803294
+  },
+  {
+    "Id": "3060762",
+    "Name": "Frankfurt (Main) Märchensiedlung",
+    "Longitude": 8.50407051456774,
+    "Latitude": 50.094249510898
+  },
+  {
+    "Id": "3060763",
+    "Name": "Frankfurt (Main) Dubliner Straße",
+    "Longitude": 8.64532431202387,
+    "Latitude": 50.1085753098927
+  },
+  {
+    "Id": "3060764",
+    "Name": "Frankfurt (Main) Den Haager Straße",
+    "Longitude": 8.65077451454188,
+    "Latitude": 50.1088165579884
+  },
+  {
+    "Id": "3060765",
+    "Name": "Frankfurt (Main) Uni Campus Riedberg",
+    "Longitude": 8.62833937207145,
+    "Latitude": 50.1754907215268
+  },
+  {
+    "Id": "3060766",
+    "Name": "Frankfurt (Main) Weserstraße",
+    "Longitude": 8.66882840390631,
+    "Latitude": 50.1099122305304
+  },
+  {
+    "Id": "3060767",
+    "Name": "Frankfurt (Main) Hauptbahnhof/Karlstraße",
+    "Longitude": 8.66365044138029,
+    "Latitude": 50.1086926743841
+  },
+  {
+    "Id": "3060768",
+    "Name": "Frankfurt (Main) Francois-Mitterrand-Platz",
+    "Longitude": 8.66427823723467,
+    "Latitude": 50.1108791315074
+  },
+  {
+    "Id": "3060769",
+    "Name": "Frankfurt (Main) Paul-Apel-Straße",
+    "Longitude": 8.62411349959677,
+    "Latitude": 50.1841976428295
+  },
+  {
+    "Id": "3060772",
+    "Name": "Frankfurt (Main) Alkmenestraße",
+    "Longitude": 8.69985390510985,
+    "Latitude": 50.1517741665878
+  },
+  {
+    "Id": "3060773",
+    "Name": "Frankfurt (Main) Walter-Kolb-Siedlung",
+    "Longitude": 8.70318721444701,
+    "Latitude": 50.1467212116386
+  },
+  {
+    "Id": "3060774",
+    "Name": "Frankfurt (Main) Bodenweg",
+    "Longitude": 8.70160641068384,
+    "Latitude": 50.1421950769557
+  },
+  {
+    "Id": "3060775",
+    "Name": "Frankfurt (Main) Börneplatz/Stoltzestraße",
+    "Longitude": 8.6888719550588,
+    "Latitude": 50.1126017149131
+  },
+  {
+    "Id": "3060776",
+    "Name": "Frankfurt (Main) Xaver-Fendt-Straße",
+    "Longitude": 8.65058100035871,
+    "Latitude": 50.1912295364382
+  },
+  {
+    "Id": "3060777",
+    "Name": "Frankfurt (Main) Wilhelm-Fay-Straße Nord",
+    "Longitude": 8.57634107133396,
+    "Latitude": 50.1318091710076
+  },
+  {
+    "Id": "3060778",
+    "Name": "Frankfurt (Main) Käthe-Kruse-Straße",
+    "Longitude": 8.63771150030211,
+    "Latitude": 50.1782892610548
+  },
+  {
+    "Id": "3060779",
+    "Name": "Frankfurt (Main) Buchrainstraße",
+    "Longitude": 8.72458209708025,
+    "Latitude": 50.0972643546794
+  },
+  {
+    "Id": "3060780",
+    "Name": "Frankfurt (Main) Mathildenstraße",
+    "Longitude": 8.72190127471281,
+    "Latitude": 50.0968174536506
+  },
+  {
+    "Id": "3060781",
+    "Name": "Frankfurt (Main) Hansenweg",
+    "Longitude": 8.71866258138196,
+    "Latitude": 50.0961803465969
+  },
+  {
+    "Id": "3060782",
+    "Name": "Frankfurt (Main) Goldbergweg",
+    "Longitude": 8.71616122379345,
+    "Latitude": 50.0961293205618
+  },
+  {
+    "Id": "3060783",
+    "Name": "Frankfurt (Main) Georg-Treser-Straße",
+    "Longitude": 8.71472197792018,
+    "Latitude": 50.0984453022637
+  },
+  {
+    "Id": "3060784",
+    "Name": "Frankfurt (Main) Melanchthonplatz",
+    "Longitude": 8.72761297986968,
+    "Latitude": 50.0976041298565
+  },
+  {
+    "Id": "3060785",
+    "Name": "Frankfurt (Main) Schafheckstraße",
+    "Longitude": 8.73072761146387,
+    "Latitude": 50.0979709906019
+  },
+  {
+    "Id": "3060786",
+    "Name": "Frankfurt (Main) Grazer Weg",
+    "Longitude": 8.73310175207217,
+    "Latitude": 50.0983001106926
+  },
+  {
+    "Id": "3060787",
+    "Name": "Frankfurt (Main) Waldfriedhof Oberrad",
+    "Longitude": 8.73210689693015,
+    "Latitude": 50.0937307450669
+  },
+  {
+    "Id": "3060788",
+    "Name": "Frankfurt (Main) Burgenlandweg",
+    "Longitude": 8.72525512019461,
+    "Latitude": 50.0944339960711
+  },
+  {
+    "Id": "3060789",
+    "Name": "Frankfurt (Main) Flughafen Tor 25",
+    "Longitude": 8.53546214510541,
+    "Latitude": 50.0417853903567
+  },
+  {
+    "Id": "3060790",
+    "Name": "Frankfurt (Main) Wiesenhüttenstift",
+    "Longitude": 8.6976564515927,
+    "Latitude": 50.1563355156696
+  },
+  {
+    "Id": "3060791",
+    "Name": "Frankfurt (Main) Lohrberg",
+    "Longitude": 8.72739320318225,
+    "Latitude": 50.1536849156873
+  },
+  {
+    "Id": "3060792",
+    "Name": "Frankfurt (Main) Peterskirche",
+    "Longitude": 8.68370620208916,
+    "Latitude": 50.1179100394766
+  },
+  {
+    "Id": "3060793",
+    "Name": "Frankfurt (Main) Unterweg",
+    "Longitude": 8.68441090011205,
+    "Latitude": 50.1191885736672
+  },
+  {
+    "Id": "3060794",
+    "Name": "Frankfurt (Main) Brüningstraße",
+    "Longitude": 8.54188847395254,
+    "Latitude": 50.0970838098322
+  },
+  {
+    "Id": "3060795",
+    "Name": "Frankfurt (Main) Lokalbahnhof/Darmst. Ldstr.",
+    "Longitude": 8.69085402327945,
+    "Latitude": 50.1022142080403
+  },
+  {
+    "Id": "3060796",
+    "Name": "Frankfurt (Main) Lokalbahnhof/Hedderichstraße",
+    "Longitude": 8.69070350840952,
+    "Latitude": 50.1017103505797
+  },
+  {
+    "Id": "3060797",
+    "Name": "Frankfurt (Main) Thea-Rasche-Straße",
+    "Longitude": 8.5905174637178,
+    "Latitude": 50.0552712263844
+  },
+  {
+    "Id": "3060798",
+    "Name": "Frankfurt (Main) Gateway Gardens Mitte",
+    "Longitude": 8.59669173027994,
+    "Latitude": 50.0550051172924
+  },
+  {
+    "Id": "3060799",
+    "Name": "Frankfurt (Main) Rangenbergstraße/Riedschule",
+    "Longitude": 8.75961975364591,
+    "Latitude": 50.1505194265337
+  },
+  {
+    "Id": "3060800",
+    "Name": "Frankfurt (Main) Südfriedhof Ost",
+    "Longitude": 8.69641875440028,
+    "Latitude": 50.0908650978263
+  },
+  {
+    "Id": "3060801",
+    "Name": "Frankfurt (Main) Kirschbaumweg",
+    "Longitude": 8.60523981988996,
+    "Latitude": 50.1262919173884
+  },
+  {
+    "Id": "3060802",
+    "Name": "Frankfurt (Main) Ginnheimer Waldgasse",
+    "Longitude": 8.64759973170509,
+    "Latitude": 50.1414506981581
+  },
+  {
+    "Id": "3060804",
+    "Name": "Frankfurt (Main) Schnappbornweg",
+    "Longitude": 8.70582096315693,
+    "Latitude": 50.0935503868646
+  },
+  {
+    "Id": "3060805",
+    "Name": "Frankfurt (Main) Flughafen Tor 2",
+    "Longitude": 8.59354122192061,
+    "Latitude": 50.0527195731205
+  },
+  {
+    "Id": "3060806",
+    "Name": "Frankfurt (Main) Flughafen Tor 33",
+    "Longitude": 8.59503895812692,
+    "Latitude": 50.0373242179339
+  },
+  {
+    "Id": "3060807",
+    "Name": "Frankfurt (Main) Europaviertel West",
+    "Longitude": 8.62385934262242,
+    "Latitude": 50.1076358161186
+  },
+  {
+    "Id": "3060808",
+    "Name": "Frankfurt (Main) Maastrichter Ring",
+    "Longitude": 8.62843812459383,
+    "Latitude": 50.1084596617447
+  },
+  {
+    "Id": "3060809",
+    "Name": "Frankfurt (Main) Römischer Ring",
+    "Longitude": 8.63314644277808,
+    "Latitude": 50.1088162390672
+  },
+  {
+    "Id": "3060810",
+    "Name": "Frankfurt (Main) Europagarten/Messe West",
+    "Longitude": 8.63672977931222,
+    "Latitude": 50.1082071542387
+  },
+  {
+    "Id": "3060811",
+    "Name": "Frankfurt (Main) Stephensonstraße",
+    "Longitude": 8.64278065861458,
+    "Latitude": 50.1084956036494
+  },
+  {
+    "Id": "3060812",
+    "Name": "Frankfurt (Main) Karl-Ritscher-Anlage",
+    "Longitude": 8.64667401336939,
+    "Latitude": 50.1931326490643
+  },
+  {
+    "Id": "3060813",
+    "Name": "Frankfurt (Main) Josef-Bautz-Straße",
+    "Longitude": 8.64172637006831,
+    "Latitude": 50.1955718415576
+  },
+  {
+    "Id": "3060814",
+    "Name": "Frankfurt (Main) Im Niederfeld",
+    "Longitude": 8.68401410468039,
+    "Latitude": 50.1838182999004
+  },
+  {
+    "Id": "3060815",
+    "Name": "Frankfurt (Main) Nordring/Vilbeler Landstr.",
+    "Longitude": 8.74557885380931,
+    "Latitude": 50.157196301192
+  },
+  {
+    "Id": "3060816",
+    "Name": "Frankfurt (Main) Behördenzentrum Gutleut",
+    "Longitude": 8.6607014191357,
+    "Latitude": 50.1046384715772
+  },
+  {
+    "Id": "3060817",
+    "Name": "Frankfurt (Main) Flughafen Tor 32",
+    "Longitude": 8.58698573452256,
+    "Latitude": 50.025806102856
+  },
+  {
+    "Id": "3060818",
+    "Name": "Frankfurt (Main) Ludwig-Fulda-Weg",
+    "Longitude": 8.63111105507875,
+    "Latitude": 50.1773245530662
+  },
+  {
+    "Id": "3060819",
+    "Name": "Frankfurt (Main) Lucy-Hillebrand-Straße",
+    "Longitude": 8.62382460935136,
+    "Latitude": 50.1746131534279
+  },
+  {
+    "Id": "3060820",
+    "Name": "Frankfurt (Main) Hans-Poelzig-Straße",
+    "Longitude": 8.61724644199457,
+    "Latitude": 50.1762189285162
+  },
+  {
+    "Id": "3060821",
+    "Name": "Frankfurt (Main) Ernst-Balser-Straße",
+    "Longitude": 8.61685584291491,
+    "Latitude": 50.1777999194995
+  },
+  {
+    "Id": "3060822",
+    "Name": "Frankfurt (Main) Hans-Leistikow-Straße",
+    "Longitude": 8.61955272849291,
+    "Latitude": 50.1802001628385
+  },
+  {
+    "Id": "3060823",
+    "Name": "Frankfurt (Main) Platz der Einheit",
+    "Longitude": 8.6533744927622,
+    "Latitude": 50.1107842209629
+  },
+  {
+    "Id": "3060824",
+    "Name": "Frankfurt (Main) Osthafenbrücke",
+    "Longitude": 8.71118748006102,
+    "Latitude": 50.1051793146993
+  },
+  {
+    "Id": "3060825",
+    "Name": "Frankfurt (Main) Gymnasium Westhausen",
+    "Longitude": 8.60978093661403,
+    "Latitude": 50.1405478385085
+  },
+  {
+    "Id": "3060826",
+    "Name": "Frankfurt (Main) Eissporthalle Nordeingang",
+    "Longitude": 8.71853652624864,
+    "Latitude": 50.1249130213009
+  },
+  {
+    "Id": "3060827",
+    "Name": "Frankfurt (Main) Eschborner Landstraße West",
+    "Longitude": 8.59148792072035,
+    "Latitude": 50.1301821756472
+  },
+  {
+    "Id": "3060828",
+    "Name": "Frankfurt (Main) Graf-Vollrath-Weg",
+    "Longitude": 8.5952590420774,
+    "Latitude": 50.1291165255661
+  },
+  {
+    "Id": "3060829",
+    "Name": "Frankfurt (Main) Südbahnhof/Bruchstraße",
+    "Longitude": 8.68774589993956,
+    "Latitude": 50.1008483706606
+  },
+  {
+    "Id": "3060831",
+    "Name": "Frankfurt (Main) An der Wildhube",
+    "Longitude": 8.58703862020949,
+    "Latitude": 50.0864375492296
+  },
+  {
+    "Id": "3060832",
+    "Name": "Frankfurt (Main) Gustavsburgplatz",
+    "Longitude": 8.6305395380939,
+    "Latitude": 50.1005908380401
+  },
+  {
+    "Id": "3060833",
+    "Name": "Frankfurt (Main) Bornheim Sportcenter",
+    "Longitude": 8.71674353740072,
+    "Latitude": 50.1325503975519
+  },
+  {
+    "Id": "3060834",
+    "Name": "Frankfurt (Main) Buchwaldstraße",
+    "Longitude": 8.7169812830668,
+    "Latitude": 50.1301775467511
+  },
+  {
+    "Id": "3060835",
+    "Name": "Frankfurt (Main) Karmeliterkloster",
+    "Longitude": 8.67817947927795,
+    "Latitude": 50.1101182794062
+  },
+  {
+    "Id": "3060836",
+    "Name": "Frankfurt (Main) Vogelstraße",
+    "Longitude": 8.65012574048944,
+    "Latitude": 50.0769169113727
+  },
+  {
+    "Id": "3060837",
+    "Name": "Frankfurt (Main) Waldfriedstraße",
+    "Longitude": 8.64679715802548,
+    "Latitude": 50.0774193003431
+  },
+  {
+    "Id": "3060838",
+    "Name": "Frankfurt (Main) Gundhofstraße",
+    "Longitude": 8.64735755279647,
+    "Latitude": 50.0791111876396
+  },
+  {
+    "Id": "3060839",
+    "Name": "Frankfurt (Main) Güntherstraße",
+    "Longitude": 8.64567747074261,
+    "Latitude": 50.0814975147876
+  },
+  {
+    "Id": "3060840",
+    "Name": "Frankfurt (Main) Lyoner-/Hahnstraße",
+    "Longitude": 8.63420901622312,
+    "Latitude": 50.0793762463414
+  },
+  {
+    "Id": "3060841",
+    "Name": "Frankfurt (Main) Saonestraße",
+    "Longitude": 8.63351530451715,
+    "Latitude": 50.0824128016018
+  },
+  {
+    "Id": "3060842",
+    "Name": "Frankfurt (Main) Schwanheimer Straße",
+    "Longitude": 8.6380276166322,
+    "Latitude": 50.088063880508
+  },
+  {
+    "Id": "3060843",
+    "Name": "Frankfurt (Main) Im Mainfeld",
+    "Longitude": 8.64076488425238,
+    "Latitude": 50.0901401456477
+  },
+  {
+    "Id": "3060844",
+    "Name": "Frankfurt (Main) Kelsterbacher Straße",
+    "Longitude": 8.64348223780361,
+    "Latitude": 50.0892764443227
+  },
+  {
+    "Id": "3060845",
+    "Name": "Frankfurt (Main) Bruchfeldplatz",
+    "Longitude": 8.64424096642651,
+    "Latitude": 50.0868244047484
+  },
+  {
+    "Id": "3060847",
+    "Name": "Frankfurt (Main) Schielestraße West",
+    "Longitude": 8.73492781820447,
+    "Latitude": 50.1169501586414
+  },
+  {
+    "Id": "3060848",
+    "Name": "Frankfurt (Main) Schielestraße Ost",
+    "Longitude": 8.74035444419025,
+    "Latitude": 50.1192279402672
+  },
+  {
+    "Id": "3060849",
+    "Name": "Frankfurt (Main) Weismüllerstraße Ost",
+    "Longitude": 8.7408763795581,
+    "Latitude": 50.1209732168766
+  },
+  {
+    "Id": "3060850",
+    "Name": "Frankfurt (Main) Weismüllerstraße West",
+    "Longitude": 8.73327315487542,
+    "Latitude": 50.1178184359979
+  },
+  {
+    "Id": "3060851",
+    "Name": "Frankfurt (Main) Eichenstraße",
+    "Longitude": 8.60253202341767,
+    "Latitude": 50.0952121751074
+  },
+  {
+    "Id": "3060852",
+    "Name": "Frankfurt (Main) Bethmannpark",
+    "Longitude": 8.6918316645921,
+    "Latitude": 50.1176171833687
+  },
+  {
+    "Id": "3060853",
+    "Name": "Frankfurt (Main) Seilerstraße",
+    "Longitude": 8.68935991346765,
+    "Latitude": 50.1171431158629
+  },
+  {
+    "Id": "3060854",
+    "Name": "Frankfurt (Main) Freßgass/Hauptwache",
+    "Longitude": 8.67654523839714,
+    "Latitude": 50.1140694783732
+  },
+  {
+    "Id": "3060855",
+    "Name": "Frankfurt (Main) Roter Weg",
+    "Longitude": 8.51973283351573,
+    "Latitude": 50.0694389043577
+  },
+  {
+    "Id": "3060856",
+    "Name": "Frankfurt (Main) Am Felsenkeller",
+    "Longitude": 8.69662208350406,
+    "Latitude": 50.0985163919136
+  },
+  {
+    "Id": "3060857",
+    "Name": "Frankfurt (Main) Höllbergstraße",
+    "Longitude": 8.65722461304522,
+    "Latitude": 50.1531487916548
+  },
+  {
+    "Id": "3060858",
+    "Name": "Frankfurt (Main) Haeberlinstraße",
+    "Longitude": 8.65709598707957,
+    "Latitude": 50.1515661307021
+  },
+  {
+    "Id": "3060859",
+    "Name": "Frankfurt (Main) Am Schwalbenschwanz",
+    "Longitude": 8.6565708162992,
+    "Latitude": 50.1486966946665
+  },
+  {
+    "Id": "3060860",
+    "Name": "Frankfurt (Main) Höhenblick",
+    "Longitude": 8.65526761843376,
+    "Latitude": 50.1470296455
+  },
+  {
+    "Id": "3060861",
+    "Name": "Frankfurt (Main) Am Mühlgarten",
+    "Longitude": 8.6504723624735,
+    "Latitude": 50.1446239329186
+  },
+  {
+    "Id": "3060862",
+    "Name": "Frankfurt (Main) Füllerstraße",
+    "Longitude": 8.64837013583857,
+    "Latitude": 50.1432241093981
+  },
+  {
+    "Id": "3060863",
+    "Name": "Frankfurt (Main) Hospitalplatz",
+    "Longitude": 8.54737949018766,
+    "Latitude": 50.1091343852835
+  },
+  {
+    "Id": "3060864",
+    "Name": "Frankfurt (Main) Mockstädter Straße",
+    "Longitude": 8.51768956348614,
+    "Latitude": 50.0740155432663
+  },
+  {
+    "Id": "3060865",
+    "Name": "Frankfurt (Main) Hauptbahnhof/Fernbusterminal",
+    "Longitude": 8.66211003408163,
+    "Latitude": 50.1050920871841
+  },
+  {
+    "Id": "3060866",
+    "Name": "Frankfurt (Main) Voltenseestraße",
+    "Longitude": 8.74951427954629,
+    "Latitude": 50.1458321969324
+  },
+  {
+    "Id": "3060867",
+    "Name": "Frankfurt (Main) Flughafen Tor 20",
+    "Longitude": 8.56551609795689,
+    "Latitude": 50.049741272023
+  },
+  {
+    "Id": "3060868",
+    "Name": "Frankfurt (Main) Flughafen Geb. 544",
+    "Longitude": 8.56329400269527,
+    "Latitude": 50.0222312009053
+  },
+  {
+    "Id": "3060869",
+    "Name": "Frankfurt (Main) Mohnblumenstraße",
+    "Longitude": 8.67260843486749,
+    "Latitude": 50.1727647981741
+  },
+  {
+    "Id": "3060870",
+    "Name": "Frankfurt (Main) Flughafen P36",
+    "Longitude": 8.57774765708138,
+    "Latitude": 50.0528610676346
+  },
+  {
+    "Id": "3062002",
+    "Name": "Frankfurt (Main) Bruchfeld-/Melibocusstraße",
+    "Longitude": 8.63829068209345,
+    "Latitude": 50.0865273504179
+  },
+  {
+    "Id": "3062003",
+    "Name": "Frankfurt (Main) Paul-Hindemith-Anlage",
+    "Longitude": 8.6823487785083,
+    "Latitude": 50.1265549919501
+  },
+  {
+    "Id": "3062989",
+    "Name": "Frankfurt (Main) Flughafen Geb. 587",
+    "Longitude": 8.5838540212447,
+    "Latitude": 50.0248509351671
+  },
+  {
+    "Id": "3062990",
+    "Name": "Frankfurt (Main) Flughafen Geb. 556",
+    "Longitude": 8.57657184761543,
+    "Latitude": 50.0229905810296
+  },
+  {
+    "Id": "3062991",
+    "Name": "Frankfurt (Main) Flughafen Geb. 555",
+    "Longitude": 8.57177028671662,
+    "Latitude": 50.0231258261658
+  },
+  {
+    "Id": "3062993",
+    "Name": "Frankfurt (Main) Flughafen Geb. 543",
+    "Longitude": 8.5656285955752,
+    "Latitude": 50.026411520543
+  },
+  {
+    "Id": "3062994",
+    "Name": "Frankfurt (Main) Flughafen Geb. 536",
+    "Longitude": 8.5621932855882,
+    "Latitude": 50.0266593534245
+  },
+  {
+    "Id": "3062995",
+    "Name": "Frankfurt (Main) Flughafen Geb. 534",
+    "Longitude": 8.56000708798897,
+    "Latitude": 50.0261296511014
+  },
+  {
+    "Id": "3062996",
+    "Name": "Frankfurt (Main) Flughafen Geb. 532",
+    "Longitude": 8.55550087826259,
+    "Latitude": 50.0259776466995
+  },
+  {
+    "Id": "3062999",
+    "Name": "Frankfurt (Main) Flughafen Tor 31 intern",
+    "Longitude": 8.55863429620111,
+    "Latitude": 50.0236430803572
+  },
+  {
+    "Id": "3065051",
+    "Name": "Frankfurt (Main) Bremer Straße",
+    "Longitude": 8.67150674467146,
+    "Latitude": 50.1271362265223
+  },
+  {
+    "Id": "3065052",
+    "Name": "Frankfurt (Main) Freßgass",
+    "Longitude": 8.67240480999853,
+    "Latitude": 50.1143725539356
+  }
+]
