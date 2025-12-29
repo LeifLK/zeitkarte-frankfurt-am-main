@@ -1,6 +1,5 @@
 using Scalar.AspNetCore;
 using RmvApiBackend.Settings;
-using RmvApiBackend.Services;
 using System;
 using backend.Data;
 using Microsoft.EntityFrameworkCore;
@@ -30,11 +29,6 @@ builder.Services.AddHttpClient("RMV", client =>
     client.BaseAddress = new Uri("https://www.rmv.de/hapi/");
     // You can set other defaults here, like headers
 });
-
-// Register our custom service.
-// We tell the app: "When a class asks for IRmvService, give it an RmvService."
-// AddScoped means a new RmvService is created for each web request.
-builder.Services.AddScoped<IRmvService, RmvService>();
 
 var app = builder.Build();
 
