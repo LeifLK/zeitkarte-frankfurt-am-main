@@ -508,6 +508,8 @@ node_modules/
 *.zip
 *.txt
 *.csv
+# Ignore LibreOffice lock files
+.~lock.*#
 /Data/GTFS/
 
 # Secrets (Database passwords)

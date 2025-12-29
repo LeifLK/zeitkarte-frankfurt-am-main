@@ -109,9 +109,17 @@ await using (var writer = await dbConn.BeginBinaryImportAsync(
         await writer.WriteAsync(duration);
     }
     await writer.CompleteAsync();
-    Console.WriteLine("Data saved to Database!");
 }
 
+string updateSql = @"
+    UPDATE arrival_times a
+    SET dest_geom = s.geom
+    FROM stops s
+    WHERE a.dest_stop_id = s.stop_name;
+";
+
+await using var updateCmd = new NpgsqlCommand(updateSql, dbConn);
+await updateCmd.ExecuteNonQueryAsync();
 
 
 
