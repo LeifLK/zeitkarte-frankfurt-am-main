@@ -109,13 +109,17 @@ await using (var writer = await dbConn.BeginBinaryImportAsync(
         await writer.WriteAsync(duration);
     }
     await writer.CompleteAsync();
-    Console.WriteLine("Data saved to Database!");
 }
 
+string updateSql = @"
+    UPDATE arrival_times a
+    SET dest_geom = s.geom
+    FROM stops s
+    WHERE a.dest_stop_id = s.stop_name;
+";
 
-
-
-
+await using var updateCmd = new NpgsqlCommand(updateSql, dbConn);
+await updateCmd.ExecuteNonQueryAsync();
 
 
 
@@ -180,11 +184,8 @@ int GetStationId(string stationName)
         return StationToId[stationName];
     }
 
-    // 2. No, this is a new station.
-    // The new ID is simply the next available index (count of the list)
-    int newId = IdToStation.Count; // If list has 0 items, new ID is 0.
+    int newId = IdToStation.Count;
 
-    // 3. Save it in both places
     StationToId.Add(stationName, newId);
     IdToStation.Add(stationName);
 
@@ -193,7 +194,6 @@ int GetStationId(string stationName)
 
 int ParseGtfsTime(string timeString)
 {
-    // Handle cases where data might be null or empty
     if (string.IsNullOrEmpty(timeString)) return 0;
 
     // Split "08:15:30" into ["08", "15", "30"]
@@ -215,56 +215,13 @@ int GetTripId(string rawTripId)
 }
 public struct Connection
 {
-    // The index of the station in your stations array (0 to N-1)
     public int DepStationIdx;
 
-    // The index of the station in your stations array
     public int ArrStationIdx;
 
-    // Time in "Seconds since midnight" (or Unix timestamp)
     public int DepTime;
 
-    // Time in "Seconds since midnight"
     public int ArrTime;
 
-    // A unique integer ID for the specific physical vehicle run
     public int TripId;
 }
-
-
-// // ---------------------------------------------------------
-// // SCENARIO 1: S8 (Offenbach -> Frankfurt Hbf -> Flughafen)
-// // This is a direct train. The algorithm should prefer this if starting at Offenbach.
-// // ---------------------------------------------------------
-// rawConnections.Add(("Offenbach Marktplatz", "Frankfurt Hbf", Time(8, 00), Time(8, 15), 1));
-// rawConnections.Add(("Frankfurt Hbf", "Frankfurt Flughafen", Time(8, 16), Time(8, 30), 1));
-// // Note: It stops at Hbf for 1 minute (8:15 arr, 8:16 dep)
-
-// // ---------------------------------------------------------
-// // SCENARIO 2: ICE (Frankfurt Hbf -> Flughafen)
-// // Leaves later than the S8, but arrives faster. 
-// // If you start at Hbf at 08:10, you should wait for this ICE instead of the S8 
-// // (assuming the S8 is slow or crowded, though in this data S8 arrives 8:30, ICE 8:32. 
-// // Let's make the ICE faster to test "overtaking").
-// // ---------------------------------------------------------
-// rawConnections.Add(("Frankfurt Hbf", "Frankfurt Flughafen", Time(8, 20), Time(8, 28), 2));
-// // Result: ICE arrives 8:28, S8 arrives 8:30. 
-// // If you are at Hbf, taking the ICE saves 2 minutes.
-
-// // ---------------------------------------------------------
-// // SCENARIO 3: S1 (Frankfurt Hbf -> Höchst -> Wiesbaden)
-// // A different branch entirely.
-// // ---------------------------------------------------------
-// rawConnections.Add(("Frankfurt Hbf", "Frankfurt Höchst", Time(8, 05), Time(8, 15), 3));
-// rawConnections.Add(("Frankfurt Höchst", "Wiesbaden Hbf", Time(8, 16), Time(8, 40), 3));
-
-// // ---------------------------------------------------------
-// // SCENARIO 4: The Transfer (Höchst -> Hofheim)
-// // You arrive at Höchst at 8:15 via S1. 
-// // There is a bus leaving at 8:16. 
-// // Can you catch it? (If transfer buffer is 3 mins, NO. If 0 mins, YES).
-// // ---------------------------------------------------------
-// rawConnections.Add(("Frankfurt Höchst", "Hofheim", Time(8, 16), Time(8, 30), 4));
-
-// // Another bus leaves later, which you CAN catch with a 3 min transfer
-// rawConnections.Add(("Frankfurt Höchst", "Hofheim", Time(8, 25), Time(8, 40), 5));
