@@ -1,7 +1,3 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using backend.Queries;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
@@ -17,17 +13,11 @@ public class IsochronesController : ControllerBase
     {
         _mediator = mediator;
     }
-    //     [HttpGet]
-    // public IActionResult GetIsochrones()
-    // {
 
-    //     return Ok(new { Message = "Hello from .NET API!" });
-    // }
-
-    [HttpGet("raw")]
-    public async Task<IActionResult> GetRawData()
+    [HttpGet()]
+    public async Task<IActionResult> GetIsochronesGeoJson()
     {
-        var result = await _mediator.Send(new GetAllRawQuery());
+        var result = await _mediator.Send(new GetIsochronesQuery());
         return Ok(result);
     }
 }
