@@ -20,4 +20,11 @@ public class IsochronesController : ControllerBase
         var result = await _mediator.Send(new GetIsochronesQuery());
         return Ok(result);
     }
+
+    [HttpGet("Blob")]
+    public async Task<IActionResult> GetBlob()
+    {
+        var result = await _mediator.Send(new GetBlobQuery());
+        return Ok(result);
+    }
 }
