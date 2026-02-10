@@ -1,10 +1,10 @@
 import { Component, effect, inject } from '@angular/core';
-import { MapComponent, GeoJSONSourceComponent, FeatureComponent, LayerComponent } from '@maplibre/ngx-maplibre-gl';
+import { MapComponent, GeoJSONSourceComponent, LayerComponent } from '@maplibre/ngx-maplibre-gl';
 import { MapService } from './map.service';
 
 @Component({
     selector: 'app-map-view',
-    imports: [MapComponent, GeoJSONSourceComponent, FeatureComponent, LayerComponent,],
+    imports: [MapComponent, GeoJSONSourceComponent, LayerComponent],
     templateUrl: './map-view.html',
     styleUrl: './map-view.scss',
 })

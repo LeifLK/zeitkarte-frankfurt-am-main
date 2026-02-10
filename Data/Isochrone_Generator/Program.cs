@@ -1,5 +1,6 @@
 ﻿using Npgsql;
 
+// not used???
 var rawConnections = new List<(string from, string to, int dep, int arr, int tripId)>();
 
 Dictionary<string, int> StationToId = new Dictionary<string, int>();
@@ -83,58 +84,70 @@ tempConnList.Sort((a, b) => a.DepTime.CompareTo(b.DepTime));
 
 var connections = tempConnList.ToArray();
 
-Dictionary<int, int> earliestArrival = csa(connections, startStation, Time(7, 50), TripToId.Count);
-PrintArrivalTimes(earliestArrival);
+//Dictionary<int, int> earliestArrival = new Dictionary<int, int>();
 
-// Imort earliestArrval results in to the database arrival_times
 await using var dbConn = await dataSource.OpenConnectionAsync();
 
-// For now just delete everything in db and reload the data to it
+// clear table
 await using var truncateCommand = new NpgsqlCommand("TRUNCATE arrival_times", dbConn);
 await truncateCommand.ExecuteNonQueryAsync();
 
-await using (var writer = await dbConn.BeginBinaryImportAsync(
-    "COPY arrival_times (origin_stop_id, dest_stop_id, duration_seconds) FROM STDIN (FORMAT BINARY)"))
+// could use Parallel.ForEach to make ist super fast with lock for db access
+for (int i = 0; i < IdToStation.Count; i++)
 {
-    foreach (var kvp in earliestArrival)
+    Dictionary<int, int> earliestArrival = csa(connections, IdToStation[i], Time(7, 50), TripToId.Count);
+    //PrintArrivalTimes(earliestArrival);
+
+    // Import earliestArrval results in to the database arrival_times
+    await using (var writer = await dbConn.BeginBinaryImportAsync(
+        "COPY arrival_times (origin_stop_id, dest_stop_id, duration_seconds) FROM STDIN (FORMAT BINARY)"))
     {
-        string Arrivalstation = IdToStation[kvp.Key];
-        int arrivalTime = kvp.Value;
+        foreach (var kvp in earliestArrival)
+        {
+            string Arrivalstation = IdToStation[kvp.Key];
+            int arrivalTime = kvp.Value;
 
-        int duration = arrivalTime - Time(7, 50);
+            int duration = arrivalTime - Time(7, 50);
 
-        await writer.StartRowAsync();
-        await writer.WriteAsync(startStation);
-        await writer.WriteAsync(Arrivalstation);
-        await writer.WriteAsync(duration);
+            await writer.StartRowAsync();
+            await writer.WriteAsync(IdToStation[i]);
+            await writer.WriteAsync(Arrivalstation);
+            await writer.WriteAsync(duration);
+        }
+        await writer.CompleteAsync();
     }
-    await writer.CompleteAsync();
+
+    int progress = i * 100 / StationToId.Count;
+
+    Console.Write($"\rProgress: {progress}% ({i}/{StationToId.Count})");
 }
 
+// fill dest_geom column in arrival_times from table stops
 string updateSql = @"
     UPDATE arrival_times a
     SET dest_geom = s.geom
     FROM stops s
     WHERE a.dest_stop_id = s.stop_name;
-";
+    ";
 
 await using var updateCmd = new NpgsqlCommand(updateSql, dbConn);
+updateCmd.CommandTimeout = 0;
 await updateCmd.ExecuteNonQueryAsync();
 
 
+// -----------------------------------------------------------------------------------------------------------------
 
 
 Dictionary<int, int> csa(Connection[] connections, string startStation, int startTime, int maxTrips)
 {
     int transferTime = 180;
     Dictionary<int, int> earliestArrival = new Dictionary<int, int>();
-    earliestArrival.Add(StationToId["F Bockenheimer Warte"], startTime);
+    earliestArrival.Add(StationToId[startStation], startTime);
 
     bool[] tripReachable = new bool[maxTrips + 1];
 
     foreach (Connection conn in connections)
     {
-        Console.WriteLine("Doing something...");
         if (conn.DepTime < startTime) continue;
         if (conn.DepTime > startTime + 86400) break;
 
