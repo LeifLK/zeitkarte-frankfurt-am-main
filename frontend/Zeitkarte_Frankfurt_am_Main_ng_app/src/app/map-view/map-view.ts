@@ -10,14 +10,14 @@ import { MapService } from './map.service';
 })
 export class MapView {
     mapService = inject(MapService);
-    geometry = this.mapService.geoJson;
-    multiPolygon = this.mapService.blobJson;
+    // geometry = this.mapService.geoJson;
+    isochrones = this.mapService.Isochrones;
 
 
     constructor() {
         effect(() => {
-            console.log("Data arrived:", this.geometry());
-            console.log("multiPolygon", this.multiPolygon());
+            // console.log("Data arrived:", this.geometry());
+            console.log("multiPolygon", this.isochrones());
         });
     }
 }
