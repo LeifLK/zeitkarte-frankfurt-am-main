@@ -16,6 +16,6 @@ export class MapService {
     // private blobJson$ = this.http.get<string>('http://localhost:5003/api/Isochrones/Blob');
     // blobJson = toSignal(this.blobJson$);
 
-    private Isochrones$ = this.http.get<string>('http://localhost:5003/api/Isochrones/F%20Bockenheimer%20Warte/2500');
+    private Isochrones$ = this.http.get<string>('http://localhost:5003/api/Isochrones/F%20Bockenheimer%20Warte/1800');
     Isochrones = toSignal(this.Isochrones$);
 }
