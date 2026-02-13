@@ -1,46 +1,46 @@
-@if (geometry(); as geoData) {
-  @if (multiPolygon(); as blobPolygon) {
-    <mgl-map
-      [mapStyle]="'https://tiles.openfreemap.org/styles/positron'"
-      [zoom]="[11.5]"
-      [center]="[8.653928, 50.11995]"
-      [canvasContextAttributes]="{ preserveDrawingBuffer: true }"
+<!-- @if (geometry(); as geoData) { -->
+@if (isochrones(); as multiPolygon) {
+  <mgl-map
+    [mapStyle]="'https://tiles.openfreemap.org/styles/positron'"
+    [zoom]="[11.5]"
+    [center]="[8.653928, 50.11995]"
+    [canvasContextAttributes]="{ preserveDrawingBuffer: true }"
+  >
+    <!-- <mgl-geojson-source #mySource id="pointSource" [data]="geoData"></mgl-geojson-source>
+    <mgl-layer
+      id="pointLayer"
+      type="circle"
+      source="pointSource"
+      [paint]="{
+        'circle-radius': 2,
+        'circle-color': '#008B8B',
+        'circle-opacity': 0.3,
+      }"
     >
-      <mgl-geojson-source #mySource id="pointSource" [data]="geoData"></mgl-geojson-source>
-      <mgl-layer
-        id="pointLayer"
-        type="circle"
-        source="pointSource"
-        [paint]="{
-          'circle-radius': 2,
-          'circle-color': '#008B8B',
-          'circle-opacity': 0.3,
-        }"
-      >
-      </mgl-layer>
-      <mgl-geojson-source id="polygonSource" [data]="blobPolygon"> </mgl-geojson-source>
+    </mgl-layer> -->
+    <mgl-geojson-source id="polygonSource" [data]="multiPolygon"> </mgl-geojson-source>
 
-      <mgl-layer
-        id="polygonFill"
-        type="fill"
-        source="polygonSource"
-        [paint]="{
-          'fill-color': '#00E5FF',
-          'fill-opacity': 0.3,
-        }"
-      >
-      </mgl-layer>
+    <mgl-layer
+      id="polygonFill"
+      type="fill"
+      source="polygonSource"
+      [paint]="{
+        'fill-color': '#00E5FF',
+        'fill-opacity': 0.3,
+      }"
+    >
+    </mgl-layer>
 
-      <mgl-layer
-        id="polygonOutline"
-        type="line"
-        source="polygonSource"
-        [paint]="{
-          'line-color': '#008B8B',
-          'line-width': 1,
-        }"
-      >
-      </mgl-layer>
-    </mgl-map>
-  }
+    <mgl-layer
+      id="polygonOutline"
+      type="line"
+      source="polygonSource"
+      [paint]="{
+        'line-color': '#008B8B',
+        'line-width': 1,
+      }"
+    >
+    </mgl-layer>
+  </mgl-map>
 }
+<!-- } -->

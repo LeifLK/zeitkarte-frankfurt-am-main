@@ -10,9 +10,12 @@ import { toSignal } from '@angular/core/rxjs-interop';
 export class MapService {
     private http = inject(HttpClient);
 
-    private geoJson$ = this.http.get<IsochroneGeoJson>('http://localhost:5003/api/Isochrones');
-    geoJson = toSignal(this.geoJson$);
+    // private geoJson$ = this.http.get<IsochroneGeoJson>('http://localhost:5003/api/Isochrones');
+    // geoJson = toSignal(this.geoJson$);
 
-    private blobJson$ = this.http.get<string>('http://localhost:5003/api/Isochrones/Blob');
-    blobJson = toSignal(this.blobJson$);
+    // private blobJson$ = this.http.get<string>('http://localhost:5003/api/Isochrones/Blob');
+    // blobJson = toSignal(this.blobJson$);
+
+    private Isochrones$ = this.http.get<string>('http://localhost:5003/api/Isochrones/F%20Bockenheimer%20Warte/1800');
+    Isochrones = toSignal(this.Isochrones$);
 }

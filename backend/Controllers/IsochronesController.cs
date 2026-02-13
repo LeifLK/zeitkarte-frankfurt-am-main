@@ -27,4 +27,11 @@ public class IsochronesController : ControllerBase
         var result = await _mediator.Send(new GetBlobQuery());
         return Ok(result);
     }
+
+    [HttpGet("{station}/{duration:int}")]
+    public async Task<IActionResult> GetIsochronesByStationAndTime(string station, int duration)
+    {
+        var result = await _mediator.Send(new GetIsochronesByStationAndTimeQuery(station, duration));
+        return Ok(result);
+    }
 }
