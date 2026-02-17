@@ -20,10 +20,9 @@ export class MapService {
     // private Isochrones$ = this.http.get<string>('http://localhost:5003/api/Isochrones/F%20Bockenheimer%20Warte/2000');
     // Isochrones = toSignal(this.Isochrones$);
 
-    getIsochrones(stationId: string, duration: number): Observable<IsochroneGeoJson> {
-        const encodedStation = encodeURIComponent(stationId);
+    getIsochrones(stationId: number, duration: number): Observable<IsochroneGeoJson> {
     
-        const url = `http://localhost:5003/api/Isochrones/${encodedStation}/${duration}`;
+        const url = `http://localhost:5003/api/Isochrones/${stationId}/${duration}`;
         console.log(url);
     
         return this.http.get<IsochroneGeoJson>(url);

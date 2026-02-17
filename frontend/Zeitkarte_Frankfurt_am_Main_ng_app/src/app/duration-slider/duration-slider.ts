@@ -1,4 +1,4 @@
-import { Component, output, signal } from '@angular/core';
+import { Component, model, output, signal } from '@angular/core';
 
 @Component({
   selector: 'app-duration-slider',
@@ -7,10 +7,10 @@ import { Component, output, signal } from '@angular/core';
   styleUrl: './duration-slider.scss',
 })
 export class DurationSlider {
-  duration = signal(0);
+  duration = model(15);
 
-  durationChanged = output<number>();
   back = output<void>();
+  durationChanged = output<number>();
 
   onSlide(event: Event) {
     const val = parseInt((event.target as HTMLInputElement).value, 10);

@@ -1,12 +1,10 @@
-<!-- @if (geometry(); as geoData) { -->
-@if (currentIsochrone(); as isochrone) {
-  <mgl-map
-    [mapStyle]="'https://tiles.openfreemap.org/styles/positron'"
-    [zoom]="[11.5]"
-    [center]="[8.653928, 50.11995]"
-    [canvasContextAttributes]="{ preserveDrawingBuffer: true }"
-  >
-    <!-- <mgl-geojson-source #mySource id="pointSource" [data]="geoData"></mgl-geojson-source>
+<mgl-map
+  [mapStyle]="'https://tiles.openfreemap.org/styles/positron'"
+  [zoom]="[11.5]"
+  [center]="[8.653928, 50.11995]"
+  [canvasContextAttributes]="{ preserveDrawingBuffer: true }"
+>
+  <!-- <mgl-geojson-source #mySource id="pointSource" [data]="geoData"></mgl-geojson-source>
     <mgl-layer
       id="pointLayer"
       type="circle"
@@ -18,6 +16,7 @@
       }"
     >
     </mgl-layer> -->
+  @if (currentIsochrone(); as isochrone) {
     <mgl-geojson-source id="polygonSource" [data]="isochrone"> </mgl-geojson-source>
 
     <mgl-layer
@@ -41,6 +40,5 @@
       }"
     >
     </mgl-layer>
-  </mgl-map>
-}
-<!-- } -->
+  }
+</mgl-map>
