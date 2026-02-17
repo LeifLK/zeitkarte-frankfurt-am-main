@@ -1,0 +1,128 @@
+:host {
+  /* --- 1. Positioning --- */
+  position: absolute;
+  top: 24px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 10;
+
+  /* --- 2. Container Styling (The Pill) --- */
+  background-color: white;
+  border-radius: 9999px;
+  padding: 8px 16px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+  
+  /* --- 3. Layout --- */
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: 320px;
+  pointer-events: auto;
+}
+
+/* --- Back Button --- */
+.icon-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #6b7280;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  padding: 8px;
+  margin-left: -8px;
+  border-radius: 50%;
+  transition: background-color 0.2s ease, color 0.2s ease;
+
+  &:hover {
+    background-color: #f3f4f6;
+    color: #111;
+  }
+
+  svg {
+    width: 20px;
+    height: 20px;
+    display: block;
+  }
+}
+
+.slider-wrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.label-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2px;
+  font-size: 0.85rem;
+  line-height: 1;
+}
+
+.sub-text {
+  color: #9ca3af;
+  font-weight: 500;
+}
+
+.value-text {
+  font-weight: 600;
+  color: #000;
+}
+
+/* --- Range Input Customization --- */
+input[type=range] {
+  -webkit-appearance: none; 
+  appearance: none;
+  width: 100%;
+  background: transparent;
+  cursor: pointer;
+  margin-top: 4px;
+  height: 4px;
+}
+
+/* Chrome/Safari Track */
+input[type=range]::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 6px;
+  background: #e5e7eb;
+  border-radius: 4px;
+}
+
+/* Chrome/Safari Thumb */
+input[type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  height: 16px;
+  width: 16px;
+  border-radius: 50%;
+  background: #000;
+  margin-top: -5px; /* Centers thumb vertically */
+  box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+  transition: transform 0.1s;
+}
+
+input[type=range]:active::-webkit-slider-thumb {
+  transform: scale(1.1);
+}
+
+/* Firefox Track */
+input[type=range]::-moz-range-track {
+  width: 100%;
+  height: 6px;
+  background: #e5e7eb;
+  border-radius: 4px;
+}
+
+/* Firefox Thumb */
+input[type=range]::-moz-range-thumb {
+  height: 16px;
+  width: 16px;
+  border: none;
+  border-radius: 50%;
+  background: #000;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+}

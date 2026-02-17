@@ -1,0 +1,43 @@
+import { Component, inject, output, signal } from '@angular/core';
+import { Station } from '../models/station.model';
+import { StationSearch } from "../station-search/station-search";
+import { DurationSlider } from '../duration-slider/duration-slider';
+import { MapService } from '../map-view/map.service';
+import { IsochroneGeoJson } from '../models/geo-data.model';
+
+@Component({
+  selector: 'app-map-overlay',
+  imports: [StationSearch, DurationSlider],
+  templateUrl: './map-overlay.html',
+  styleUrl: './map-overlay.scss',
+})
+export class MapOverlay {
+  mapService = inject(MapService);
+  
+  selectedStation = signal<Station | null>(null);
+  selectedDuration = signal<number | null>(null);
+  mapDataLoaded = output<IsochroneGeoJson>();
+
+  onStationSelect(station: Station) {
+    this.selectedStation.set(station);
+  }
+
+  onBack() {
+    this.selectedStation.set(null);
+  }
+
+  onDurationChange(duration: number) {
+    const durationSeconds = duration * 60;
+    this.selectedDuration.set(durationSeconds);
+    const currentStation = this.selectedStation();
+  
+
+    if (currentStation){
+      this.mapService.getIsochrones(currentStation.id, durationSeconds)
+        .subscribe(geoJson => {
+          this.mapDataLoaded.emit(geoJson);
+        });
+
+    }
+  }
+}

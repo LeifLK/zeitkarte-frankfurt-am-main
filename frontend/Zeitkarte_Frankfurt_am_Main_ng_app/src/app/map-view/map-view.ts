@@ -1,6 +1,6 @@
-import { Component, effect, inject } from '@angular/core';
+import { Component, effect, inject, signal } from '@angular/core';
 import { MapComponent, GeoJSONSourceComponent, LayerComponent } from '@maplibre/ngx-maplibre-gl';
-import { MapService } from './map.service';
+import { IsochroneGeoJson } from '../models/geo-data.model';
 
 @Component({
     selector: 'app-map-view',
@@ -9,15 +9,21 @@ import { MapService } from './map.service';
     styleUrl: './map-view.scss',
 })
 export class MapView {
-    mapService = inject(MapService);
-    // geometry = this.mapService.geoJson;
-    isochrones = this.mapService.Isochrones;
+    currentIsochrone = signal<IsochroneGeoJson | null>(null);
+
+    updateMap(data: IsochroneGeoJson) {
+    this.currentIsochrone.set(data);
+  }
+
+    // mapService = inject(MapService);
+    // // geometry = this.mapService.geoJson;
+    // // isochrones = this.mapService.Isochrones;
 
 
-    constructor() {
-        effect(() => {
-            // console.log("Data arrived:", this.geometry());
-            console.log("multiPolygon", this.isochrones());
-        });
-    }
+    // constructor() {
+    //     effect(() => {
+    //         // console.log("Data arrived:", this.geometry());
+    //         console.log("multiPolygon", this.isochrones());
+    //     });
+    // }
 }

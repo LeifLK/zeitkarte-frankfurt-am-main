@@ -1,5 +1,5 @@
 <!-- @if (geometry(); as geoData) { -->
-@if (isochrones(); as multiPolygon) {
+@if (currentIsochrone(); as isochrone) {
   <mgl-map
     [mapStyle]="'https://tiles.openfreemap.org/styles/positron'"
     [zoom]="[11.5]"
@@ -18,7 +18,7 @@
       }"
     >
     </mgl-layer> -->
-    <mgl-geojson-source id="polygonSource" [data]="multiPolygon"> </mgl-geojson-source>
+    <mgl-geojson-source id="polygonSource" [data]="isochrone"> </mgl-geojson-source>
 
     <mgl-layer
       id="polygonFill"

@@ -1,0 +1,86 @@
+:host {
+  /* Float it above the normal document flow */
+  position: absolute;
+  
+  /* Push to top center */
+  top: 24px;
+  left: 50%;
+  
+  /* 3. Pull it back exactly by half its own width to center it perfectly */
+  transform: translateX(-50%);
+  
+  /* 4. Ensure it sits on top of the MapLibre layers */
+  z-index: 10; 
+
+  /* Styling to make it look like a nice floating pill */
+  background-color: white;
+  border-radius: 9999px; /* Pill shape */
+  padding: 8px 16px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+  display: flex;
+  align-items: center;
+}
+
+input {
+  border: none;
+  outline: none;
+  background: transparent;
+  font-size: 16px;
+  width: 250px;
+  color: #333;
+
+  &::placeholder {
+    color: #999;
+  }
+}
+
+/* Container for the list - positions it relative to the pill */
+.results-dropdown {
+  position: absolute;
+  top: 100%;             /* Push it directly below the pill */
+  left: 0;
+  width: 100%;           /* Match width of the pill */
+  margin-top: 4px;      /* Gap between pill and list */
+  
+  background-color: white;
+  border-radius: 16px;   /* Soft rounded corners, but not a pill */
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 
+              0 4px 6px -2px rgba(0, 0, 0, 0.05); /* Floating shadow */
+  
+  list-style: none;
+  padding: 8px 0;        /* Internal spacing */
+  max-height: 300px;     /* Scrollable if too many results */
+  overflow-y: auto;      /* Enable scroll */
+  z-index: 10;           /* Ensure it sits above the map */
+}
+
+.result-item {
+  padding: 10px 20px;
+  font-size: 15px;
+  color: #4b5563;        /* Dark grey text */
+  cursor: pointer;
+  transition: background-color 0.15s ease;
+  border-bottom: 1px solid #f3f4f6; /* Very subtle separator */
+
+  &:last-child {
+    border-bottom: none; /* Remove line from last item */
+  }
+
+  &:hover {
+    background-color: #f0f9ff; /* Light blue highlight */
+    color: #1d4ed8;            /* Dark blue text on hover */
+  }
+}
+
+.results-dropdown {
+  /* Hide scrollbar for Firefox */
+  scrollbar-width: none; 
+  
+  /* Keep scrolling functional */
+  overflow-y: auto; 
+}
+
+/* Hide scrollbar for Chrome, Safari, Edge, and Brave */
+.results-dropdown::-webkit-scrollbar {
+  display: none;
+}

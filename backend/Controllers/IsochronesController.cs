@@ -34,4 +34,11 @@ public class IsochronesController : ControllerBase
         var result = await _mediator.Send(new GetIsochronesByStationAndTimeQuery(station, duration));
         return Ok(result);
     }
+
+    [HttpGet("search")]
+    public async Task<IActionResult> SearchStations([FromQuery] string q)
+    {
+        var result = await _mediator.Send(new SearchStationsQuery(q));
+        return Ok(result);
+    }
 }
