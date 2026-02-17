@@ -11,7 +11,7 @@ import { IsochroneGeoJson } from '../models/geo-data.model';
 export class MapView {
     currentIsochrone = signal<IsochroneGeoJson | null>(null);
 
-    updateMap(data: IsochroneGeoJson) {
+    updateMap(data: IsochroneGeoJson | null) {
     this.currentIsochrone.set(data);
   }
 

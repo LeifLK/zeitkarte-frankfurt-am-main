@@ -16,7 +16,7 @@ export class MapOverlay {
   
   selectedStation = signal<Station | null>(null);
   selectedDuration = signal<number>(15);
-  mapDataLoaded = output<IsochroneGeoJson>();
+  mapDataLoaded = output<IsochroneGeoJson | null>();
 
   onStationSelect(station: Station) {
     this.selectedStation.set(station);
@@ -27,6 +27,8 @@ export class MapOverlay {
 
   onBack() {
     this.selectedStation.set(null);
+    this.selectedDuration.set(15);
+    this.mapDataLoaded.emit(null);
   }
 
   onDurationChange(duration: number) {
