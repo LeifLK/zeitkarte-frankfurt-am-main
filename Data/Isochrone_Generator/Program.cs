@@ -3,23 +3,24 @@
 // not used???
 var rawConnections = new List<(string from, string to, int dep, int arr, int tripId)>();
 
-Dictionary<string, int> StationToId = new Dictionary<string, int>();
+// StationId from gtfs datat to internal id of script
+Dictionary<int, int> GtfsStationIdToId = new Dictionary<int, int>();
 
-List<string> IdToStation = new List<string>();
+// Converts script id to gtfs id
+List<int> IdToGtfsStationId = new List<int>();
 
 List<Connection> tempConnList = new List<Connection>();
 
+// Is this used other then for passing the number of trips to csa?
 Dictionary<string, int> TripToId = new Dictionary<string, int>();
-
-string startStation = "F Bockenheimer Warte";
 
 var connectionString = "Host=localhost;Username=leif;Password=;Database=zeitkarte_ffm";
 await using var dataSource = NpgsqlDataSource.Create(connectionString);
 
 string sql = @"
     SELECT 
-        S1.stop_name as departure_station, 
-        S2.stop_name as arrival_station, 
+        A.stop_id as departure_station_id, 
+        B.stop_id as arrival_station_id, 
         A.departure_time, 
         B.arrival_time, 
         A.trip_id
@@ -46,7 +47,7 @@ string sql = @"
             ST_SetSRID(ST_MakePoint(8.682, 50.110), 4326)::geography, 
             15000
         )
-    ORDER BY A.departure_time ASC;
+    ORDER BY A.departure_time ASC
 ";
 
 await using var command = dataSource.CreateCommand(sql);
@@ -57,8 +58,8 @@ await using var reader = await command.ExecuteReaderAsync();
 
 while (await reader.ReadAsync())
 {
-    string fromStop = reader.GetString(0);
-    string toStop = reader.GetString(1);
+    int fromStop = int.Parse(reader.GetString(0));
+    int toStop = int.Parse(reader.GetString(1));
     string depString = reader.GetString(2);
     string arrString = reader.GetString(3);
     int depSeconds = ParseGtfsTime(depString);
@@ -92,10 +93,10 @@ await using var dbConn = await dataSource.OpenConnectionAsync();
 await using var truncateCommand = new NpgsqlCommand("TRUNCATE arrival_times", dbConn);
 await truncateCommand.ExecuteNonQueryAsync();
 
-// could use Parallel.ForEach to make ist super fast with lock for db access
-for (int i = 0; i < IdToStation.Count; i++)
+// could use Parallel.ForEach to make ist super fast with lock for db access of different threads
+for (int i = 0; i < IdToGtfsStationId.Count; i++)
 {
-    Dictionary<int, int> earliestArrival = csa(connections, IdToStation[i], Time(7, 50), TripToId.Count);
+    Dictionary<int, int> earliestArrival = csa(connections, IdToGtfsStationId[i], Time(7, 50), TripToId.Count);
     //PrintArrivalTimes(earliestArrival);
 
     // Import earliestArrval results in to the database arrival_times
@@ -104,22 +105,22 @@ for (int i = 0; i < IdToStation.Count; i++)
     {
         foreach (var kvp in earliestArrival)
         {
-            string Arrivalstation = IdToStation[kvp.Key];
+            int ArrivalstationGtfsId = IdToGtfsStationId[kvp.Key];
             int arrivalTime = kvp.Value;
 
             int duration = arrivalTime - Time(7, 50);
 
             await writer.StartRowAsync();
-            await writer.WriteAsync(IdToStation[i]);
-            await writer.WriteAsync(Arrivalstation);
+            await writer.WriteAsync(IdToGtfsStationId[i]);
+            await writer.WriteAsync(ArrivalstationGtfsId);
             await writer.WriteAsync(duration);
         }
         await writer.CompleteAsync();
     }
 
-    int progress = i * 100 / StationToId.Count;
+    int progress = i * 100 / GtfsStationIdToId.Count;
 
-    Console.Write($"\rProgress: {progress}% ({i}/{StationToId.Count})");
+    Console.Write($"\rProgress: {progress}% ({i}/{GtfsStationIdToId.Count})");
 }
 
 // fill dest_geom column in arrival_times from table stops
@@ -127,7 +128,7 @@ string updateSql = @"
     UPDATE arrival_times a
     SET dest_geom = s.geom
     FROM stops s
-    WHERE a.dest_stop_id = s.stop_name;
+    WHERE a.dest_stop_id = s.stop_id::integer;
     ";
 
 await using var updateCmd = new NpgsqlCommand(updateSql, dbConn);
@@ -138,11 +139,11 @@ await updateCmd.ExecuteNonQueryAsync();
 // -----------------------------------------------------------------------------------------------------------------
 
 
-Dictionary<int, int> csa(Connection[] connections, string startStation, int startTime, int maxTrips)
+Dictionary<int, int> csa(Connection[] connections, int startStation, int startTime, int maxTrips)
 {
     int transferTime = 180;
     Dictionary<int, int> earliestArrival = new Dictionary<int, int>();
-    earliestArrival.Add(StationToId[startStation], startTime);
+    earliestArrival.Add(GtfsStationIdToId[startStation], startTime);
 
     bool[] tripReachable = new bool[maxTrips + 1];
 
@@ -184,23 +185,23 @@ void PrintArrivalTimes(Dictionary<int, int> results)
 {
     foreach (var arr in results)
     {
-        string name = IdToStation[arr.Key];
+        int name = IdToGtfsStationId[arr.Key];
         TimeSpan t = TimeSpan.FromSeconds(arr.Value);
         Console.WriteLine($"{name}: {t.Hours:D2}:{t.Minutes:D2}:{t.Seconds:D2}");
     }
 }
 
-int GetStationId(string stationName)
+int GetStationId(int stationGtfsId)
 {
-    if (StationToId.ContainsKey(stationName))
+    if (GtfsStationIdToId.ContainsKey(stationGtfsId))
     {
-        return StationToId[stationName];
+        return GtfsStationIdToId[stationGtfsId];
     }
 
-    int newId = IdToStation.Count;
+    int newId = IdToGtfsStationId.Count;
 
-    StationToId.Add(stationName, newId);
-    IdToStation.Add(stationName);
+    GtfsStationIdToId.Add(stationGtfsId, newId);
+    IdToGtfsStationId.Add(stationGtfsId);
 
     return newId;
 }
