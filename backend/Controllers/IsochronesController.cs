@@ -28,10 +28,17 @@ public class IsochronesController : ControllerBase
         return Ok(result);
     }
 
-    [HttpGet("{station}/{duration:int}")]
-    public async Task<IActionResult> GetIsochronesByStationAndTime(string station, int duration)
+    [HttpGet("{station:int}/{duration:int}")]
+    public async Task<IActionResult> GetIsochronesByStationAndTime(int station, int duration)
     {
         var result = await _mediator.Send(new GetIsochronesByStationAndTimeQuery(station, duration));
+        return Ok(result);
+    }
+
+    [HttpGet("search")]
+    public async Task<IActionResult> SearchStations([FromQuery] string q)
+    {
+        var result = await _mediator.Send(new SearchStationsQuery(q));
         return Ok(result);
     }
 }

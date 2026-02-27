@@ -1,16 +1,12 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Text.Json;
-using System.Threading.Tasks;
 using MediatR;
 using Npgsql;
 
 namespace backend.Queries;
 
-public class GetIsochronesByStationAndTimeQuery(string station, int duration) : IRequest<JsonDocument>
+public class GetIsochronesByStationAndTimeQuery(int station, int duration) : IRequest<JsonDocument>
 {
-    public string Station { get; } = station;
+    public int Station { get; } = station;
     public int Duration { get; } = duration;
 }
 
@@ -46,14 +42,14 @@ public class GetIsochronesByStationAndTimeHandler : IRequestHandler<GetIsochrone
             )            
         )
         FROM arrival_times a
-		WHERE origin_stop_id = @station
+		WHERE origin_stop_id = @stationId
 		AND duration_seconds < @duration
         ";
 
         await using var conn = await _dataSource.OpenConnectionAsync(cancellationToken);
         await using var cmd = new NpgsqlCommand(sql, conn);
 
-        cmd.Parameters.AddWithValue("station", request.Station);
+        cmd.Parameters.AddWithValue("stationId", request.Station);
         cmd.Parameters.AddWithValue("duration", request.Duration);
 
         var jsonString = await cmd.ExecuteScalarAsync(cancellationToken) as string;

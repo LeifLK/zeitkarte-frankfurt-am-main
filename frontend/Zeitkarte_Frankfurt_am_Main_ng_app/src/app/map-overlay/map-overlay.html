@@ -1,0 +1,9 @@
+@if (!selectedStation()) {
+  <app-station-search (selectedStation)="onStationSelect($event)"></app-station-search>
+} @else {
+  <app-duration-slider
+    (back)="onBack()"
+    (durationChanged)="onDurationChange($event)"
+    [(duration)]="selectedDuration"
+  ></app-duration-slider>
+}

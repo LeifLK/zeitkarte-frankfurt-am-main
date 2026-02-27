@@ -1,0 +1,21 @@
+<div>
+  <input
+    type="text"
+    [value]="searchTerm()"
+    (input)="onType($event)"
+    (focus)="showDropdown.set(true)"
+    (blur)="onBlur()"
+    placeholder="Woher?"
+    class="search-input"
+  />
+
+  @if (searchResults().length > 0 && showDropdown()) {
+    <ul class="results-dropdown">
+      @for (station of searchResults(); track station.id) {
+        <li class="result-item" (click)="selectStation(station)">
+          {{ station.displayName }}
+        </li>
+      }
+    </ul>
+  }
+</div>
