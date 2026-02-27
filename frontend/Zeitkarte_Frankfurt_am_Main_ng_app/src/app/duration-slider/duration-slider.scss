@@ -1,26 +1,22 @@
 :host {
-  /* --- 1. Positioning --- */
   position: absolute;
   top: 24px;
   left: 50%;
   transform: translateX(-50%);
   z-index: 10;
 
-  /* --- 2. Container Styling (The Pill) --- */
   background-color: white;
   border-radius: 9999px;
-  padding: 8px 16px;
+  padding: 12px 24px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
   
-  /* --- 3. Layout --- */
   display: flex;
   align-items: center;
   gap: 12px;
-  width: 320px;
+  width: 420px;
   pointer-events: auto;
 }
 
-/* --- Back Button --- */
 .icon-btn {
   background: none;
   border: none;
@@ -31,7 +27,7 @@
   align-items: center;
   justify-content: center;
   
-  padding: 8px;
+  padding: 10px;
   margin-left: -8px;
   border-radius: 50%;
   transition: background-color 0.2s ease, color 0.2s ease;
@@ -42,8 +38,8 @@
   }
 
   svg {
-    width: 20px;
-    height: 20px;
+    width: 28px;
+    height: 28px;
     display: block;
   }
 }
@@ -59,8 +55,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 2px;
-  font-size: 0.85rem;
+  margin-bottom: 6px;
+  font-size: 1.25rem;
   line-height: 1;
 }
 
@@ -74,7 +70,6 @@
   color: #000;
 }
 
-/* --- Range Input Customization --- */
 input[type=range] {
   -webkit-appearance: none; 
   appearance: none;
@@ -85,7 +80,6 @@ input[type=range] {
   height: 4px;
 }
 
-/* Chrome/Safari Track */
 input[type=range]::-webkit-slider-runnable-track {
   width: 100%;
   height: 6px;
@@ -93,14 +87,13 @@ input[type=range]::-webkit-slider-runnable-track {
   border-radius: 4px;
 }
 
-/* Chrome/Safari Thumb */
 input[type=range]::-webkit-slider-thumb {
   -webkit-appearance: none;
   height: 16px;
   width: 16px;
   border-radius: 50%;
   background: #000;
-  margin-top: -5px; /* Centers thumb vertically */
+  margin-top: -5px;
   box-shadow: 0 1px 3px rgba(0,0,0,0.3);
   transition: transform 0.1s;
 }
@@ -109,7 +102,6 @@ input[type=range]:active::-webkit-slider-thumb {
   transform: scale(1.1);
 }
 
-/* Firefox Track */
 input[type=range]::-moz-range-track {
   width: 100%;
   height: 6px;
@@ -117,7 +109,6 @@ input[type=range]::-moz-range-track {
   border-radius: 4px;
 }
 
-/* Firefox Thumb */
 input[type=range]::-moz-range-thumb {
   height: 16px;
   width: 16px;
