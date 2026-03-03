@@ -1,5 +1,6 @@
-<app-header></app-header>
+<app-header (infoClicked)="isInfoOpen = !isInfoOpen"></app-header>
 <div class="map-container">
   <app-map-view #mapView></app-map-view>
   <app-map-overlay (mapDataLoaded)="mapView.updateMap($event)"></app-map-overlay>
 </div>
+<app-info [class.slide-in]="isInfoOpen" (closeClicked)="isInfoOpen = false"> </app-info>
