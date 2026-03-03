@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, EventEmitter, Output, Signal, signal, WritableSignal } from '@angular/core';
 
 @Component({
   selector: 'app-header',
@@ -7,7 +7,9 @@ import { Component } from '@angular/core';
   styleUrl: './header.scss',
 })
 export class Header {
-  onClick() {
+  @Output() infoClicked = new EventEmitter<void>();
 
+  onClick() {
+    this.infoClicked.emit();
   }
 }
