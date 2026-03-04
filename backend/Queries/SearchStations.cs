@@ -30,7 +30,9 @@ public class SearchStationsHandler : IRequestHandler<SearchStationsQuery, List<S
         string sql = @"
             SELECT 
                 stop_id, 
-                TRIM(REGEXP_REPLACE(stop_name, '^F[\s\-]+', '')) AS display_name
+                TRIM(REGEXP_REPLACE(stop_name, '^F[\s\-]+', '')) AS display_name,
+                ST_Y(geom) AS lat,
+                ST_X(geom) AS lon
             FROM stops
             WHERE stop_name ILIKE @searchTerm
             AND ST_DWithin(
@@ -52,10 +54,15 @@ public class SearchStationsHandler : IRequestHandler<SearchStationsQuery, List<S
         {
             stations.Add(new StationDto(
                 Id: reader.GetString(0),
-                DisplayName: reader.GetString(1)
+                DisplayName: reader.GetString(1),
+                Lat: reader.GetDouble(2),
+                Lon: reader.GetDouble(3)
             ));
             Console.WriteLine(reader.GetString(0));
             Console.WriteLine(reader.GetString(1));
+            Console.WriteLine(reader.GetDouble(2));
+            Console.WriteLine(reader.GetDouble(3));
+
         }
 
         Console.WriteLine(stations);

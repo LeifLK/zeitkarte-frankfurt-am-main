@@ -4,21 +4,8 @@
   [center]="[8.653928, 50.11995]"
   [canvasContextAttributes]="{ preserveDrawingBuffer: true }"
 >
-  <!-- <mgl-geojson-source #mySource id="pointSource" [data]="geoData"></mgl-geojson-source>
-    <mgl-layer
-      id="pointLayer"
-      type="circle"
-      source="pointSource"
-      [paint]="{
-        'circle-radius': 2,
-        'circle-color': '#008B8B',
-        'circle-opacity': 0.3,
-      }"
-    >
-    </mgl-layer> -->
   @if (currentIsochrone(); as isochrone) {
     <mgl-geojson-source id="polygonSource" [data]="isochrone"> </mgl-geojson-source>
-
     <mgl-layer
       id="polygonFill"
       type="fill"
@@ -29,7 +16,6 @@
       }"
     >
     </mgl-layer>
-
     <mgl-layer
       id="polygonOutline"
       type="line"
@@ -40,5 +26,52 @@
       }"
     >
     </mgl-layer>
+    @if (stationCoordinates(); as station) {
+      <mgl-geojson-source
+        #mySource
+        id="pointSource"
+        [data]="{
+          type: 'Feature',
+          geometry: {
+            type: 'Point',
+            coordinates: [station.lon, station.lat],
+          },
+          properties: {
+            name: station.displayName,
+          },
+        }"
+      ></mgl-geojson-source>
+      <mgl-layer
+        id="StationPoint"
+        type="circle"
+        source="pointSource"
+        [paint]="{
+          'circle-radius': 6,
+          'circle-color': '#0891b2',
+          'circle-opacity': 1,
+          'circle-stroke-color': '#ffffff',
+          'circle-stroke-width': 2,
+        }"
+      >
+      </mgl-layer>
+      <mgl-layer
+        id="StationLabel"
+        type="symbol"
+        source="pointSource"
+        [layout]="{
+          'text-field': ['get', 'name'],
+          'text-font': ['Noto Sans Bold'],
+          'text-size': 15,
+          'text-anchor': 'bottom',
+          'text-offset': [0, -0.8],
+        }"
+        [paint]="{
+          'text-color': '#111827',
+          'text-halo-color': '#ffffff',
+          'text-halo-width': 2.5,
+        }"
+      >
+      </mgl-layer>
+    }
   }
 </mgl-map>

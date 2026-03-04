@@ -3,6 +3,7 @@
     type="text"
     [value]="searchTerm()"
     (input)="onType($event)"
+    (keydown)="onKeyDown($event)"
     (focus)="showDropdown.set(true)"
     (blur)="onBlur()"
     placeholder="Woher?"
@@ -11,8 +12,13 @@
 
   @if (searchResults().length > 0 && showDropdown()) {
     <ul class="results-dropdown">
-      @for (station of searchResults(); track station.id) {
-        <li class="result-item" (click)="selectStation(station)">
+      @for (station of searchResults(); track station.id; let i = $index) {
+        <li
+          class="result-item"
+          [class.highlighted]="activeIndex() === i"
+          (click)="selectStation(station)"
+          (mouseenter)="activeIndex.set(i)"
+        >
           {{ station.displayName }}
         </li>
       }
