@@ -11,15 +11,6 @@ import { Observable } from 'rxjs';
 export class MapService {
     private http = inject(HttpClient);
 
-    // private geoJson$ = this.http.get<IsochroneGeoJson>('http://localhost:5003/api/Isochrones');
-    // geoJson = toSignal(this.geoJson$);
-
-    // private blobJson$ = this.http.get<string>('http://localhost:5003/api/Isochrones/Blob');
-    // blobJson = toSignal(this.blobJson$);
-
-    // private Isochrones$ = this.http.get<string>('http://localhost:5003/api/Isochrones/F%20Bockenheimer%20Warte/2000');
-    // Isochrones = toSignal(this.Isochrones$);
-
     getIsochrones(stationId: number, duration: number): Observable<IsochroneGeoJson> {
     
         const url = `http://localhost:5003/api/Isochrones/${stationId}/${duration}`;

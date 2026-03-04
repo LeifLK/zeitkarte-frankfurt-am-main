@@ -3,5 +3,7 @@ namespace backend.DTOs;
 public record StationDto
 (
      string Id,
-     string DisplayName
+     string DisplayName,
+     double Lat,
+     double Lon
 );

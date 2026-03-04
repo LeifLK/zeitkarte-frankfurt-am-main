@@ -18,8 +18,13 @@ export class MapOverlay {
   selectedDuration = signal<number>(15);
   mapDataLoaded = output<IsochroneGeoJson | null>();
 
+  stationLoaded = output<Station | null>();
+
   onStationSelect(station: Station) {
     this.selectedStation.set(station);
+
+    // This line sends the station to map-view
+    this.stationLoaded.emit(station);
 
     const duration = this.selectedDuration(); 
     this.onDurationChange(duration);
@@ -28,6 +33,10 @@ export class MapOverlay {
   onBack() {
     this.selectedStation.set(null);
     this.selectedDuration.set(15);
+
+    // Tells map-view to clear the point
+    this.stationLoaded.emit(null);
+
     this.mapDataLoaded.emit(null);
   }
 
