@@ -19,8 +19,8 @@ await using var dataSource = NpgsqlDataSource.Create(connectionString);
 
 string sql = @"
     SELECT 
-        A.stop_id as departure_station_id, 
-        B.stop_id as arrival_station_id, 
+        COALESCE(NULLIF(S1.parent_station, ''), S1.stop_id) as departure_station_id, 
+        COALESCE(NULLIF(S2.parent_station, ''), S2.stop_id) as arrival_station_id, 
         A.departure_time, 
         B.arrival_time, 
         A.trip_id
