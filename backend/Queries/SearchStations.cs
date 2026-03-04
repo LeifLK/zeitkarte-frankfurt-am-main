@@ -28,19 +28,38 @@ public class SearchStationsHandler : IRequestHandler<SearchStationsQuery, List<S
         }
 
         string sql = @"
-            SELECT 
-                stop_id, 
-                TRIM(REGEXP_REPLACE(stop_name, '^F[\s\-]+', '')) AS display_name,
-                ST_Y(geom) AS lat,
-                ST_X(geom) AS lon
-            FROM stops
-            WHERE stop_name ILIKE @searchTerm
-            AND ST_DWithin(
-                geom::geography, 
-                ST_SetSRID(ST_MakePoint(8.682, 50.110), 4326)::geography, 
-                15000
+            WITH ActiveGroupedStops AS (
+                SELECT 
+                    COALESCE(NULLIF(parent_station, ''), stop_id) AS group_id, 
+                    MIN(TRIM(REGEXP_REPLACE(stop_name, '^F[\s\-]+', ''))) AS display_name
+                FROM stops
+                WHERE stop_name ILIKE @searchTerm
+                AND ST_DWithin(
+                    geom::geography, 
+                    ST_SetSRID(ST_MakePoint(8.682, 50.110), 4326)::geography, 
+                    15000
+                )
+                -- Only keep platforms that actually have Monday trips
+                AND EXISTS (
+                    SELECT 1 
+                    FROM stop_times st
+                    JOIN trips t ON st.trip_id = t.trip_id
+                    JOIN calendar c ON t.service_id = c.service_id
+                    WHERE st.stop_id = stops.stop_id
+                    AND c.monday = '1'
+                )
+                GROUP BY COALESCE(NULLIF(parent_station, ''), stop_id)
+                LIMIT 10
             )
-            LIMIT 10;
+            SELECT 
+                a.group_id AS stop_id,
+                a.display_name,
+                -- Grab the exact coordinates of the Parent Station row
+                ST_Y(s.geom) AS lat,
+                ST_X(s.geom) AS lon
+            FROM ActiveGroupedStops a
+            JOIN stops s ON a.group_id = s.stop_id
+            ORDER BY a.display_name;
         ";
 
         await using var conn = await _dataSource.OpenConnectionAsync(cancellationToken);
