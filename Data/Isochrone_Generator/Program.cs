@@ -1,8 +1,5 @@
 ﻿using Npgsql;
 
-// not used???
-var rawConnections = new List<(string from, string to, int dep, int arr, int tripId)>();
-
 // StationId from gtfs datat to internal id of script
 Dictionary<int, int> GtfsStationIdToId = new Dictionary<int, int>();
 
@@ -85,8 +82,6 @@ tempConnList.Sort((a, b) => a.DepTime.CompareTo(b.DepTime));
 
 var connections = tempConnList.ToArray();
 
-//Dictionary<int, int> earliestArrival = new Dictionary<int, int>();
-
 await using var dbConn = await dataSource.OpenConnectionAsync();
 
 // clear table
@@ -96,8 +91,9 @@ await truncateCommand.ExecuteNonQueryAsync();
 // could use Parallel.ForEach to make ist super fast with lock for db access of different threads
 for (int i = 0; i < IdToGtfsStationId.Count; i++)
 {
-    Dictionary<int, int> earliestArrival = csa(connections, IdToGtfsStationId[i], Time(7, 50), TripToId.Count);
-    //PrintArrivalTimes(earliestArrival);
+    var results = csa(connections, IdToGtfsStationId[i], Time(7, 50), TripToId.Count);
+    Dictionary<int, int> earliestArrival = results.EarliestArrivals;
+    Dictionary<int, int> initialDepartures = results.InitialDepartures;
 
     // Import earliestArrval results in to the database arrival_times
     await using (var writer = await dbConn.BeginBinaryImportAsync(
@@ -108,7 +104,8 @@ for (int i = 0; i < IdToGtfsStationId.Count; i++)
             int ArrivalstationGtfsId = IdToGtfsStationId[kvp.Key];
             int arrivalTime = kvp.Value;
 
-            int duration = arrivalTime - Time(7, 50);
+            // arrival time - actual departure time
+            int duration = arrivalTime - initialDepartures[kvp.Key];
 
             await writer.StartRowAsync();
             await writer.WriteAsync(IdToGtfsStationId[i]);
@@ -118,7 +115,7 @@ for (int i = 0; i < IdToGtfsStationId.Count; i++)
         await writer.CompleteAsync();
     }
 
-    int progress = i * 100 / GtfsStationIdToId.Count;
+    int progress = (i + 1) * 100 / GtfsStationIdToId.Count;
 
     Console.Write($"\rProgress: {progress}% ({i}/{GtfsStationIdToId.Count})");
 }
@@ -139,13 +136,19 @@ await updateCmd.ExecuteNonQueryAsync();
 // -----------------------------------------------------------------------------------------------------------------
 
 
-Dictionary<int, int> csa(Connection[] connections, int startStation, int startTime, int maxTrips)
+(Dictionary<int, int> EarliestArrivals, Dictionary<int, int> InitialDepartures) csa(Connection[] connections, int startStation, int startTime, int maxTrips)
 {
     int transferTime = 180;
-    Dictionary<int, int> earliestArrival = new Dictionary<int, int>();
-    earliestArrival.Add(GtfsStationIdToId[startStation], startTime);
+    int startStationIdx = GtfsStationIdToId[startStation];
 
-    bool[] tripReachable = new bool[maxTrips + 1];
+    Dictionary<int, int> earliestArrival = new Dictionary<int, int>();
+
+    // Station Index -> Actual Departure Time from the start station
+    Dictionary<int, int> initialDepartures = new Dictionary<int, int>();
+
+    // TripId -> Actual Departure Time from the start station (-1 if unreached)
+    int[] tripInitialDep = new int[maxTrips + 1];
+    Array.Fill(tripInitialDep, -1);
 
     foreach (Connection conn in connections)
     {
@@ -153,30 +156,48 @@ Dictionary<int, int> csa(Connection[] connections, int startStation, int startTi
         if (conn.DepTime > startTime + 86400) break;
 
         bool canTakeConnection = false;
+        int thisLegInitialDep = -1;
 
-        if (tripReachable[conn.TripId])
+        // Are we already riding this trip?
+        if (tripInitialDep[conn.TripId] != -1)
         {
             canTakeConnection = true;
+            thisLegInitialDep = tripInitialDep[conn.TripId];
         }
+        // Are we boarding at the origin station?
+        else if (conn.DepStationIdx == startStationIdx)
+        {
+            canTakeConnection = true;
+            thisLegInitialDep = conn.DepTime;
+        }
+        // Can we transfer from a previously reached station?
         else if (earliestArrival.TryGetValue(conn.DepStationIdx, out int arrivalTimeDepSta))
         {
             if (arrivalTimeDepSta + transferTime <= conn.DepTime)
             {
                 canTakeConnection = true;
+                // Inherit the initial departure time from the station we are transferring from
+                thisLegInitialDep = initialDepartures[conn.DepStationIdx];
             }
         }
 
         if (canTakeConnection)
         {
-            tripReachable[conn.TripId] = true;
+            // Mark trip as reached
+            if (tripInitialDep[conn.TripId] == -1)
+            {
+                tripInitialDep[conn.TripId] = thisLegInitialDep;
+            }
 
+            // If this is the first time we reach the destination, OR we found an earlier arrival
             if (!earliestArrival.ContainsKey(conn.ArrStationIdx) || conn.ArrTime < earliestArrival[conn.ArrStationIdx])
             {
                 earliestArrival[conn.ArrStationIdx] = conn.ArrTime;
+                initialDepartures[conn.ArrStationIdx] = thisLegInitialDep;
             }
         }
     }
-    return earliestArrival;
+    return (earliestArrival, initialDepartures);
 }
 
 int Time(int hour, int minute) => (hour * 3600) + (minute * 60);
