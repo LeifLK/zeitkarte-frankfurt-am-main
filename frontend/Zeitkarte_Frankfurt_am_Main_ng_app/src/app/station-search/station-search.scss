@@ -79,3 +79,11 @@ input {
 .results-dropdown::-webkit-scrollbar {
   display: none;
 }
+
+@media (max-width: 500px) {
+  :host {
+    width: calc(100vw - 32px); 
+    box-sizing: border-box; 
+    top: 16px; 
+  }
+}

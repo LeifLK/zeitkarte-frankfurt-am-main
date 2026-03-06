@@ -23,7 +23,7 @@ export class MapOverlay {
   onStationSelect(station: Station) {
     this.selectedStation.set(station);
 
-    // This line sends the station to map-view
+    // This sends the station to map-view
     this.stationLoaded.emit(station);
 
     const duration = this.selectedDuration(); 

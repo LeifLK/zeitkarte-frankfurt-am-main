@@ -14,20 +14,6 @@ public class IsochronesController : ControllerBase
         _mediator = mediator;
     }
 
-    [HttpGet()]
-    public async Task<IActionResult> GetIsochronesGeoJson()
-    {
-        var result = await _mediator.Send(new GetIsochronesQuery());
-        return Ok(result);
-    }
-
-    [HttpGet("Blob")]
-    public async Task<IActionResult> GetBlob()
-    {
-        var result = await _mediator.Send(new GetBlobQuery());
-        return Ok(result);
-    }
-
     [HttpGet("{station:int}/{duration:int}")]
     public async Task<IActionResult> GetIsochronesByStationAndTime(int station, int duration)
     {

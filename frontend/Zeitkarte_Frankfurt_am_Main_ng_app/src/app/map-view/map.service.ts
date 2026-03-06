@@ -14,7 +14,6 @@ export class MapService {
     getIsochrones(stationId: number, duration: number): Observable<IsochroneGeoJson> {
     
         const url = `http://localhost:5003/api/Isochrones/${stationId}/${duration}`;
-        console.log(url);
     
         return this.http.get<IsochroneGeoJson>(url);
     }

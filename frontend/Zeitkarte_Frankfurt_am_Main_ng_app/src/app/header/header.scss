@@ -63,3 +63,28 @@ h1 {
     outline-offset: 2px;
   }
 }
+
+@media (max-width: 500px) {
+  h1 {
+    font-size: 1.1rem;
+    margin-left: 16px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .info-text {
+    display: none;
+  }
+
+  .clickable-info-text {
+    padding: 8px;
+    margin-right: 8px;
+    
+    svg {
+      width: 24px;
+      height: 24px;
+      margin: 0;
+    }
+  }
+}

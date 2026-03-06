@@ -77,14 +77,7 @@ public class SearchStationsHandler : IRequestHandler<SearchStationsQuery, List<S
                 Lat: reader.GetDouble(2),
                 Lon: reader.GetDouble(3)
             ));
-            Console.WriteLine(reader.GetString(0));
-            Console.WriteLine(reader.GetString(1));
-            Console.WriteLine(reader.GetDouble(2));
-            Console.WriteLine(reader.GetDouble(3));
-
         }
-
-        Console.WriteLine(stations);
         return stations;
     }
 }

@@ -1,8 +1,8 @@
-import { Component, effect, inject, output, signal } from '@angular/core';
+import { Component, inject, output, signal } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { StationService } from './station.service';
 import { toObservable, toSignal } from '@angular/core/rxjs-interop';
-import { debounceTime, distinct, distinctUntilChanged, of, switchMap } from 'rxjs';
+import { debounceTime, distinctUntilChanged, of, switchMap } from 'rxjs';
 import { Station } from '../models/station.model';
 
 @Component({
@@ -36,8 +36,6 @@ export class StationSearch {
     this.showDropdown.set(false);
 
     this.selectedStation.emit(station);
-
-    console.log('Selected:', station.displayName);
     }
   
   onType(e: Event) { 

@@ -117,3 +117,11 @@ input[type=range]::-moz-range-thumb {
   background: #000;
   box-shadow: 0 1px 3px rgba(0,0,0,0.3);
 }
+
+@media (max-width: 500px) {
+  :host {
+    width: calc(100vw - 32px); 
+    box-sizing: border-box; 
+    top: 16px; 
+  }
+}

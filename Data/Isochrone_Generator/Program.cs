@@ -1,6 +1,4 @@
-﻿using Npgsql;
-
-// StationId from gtfs datat to internal id of script
+﻿// StationId from gtfs datat to internal id of script
 Dictionary<int, int> GtfsStationIdToId = new Dictionary<int, int>();
 
 // Converts script id to gtfs id
@@ -84,7 +82,6 @@ var connections = tempConnList.ToArray();
 
 await using var dbConn = await dataSource.OpenConnectionAsync();
 
-// clear table
 await using var truncateCommand = new NpgsqlCommand("TRUNCATE arrival_times", dbConn);
 await truncateCommand.ExecuteNonQueryAsync();
 
@@ -231,12 +228,11 @@ int ParseGtfsTime(string timeString)
 {
     if (string.IsNullOrEmpty(timeString)) return 0;
 
-    // Split "08:15:30" into ["08", "15", "30"]
     var parts = timeString.Split(':');
 
     int h = int.Parse(parts[0]);
     int m = int.Parse(parts[1]);
-    int s = (parts.Length > 2) ? int.Parse(parts[2]) : 0; // Handle missing seconds
+    int s = (parts.Length > 2) ? int.Parse(parts[2]) : 0;
 
     return (h * 3600) + (m * 60) + s;
 }
