@@ -1,5 +1,5 @@
 using System.Text.Json;
-using MediatR;
+using Mediator;
 using Npgsql;
 
 namespace backend.Queries;
@@ -19,7 +19,7 @@ public class GetIsochronesByStationAndTimeHandler : IRequestHandler<GetIsochrone
         _dataSource = dataSource;
     }
 
-    public async Task<JsonDocument> Handle(GetIsochronesByStationAndTimeQuery request, CancellationToken cancellationToken)
+    public async ValueTask<JsonDocument> Handle(GetIsochronesByStationAndTimeQuery request, CancellationToken cancellationToken)
     {
         string sql = $@"
         /* * Generates an isochrone by buffering reachable stations.
