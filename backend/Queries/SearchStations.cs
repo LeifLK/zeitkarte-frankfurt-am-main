@@ -1,5 +1,5 @@
 using backend.DTOs;
-using MediatR;
+using Mediator;
 using Npgsql;
 
 namespace backend.Queries;
@@ -18,7 +18,7 @@ public class SearchStationsHandler : IRequestHandler<SearchStationsQuery, List<S
         _dataSource = dataSource;
     }
 
-    public async Task<List<StationDto>> Handle(SearchStationsQuery request, CancellationToken cancellationToken)
+    public async ValueTask<List<StationDto>> Handle(SearchStationsQuery request, CancellationToken cancellationToken)
     {
         List<StationDto> stations = new List<StationDto>();
 

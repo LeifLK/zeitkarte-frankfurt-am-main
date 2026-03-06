@@ -1,5 +1,5 @@
 using backend.Queries;
-using MediatR;
+using Mediator;
 using Microsoft.AspNetCore.Mvc;
 
 namespace backend.Controllers;
