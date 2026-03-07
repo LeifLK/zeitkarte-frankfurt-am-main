@@ -6,6 +6,4 @@ export interface IsochroneProperties {
     originId: string;
 }
 
-// Type Alias combining the standard structure with my custom data
-// FeatureCollection<GeometryType, PropertiesType>
 export type IsochroneGeoJson = FeatureCollection<Point, IsochroneProperties>;

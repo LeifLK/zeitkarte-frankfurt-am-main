@@ -15,11 +15,9 @@ import pandas as pd
 from sqlalchemy import create_engine, text
 import time
 
-# --- CONFIGURATION ---
 GTFS_ZIP_PATH = "/Users/leif/Documents/Dev/RMZeitkarte/Data/gfts_nahverkehr.zip"
 DATABASE_URL = "postgresql://localhost/rmzeitkarte"
 
-# --- CONNECT TO POSTGRESQL ---
 try:
     engine = create_engine(DATABASE_URL)
     with engine.connect() as conn:
@@ -30,13 +28,10 @@ except Exception as e:
     print("Please ensure PostgreSQL is running and the database 'rmzeitkarte' exists.")
     exit(1)
 
-# --- HELPER FUNCTIONS ---
 def load_csv_to_sql(table_name, csv_bytes):
     """Loads a CSV bytestream into a SQL table using pandas."""
     try:
         df = pd.read_csv(io.BytesIO(csv_bytes))
-        # This 'replace' is key. It automatically drops the old table
-        # if it exists, ensuring a clean import every time.
         df.to_sql(table_name, engine, if_exists='replace', index=False)
         print(f"Loaded {table_name} ({len(df)} rows)")
     except pd.errors.EmptyDataError:
@@ -52,10 +47,8 @@ def add_postgis_and_indexes():
     print("\nStarting PostGIS and Indexing step...")
     try:
         with engine.connect() as conn:
-            # Get a list of all tables that were *actually* loaded
             table_names = engine.dialect.get_table_names(conn)
             
-            # Use a transaction so all commands succeed or fail together
             with conn.begin():
                 print("1/4: Adding geometry column to 'stops'...")
                 conn.execute(text("""
@@ -67,7 +60,6 @@ def add_postgis_and_indexes():
                     WHERE geom IS NULL;
                 """))
 
-                # --- NEW: Conditional Shapes Block ---
                 if 'shapes' in table_names:
                     print("2/4: Adding geometry column to 'shapes' (this may take a moment)...")
                     conn.execute(text("""
@@ -92,29 +84,22 @@ def add_postgis_and_indexes():
                 
                 print("3/4: Creating critical database indexes (this is the most important part!)...")
                 
-                # Indexes for 'stops'
                 conn.execute(text("CREATE INDEX IF NOT EXISTS stops_stop_id_idx ON stops (stop_id);"))
                 conn.execute(text("CREATE INDEX IF NOT EXISTS stops_geom_idx ON stops USING GIST (geom);"))
                 
-                # Indexes for 'routes' and 'trips'
                 conn.execute(text("CREATE INDEX IF NOT EXISTS routes_route_id_idx ON routes (route_id);"))
                 conn.execute(text("CREATE INDEX IF NOT EXISTS trips_trip_id_idx ON trips (trip_id);"))
                 conn.execute(text("CREATE INDEX IF NOT EXISTS trips_route_id_idx ON trips (route_id);"))
                 
-                # NEW: Only index trips.shape_id if shapes exists
                 if 'shapes' in table_names:
                     conn.execute(text("CREATE INDEX IF NOT EXISTS trips_shape_id_idx ON trips (shape_id);"))
                 
-                # Index for 'calendar'
                 if 'calendar' in table_names:
                     conn.execute(text("CREATE INDEX IF NOT EXISTS calendar_service_id_idx ON calendar (service_id);"))
                 
-                # Index for 'calendar_dates'
                 if 'calendar_dates' in table_names:
                     conn.execute(text("CREATE INDEX IF NOT EXISTS calendar_dates_service_id_idx ON calendar_dates (service_id);"))
 
-                # *** THE MOST IMPORTANT INDEXES ***
-                # For 'stop_times', the largest table
                 print("4/4: Indexing 'stop_times' (this will take the most time)...")
                 conn.execute(text("CREATE INDEX IF NOT EXISTS stop_times_stop_id_idx ON stop_times (stop_id);"))
                 conn.execute(text("CREATE INDEX IF NOT EXISTS stop_times_trip_id_idx ON stop_times (trip_id);"))
@@ -126,7 +111,6 @@ def add_postgis_and_indexes():
         print(f"\n\033[91mError during PostGIS/Indexing step: {e}\033[0m")
         print("The database may be in an partially indexed state.")
 
-# --- MAIN SCRIPT ---
 def main():
     start_time = time.time()
     print(f"Opening GTFS zip file at {GTFS_ZIP_PATH}...")
