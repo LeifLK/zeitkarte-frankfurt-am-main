@@ -1,4 +1,6 @@
-﻿// StationId from gtfs datat to internal id of script
+﻿using Npgsql;
+
+// StationId from gtfs datat to internal id of script
 Dictionary<int, int> GtfsStationIdToId = new Dictionary<int, int>();
 
 // Converts script id to gtfs id
@@ -96,8 +98,17 @@ for (int i = 0; i < IdToGtfsStationId.Count; i++)
     await using (var writer = await dbConn.BeginBinaryImportAsync(
         "COPY arrival_times (origin_stop_id, dest_stop_id, duration_seconds) FROM STDIN (FORMAT BINARY)"))
     {
+        // write origin station manually
+        await writer.StartRowAsync();
+        await writer.WriteAsync(IdToGtfsStationId[i]);
+        await writer.WriteAsync(IdToGtfsStationId[i]);
+        await writer.WriteAsync(0);
+
         foreach (var kvp in earliestArrival)
         {
+            // skip origin station
+            if (kvp.Key == i) continue;
+
             int ArrivalstationGtfsId = IdToGtfsStationId[kvp.Key];
             int arrivalTime = kvp.Value;
 
@@ -198,16 +209,6 @@ await updateCmd.ExecuteNonQueryAsync();
 }
 
 int Time(int hour, int minute) => (hour * 3600) + (minute * 60);
-
-void PrintArrivalTimes(Dictionary<int, int> results)
-{
-    foreach (var arr in results)
-    {
-        int name = IdToGtfsStationId[arr.Key];
-        TimeSpan t = TimeSpan.FromSeconds(arr.Value);
-        Console.WriteLine($"{name}: {t.Hours:D2}:{t.Minutes:D2}:{t.Seconds:D2}");
-    }
-}
 
 int GetStationId(int stationGtfsId)
 {
