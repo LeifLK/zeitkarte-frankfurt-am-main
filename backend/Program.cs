@@ -22,13 +22,10 @@ var connectionString = builder.Configuration.GetConnectionString("DefaultConnect
 
 var dataSourceBuilder = new NpgsqlDataSourceBuilder(connectionString);
 
-// Enable Geometry support at the global driver level
 dataSourceBuilder.UseNetTopologySuite();
 
-// Build the DataSource
 var dataSource = dataSourceBuilder.Build();
 
-// Register it as a Singleton so Handlers can inject 'NpgsqlDataSource'
 builder.Services.AddSingleton(dataSource);
 
 builder.Services.AddDbContext<AppDbContext>(options => options.UseNpgsql(connectionString, o => o.UseNetTopologySuite()));
@@ -48,7 +45,6 @@ if (app.Environment.IsDevelopment())
 
     app.MapScalarApiReference();
 
-    // Automatically redirect to Scalar documentation
     app.MapGet("/", () => Results.Redirect("/scalar"));
 }
 

@@ -24,10 +24,8 @@ def filter_stops():
 
     print(f"Starting filter process for '{FILTER_TERM}'...")
 
-    # 'utf-8-sig' to handle the BOM (Byte Order Mark) that often comes in CSVs from Windows
+    # 'utf-8-sig' to handle the BOM (Byte Order Mark)
     with open(input_path, mode='r', encoding='utf-8-sig', newline='') as infile:
-        # Use csv.DictReader to read rows as dictionaries
-        # The RMV file uses a semicolon (;) as a delimiter
         reader = csv.DictReader(infile, delimiter=';')
         
         for row in reader:
@@ -39,8 +37,6 @@ def filter_stops():
                     clean_stop = {
                         'Id': row.get('HAFAS_ID'),
                         'Name': stop_name,
-                        # CRITICAL: The CSV uses a comma (,) for decimals.
-                        # Python needs a period (.) to convert to float.
                         'Longitude': float(row.get('X_WGS84', '0').replace(',', '.')),
                         'Latitude': float(row.get('Y_WGS84', '0').replace(',', '.'))
                     }
@@ -49,11 +45,9 @@ def filter_stops():
                     print(f"Warning: Skipping stop '{stop_name}' due to bad coordinate data: {e}")
 
     print(f"Read {total_stops} total stops from CSV.")
-    print(f"\033[92mFound {len(frankfurt_stops)} stops in '{FILTER_TERM}'.\033[0m") # Green text
+    print(f"\033[92mFound {len(frankfurt_stops)} stops in '{FILTER_TERM}'.\033[0m")
 
-    # Write the clean, filtered list to the output JSON file
     with open(output_path, 'w', encoding='utf-8') as outfile:
-        # ensure_ascii=False keeps characters like (Main) as-is
         json.dump(frankfurt_stops, outfile, indent=2, ensure_ascii=False)
 
     print(f"Successfully saved clean data to '{OUTPUT_JSON_FILE}'.")
