@@ -1,8 +1,8 @@
 import { HttpClient } from '@angular/common/http';
 import { inject, Injectable } from '@angular/core';
 import { IsochroneGeoJson } from '../models/geo-data.model';
-import { toSignal } from '@angular/core/rxjs-interop';
 import { Observable } from 'rxjs';
+import { environment } from '../../environments/environment';
 
 @Injectable({
     providedIn: 'root'
@@ -13,7 +13,7 @@ export class MapService {
 
     getIsochrones(stationId: number, duration: number): Observable<IsochroneGeoJson> {
     
-        const url = `http://localhost:5003/api/Isochrones/${stationId}/${duration}`;
+        const url = `${environment.apiUrl}/api/Isochrones/${stationId}/${duration}`;
     
         return this.http.get<IsochroneGeoJson>(url);
     }
