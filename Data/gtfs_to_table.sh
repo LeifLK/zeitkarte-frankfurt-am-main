@@ -3,7 +3,7 @@
 DB_NAME="zeitkarte_ffm"
 DB_USER=$(whoami)
 CONN="PG:dbname=$DB_NAME user=$DB_USER"
-DATA_DIR="./GTFS"
+DATA_DIR="./latest"
 
 echo "------------------------------------------"
 echo "Starting GTFS Import to $DB_NAME"
