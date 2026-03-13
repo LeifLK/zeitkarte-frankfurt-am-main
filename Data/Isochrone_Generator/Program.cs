@@ -1,4 +1,5 @@
-﻿using Npgsql;
+﻿using Microsoft.Extensions.Configuration;
+using Npgsql;
 
 // StationId from gtfs datat to internal id of script
 Dictionary<int, int> GtfsStationIdToId = new Dictionary<int, int>();
@@ -11,7 +12,13 @@ List<Connection> tempConnList = new List<Connection>();
 // Is this used other then for passing the number of trips to csa?
 Dictionary<string, int> TripToId = new Dictionary<string, int>();
 
-var connectionString = "Host=localhost;Username=leif;Password=;Database=zeitkarte_ffm";
+var config = new ConfigurationBuilder()
+    .AddUserSecrets<Program>()
+    .Build();
+
+var connectionString = config["DATABASE_CONNECTION_STRING"]
+    ?? throw new InvalidOperationException("DATABASE_CONNECTION_STRING not found in User Secrets");
+
 await using var dataSource = NpgsqlDataSource.Create(connectionString);
 
 string sql = @"

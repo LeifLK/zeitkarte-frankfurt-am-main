@@ -1,10 +1,11 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>net9.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <AssemblyName>Zeitkarte_Frankfurt_am_Main</AssemblyName>
+    <UserSecretsId>ec26b357-c4ff-4c74-b151-bf8f635d51c4</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
