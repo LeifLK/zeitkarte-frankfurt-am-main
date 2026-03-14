@@ -10,6 +10,12 @@ public class ApiKeyMiddleware
 
     public async Task InvokeAsync(HttpContext context, IConfiguration config)
     {
+        if (context.Request.Method == "OPTIONS")
+        {
+            await _next(context);
+            return;
+        }
+
         if (!context.Request.Headers.TryGetValue(ApiKeyHeader, out var incomingKey))
         {
             context.Response.StatusCode = 401;
