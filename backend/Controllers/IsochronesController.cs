@@ -24,7 +24,7 @@ public class IsochronesController : ControllerBase
     [HttpGet("search")]
     public async Task<IActionResult> SearchStations([FromQuery] string q)
     {
-        if (string.IsNullOrWhiteSpace(q) || q.Length > 100)
+        if (string.IsNullOrWhiteSpace(q) || q.Length > 1000)
             return BadRequest("Invalid search query.");
 
         var result = await _mediator.Send(new SearchStationsQuery(q));
