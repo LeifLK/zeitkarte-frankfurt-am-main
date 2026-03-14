@@ -52,6 +52,8 @@ app.UseHttpsRedirection();
 
 app.UseCors("AllowAngularApp");
 
+app.UseMiddleware<ApiKeyMiddleware>();
+
 app.MapControllers();
 
 app.Run();
