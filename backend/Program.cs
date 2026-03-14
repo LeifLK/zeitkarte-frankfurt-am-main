@@ -13,8 +13,8 @@ builder.Services.AddCors(options =>
         policy =>
         {
             policy.WithOrigins("http://localhost:4200", "https://zeitkarteffm.de")
-                  .AllowAnyHeader()
-                  .AllowAnyMethod();
+                .WithHeaders("X-Api-Key", "Content-Type")
+                .WithMethods("GET");
         });
 });
 
@@ -46,6 +46,11 @@ if (app.Environment.IsDevelopment())
     app.MapScalarApiReference();
 
     app.MapGet("/", () => Results.Redirect("/scalar"));
+}
+else
+{
+    app.UseExceptionHandler("/error");
+    app.MapGet("/error", () => Results.Problem("An unexpected error occurred."));
 }
 
 app.UseHttpsRedirection();
