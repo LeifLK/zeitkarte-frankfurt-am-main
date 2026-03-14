@@ -14,7 +14,7 @@ builder.Services.AddCors(options =>
         {
             policy.WithOrigins("http://localhost:4200", "https://zeitkarteffm.de")
                 .AllowAnyHeader()
-                .WithMethods("GET", "OPTIONS");
+                .AllowAnyMethod();
         });
 });
 
