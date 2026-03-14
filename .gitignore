@@ -466,6 +466,9 @@ node_modules/
 .vscode/
 .DS_Store
 
+# Api key is in this file
+src/environments/environment.development.ts
+
 # ---------------------------------
 # ZEITKARTE DATA RULES
 # ---------------------------------
