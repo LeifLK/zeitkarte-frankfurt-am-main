@@ -53,9 +53,9 @@ else
     app.MapGet("/error", () => Results.Problem("An unexpected error occurred."));
 }
 
-app.UseHttpsRedirection();
-
 app.UseCors("AllowAngularApp");
+
+app.UseHttpsRedirection();
 
 app.UseMiddleware<ApiKeyMiddleware>();
 
