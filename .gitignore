@@ -480,3 +480,6 @@ node_modules/
 # Secrets (Database passwords)
 appsettings.Development.json
 appsettings.Local.json
+
+zeitkarte_backup_*
+zeitkarte_neues_backup

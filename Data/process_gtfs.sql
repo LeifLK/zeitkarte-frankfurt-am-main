@@ -20,4 +20,11 @@ CREATE INDEX IF NOT EXISTS stops_geom_geom_idx ON stops USING GIST (geom);
 -- trips indexes
 CREATE INDEX IF NOT EXISTS idx_trips_route_id ON trips(route_id);
 
+-- Required after geographic pruning. The generator joins stop_times -> trips -> calendar.
+-- Post-pruning the ST_DWithin filters barely reduce rows, so the planner's low
+-- selectivity estimate leads to a nested-loop seq-scan blowup on trips/calendar.
+-- These indexes turn each join back into a fast index probe (minutes -> seconds).
+CREATE INDEX idx_trips_trip_id ON trips(trip_id);
+CREATE INDEX idx_calendar_service_id ON calendar(service_id);
+
 ANALYZE;
