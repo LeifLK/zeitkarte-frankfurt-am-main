@@ -1,6 +1,6 @@
 # Zeitkarte Frankfurt am Main
 
-**Live: [zeitkarteffm.de](https://zeitkarteffm.de/)**
+**[zeitkarteffm.de](https://zeitkarteffm.de/)**
 
 A high-performance public transport routing engine for Frankfurt am Main. Select a station and a travel time, and the map highlights the area reachable by U-Bahn, Bus, and Tram, including up to 15 minutes of walking.
 
